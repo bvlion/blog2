@@ -1,7 +1,0 @@
-/coverage/
-/vendor/
-/logs/*
-!/logs/.gitkeep
-/var/cache/*
-!/var/cache/.gitkeep
-.phpunit.result.cache
