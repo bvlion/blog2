@@ -1,0 +1,14 @@
+<footer class="text-center py-4">
+    <p>
+        {{ with .Site.Params.footer }}
+            {{ . }}
+        {{ else }}
+        鰯の管詰 © 2017 bvlion. All rights reserved.
+        {{ end }}
+    </p>
+</footer>
+
+{{ with .Site.Params.GoogleSearch }}
+<script async src="https://cse.google.com/cse.js?cx={{ . }}"></script>
+<gcse:searchresults-only></gcse:searchresults-only>
+{{ end }}
