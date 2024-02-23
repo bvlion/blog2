@@ -51,12 +51,27 @@ theme = "BlogRa"
                 url = "/tags/"
                 weight = 4
     [[menu.main]]
+        identifier = "about"
         name = "About"
-        url = "/about/"
         weight = 3
+            [[menu.main]]
+                parent = "about"
+                name = "本人について"
+                url = "/person/"
+                weight = 1
+            [[menu.main]]
+                parent = "about"
+                name = "アカウント"
+                url = "/account/"
+                weight = 2
+            [[menu.main]]
+                parent = "about"
+                name = "個人活動"
+                url = "https://bvlion-app.web.app"
+                weight = 3
     [[menu.main]]
         name = "ご意見・ご感想"
-        url = ""
+        url = "https://forms.gle/dUkf1dNdkgN2ZxJ66"
         weight = 4
 
 # Don't touch this
