@@ -39,10 +39,10 @@ function searchData(query) {
   if (query.length < 1) {
     return []
   }
-  const reg = new RegExp(query, 'i')
+
   return data.map((item) => {
-    const posTitle = item.title.search(reg)
-    const posBody = item.body.search(reg)
+    const posTitle = item.title.indexOf(query)
+    const posBody = item.body.indexOf(query)
     if (posTitle != -1 || posBody != -1) {
       return item.url
     }
