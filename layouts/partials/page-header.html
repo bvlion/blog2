@@ -20,10 +20,10 @@
         {{ if .Site.Params.GoogleSearch }}
         <div class="col-3 col-sm-4">
           <div class="col col-md-8 offset-md-4 d-none d-sm-block">
-            <form id="cse-search-box-form-id" class="input-group search-bar" onsubmit="return executeQuery('lg');"
+            <form id="cse-search-box-form-id" class="input-group search-bar" onsubmit="return false"
               role="search">
-              <input id="cse-search-input-box-id" type="text" class="form-control" placeholder="Search">
-              <button class="btn" type="submit">
+              <input id="cse-search-input-box-id2" type="text" class="form-control" placeholder="Search" onkeyup="handleKeyPress(event)">
+              <button class="btn" type="submit" onclick="searchBlog()">
                 <i class="fa fa-search"></i>
               </button>
             </form>
@@ -81,10 +81,9 @@
         </ul>
 
         {{ if .Site.Params.GoogleSearch }}
-        <form id="cse-search-box-form-id2" class="d-flex search-bar d-block d-sm-none"
-          onsubmit="return executeQuery('xs');" role="search">
-          <input id="cse-search-input-box-id2" type="text" class="form-control" placeholder="Search">
-          <button class="btn" type="submit">
+        <form id="cse-search-box-form-id2" class="d-flex search-bar d-block d-sm-none" onsubmit="return false" role="search">
+          <input id="cse-search-input-box-id2" type="text" class="form-control" placeholder="Search" onkeyup="handleKeyPress(event)">
+          <button class="btn" type="submit" onclick="searchBlog()">
             <i class="fa fa-search"></i>
           </button>
         </form>

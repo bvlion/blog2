@@ -1,0 +1,119 @@
+{{ define "escape" }}
+  {{ trim (replace . "\n" " ") " " | replaceRE " +" " " -}}
+{{ end }}
+
+{{ define "main" }}
+<form id="cse-search-box-form-id" class="search-bar suggestion" onsubmit="return false" style="margin: 0" role="search">
+  <input id="query" onkeyup="location.replace('#' + this.value)" autocomplete="off" class="form-control" placeholder="Search">
+</form>
+
+<script>
+// 検索用のインデックスデータ
+const data = [
+{{ range .Site.Pages }}
+  {{ if and (eq (substr .RelPermalink 0 7) "/posts/") (ne .Title "Posts") }}
+    {
+      url: {{ .RelPermalink }},
+      title: {{ .Title }},
+      body: {{ template "escape" (printf "%s %s" .Title .Plain) }},
+    },
+  {{ end }}
+{{ end }}
+]
+
+function search(query) {
+  data.forEach((item) => {
+    const element = document.getElementById(item.url)
+    element.style.display = "none"
+  })
+  const result = searchData(query)
+  console.log(result)
+  result.forEach((url) => {
+    const element = document.getElementById(url)
+    element.style.display = "block"
+  })
+}
+
+function searchData(query) {
+  query = query.trim()
+  if (query.length < 1) {
+    return []
+  }
+  const reg = new RegExp(query, 'i')
+  return data.map((item) => {
+    const posTitle = item.title.search(reg)
+    const posBody = item.body.search(reg)
+    if (posTitle != -1 || posBody != -1) {
+      return item.url
+    }
+  })
+  .filter((url) => url != null)
+}
+
+function searchWithHash() {
+  const hash = decodeURI(location.hash.substring(1))
+  search(hash)
+
+  const queryElem = document.getElementById('query')
+  if (queryElem.value !== hash) {
+    queryElem.value = hash;
+  }
+}
+
+window.addEventListener('DOMContentLoaded', searchWithHash)
+window.addEventListener('hashchange', searchWithHash)
+</script>
+
+<main class="bg-offwhite">
+    <div class="container-md">
+        <div class="row">
+            {{ range .Site.Pages }}
+              {{ if and (eq (substr .RelPermalink 0 7) "/posts/") (ne .Title "Posts") }}
+                <div class="suggestion col-sm-12 col-md-6 col-lg-4" id="{{ .RelPermalink }}" style="display: none;">
+                    {{ if .Params.image }}
+                    <a href="{{ .RelPermalink }}">
+                        <!-- This is a workaround for a Hugo bug -->
+                        {{ $image := .Page.Resources.Match .Params.image }}
+                        {{ $image := index $image 0 }}
+                        {{/* $image := $image.Resize "500x" */}}
+                        <img src={{ $image.RelPermalink }} alt="{{ .Title }}" loading="lazy">
+                    </a>
+                    {{ end }}
+            
+                    <div class="content">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            
+                        <div class="date-time">
+                            {{ partial "date.html" .Date }}
+                            &nbsp; &centerdot; &nbsp;
+                            {{ partial "time-to-read.html" .}}
+                        </div>
+            
+                        <p class="summary">
+                            <a href="{{ .RelPermalink }}">
+                                {{ with .Description }}
+                                    {{ . }}
+                                {{ else }}
+                                    {{ $s := .Summary | plainify | htmlUnescape }}
+                                    {{ if not .Params.image }}
+                                        {{ $s  }}
+                                    {{ else }}
+                                        {{ substr $s 0 120 }}...
+                                    {{ end }}
+                                {{ end }}
+                            </a>
+                        </p>
+            
+                        <div class="tags">
+                            {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"><span class="tag bg-dark">{{ . }}</span></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+              {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }} 
