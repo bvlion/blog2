@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<main class="bg-offwhite">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+
+                <h1 class="section-title">
+                    {{ if eq .Title "Categories" }}
+                        タグ
+                    {{ else if eq .Title "Tags" }}
+                        タグ
+                    {{ else }}
+                        {{ .Title }}
+                    {{ end }}
+                </h1>
+
+                {{ $names := slice }} <!-- name -> URL, Count -->
+                {{ $url := slice }}
+                {{ $count := slice }}
+
+                {{ range $name, $taxonomy := $.Site.Taxonomies.tags}}
+                    {{ $names = $names | append $name }}
+                    {{ $url = $url | append (printf "/tags/%s" $name | relURL) }}
+                    {{ $count = $count | append .Count }}
+                {{ end }}
+                
+                {{ $initials := slice }}
+                {{ range $name := $names }}
+                    {{ $initial := substr $name 0 1 }}
+                    {{ $initials = $initials | append $initial }}
+                {{ end }}
+                
+                {{ $uniqueInitials := slice }}
+                {{ range $initials }}
+                    {{ if not (in $uniqueInitials .) }}
+                        {{ $uniqueInitials = $uniqueInitials | append . }}
+                    {{ end }}
+                {{ end }}
+
+                {{ range $l := $uniqueInitials }}
+                    {{ $has_letter := false }}
+
+                    {{ range $name := $names }}
+                        {{ if hasPrefix $name $l }}
+                            {{ $has_letter = true}}
+                        {{ end }}
+                    {{ end }}
+
+                    {{ if $has_letter }}
+                        <h3 style="text-transform: uppercase;"> {{ $l }} </h3>
+                        <div class="tags mb-3">
+                        {{ range $i, $name := $names }}
+                            {{ if hasPrefix $name $l }}
+                                <a href="{{ index $url $i }}" class="tag bg-dark">
+                                    {{ replace $name "-" " " }} 
+                                    <sup>({{ index $count $i }})</sup>
+                                </a>
+                            {{ end }}
+                        {{ end }}
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ end }}
