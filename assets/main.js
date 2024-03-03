@@ -15,7 +15,14 @@ function searchBlog() {
 }
 
 function socialMediaPopUp(url, title, width, height) {
-  var left = (screen.width / 2) - (width / 2);
-  var top = (screen.height / 2) - (height / 2);
+  const left = (screen.width / 2) - (width / 2);
+  const top = (screen.height / 2) - (height / 2);
   window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])");
+  links.forEach(function (link) {
+      link.setAttribute('target', '_blank');
+  });
+});
