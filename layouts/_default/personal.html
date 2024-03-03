@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            <!-- <div class="col-lg-8 offset-lg-2 px-lg-4"> -->
+            <div class="col-md-12 col-lg-12 px-lg-4">
+                {{ partial "ads.html" "ads/horizontal-ad.js" }}
+
+                <h1 class="title">{{ .Title }}</h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-8 tags ">
+                            {{ range .Params.tags }}
+                            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"><span
+                                    class="tag bg-dark">{{ . }}</span></a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+
+                {{ with .Page.Params.image }}
+                    {{ if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+                        <figure>
+                            <img id="cover-image" src={{ . }} alt="{{ $.Title }}">
+                        </figure>
+                    {{ else }}
+                        <figure>
+                            {{ $image := $.Page.Resources.GetMatch . }}
+                            <img id="cover-image" src={{ $image.RelPermalink }} alt="{{ $.Title }}">
+                        </figure>
+                    {{ end }}
+                {{ end }}
+
+                {{ .Content }}
+
+                {{ partial "social-media-share.html" . }}
+
+                {{ partial "ads.html" "ads/horizontal-ad.js" }}
+                <br>
+                {{ partial "disqus.html" . }}
+            </div>
+
+        </div>
+    </div>
+</main>
+
+{{ end }}
