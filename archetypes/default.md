@@ -1,10 +1,10 @@
 ---
-title: {{ replace .Name "-" " " | title }}
-date: {{ now.Format "2006-01-2" }}
+title: 
+date: 
 tags: [tag1, tag2]
-image: "blog-pic.png"
-description: "A smalll optional description"
+image: 
+description: 
 layout: post_with_image
-math: true              # to enable showing equations (katex)
-mermaid: true           # to add diagrams using mermaid
+math: false              # to enable showing equations (katex)
+mermaid: false           # to add diagrams using mermaid
 ---
