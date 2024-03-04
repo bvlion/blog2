@@ -2,7 +2,7 @@
 title: 退職時の誓約書にある競業避止は必須なのか？
 date: 2021-09-09
 tags: [ポエム,競業避止,退職]
-image: sign_photo.jpg
+image: https://github.com/bvlion/blog2/assets/24517539/914b53ba-28f4-42c4-90a3-3be09c55db52
 description: 退職時に求められる誓約書、そこにあった競業避止の項目は本当に必須なのでしょうか？それについて私の体験談を書きました！
 layout: post_with_image
 ---
