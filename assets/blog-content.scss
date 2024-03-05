@@ -96,3 +96,31 @@
     line-height: 1;
     font-size: 0.95rem;
 }
+
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0px 1px;
+  width: 100%;
+  margin-bottom: 10px;
+  
+  th {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    background: #5893b1;
+  }
+  td {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: left;
+    border-bottom: #fff 1px solid;
+    font-size: 11px;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    background: #d5e5ec;
+  }
+}
