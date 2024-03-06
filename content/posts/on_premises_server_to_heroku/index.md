@@ -3,7 +3,7 @@ title: オンプレから PaaS への移行
 date: 2019-10-02
 tags: [サービス,技術,Heroku]
 image: https://github.com/bvlion/blog2/assets/24517539/a2c48a7d-b71b-44ec-8662-808a23e81dd9
-description: これまで家のラズパイで動かしてたバッチ的なモジュールの一部をHerokuに移行しました。↵その時のことを書きたいと思います！
+description: これまで家のラズパイで動かしてたバッチ的なモジュールの一部を Heroku に移行した時のことを書きたいと思います！
 layout: post_with_image
 ---
 

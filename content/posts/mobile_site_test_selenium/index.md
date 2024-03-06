@@ -3,7 +3,7 @@ title: Seleniumを使ってモバイルサイトのテスト
 date: 2017-04-04
 tags: [技術,Java]
 image: https://github.com/bvlion/blog2/assets/24517539/1b89e7bd-6218-44ce-8e0d-6280b681913d
-description: 先日モバイルサイトの自動テストってことで、Seleniumの話が出たのでJavaからどうやってやればモバイルサイトのSeleniumテストができるかまとめてみました。
+description: 先日モバイルサイトの自動テストってことで、Selenium の話が出たので Java からどうやってやればモバイルサイトの Selenium テストができるかまとめてみました。
 layout: post_with_image
 ---
 

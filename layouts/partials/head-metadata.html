@@ -28,15 +28,6 @@
 <!-- EXTERNAL THINGS -->
 <!-- Google search is in FOOTER -->
 
-<!-- Google adsense -->
-{{ if .Site.Params.adsense }}
-<script data-ad-client="{{ .Site.Params.adsense }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-{{ end }}
-
-<!-- Google Analytics -->
-{{ if not .Site.IsServer }}
-    {{ partial "googleAnalytics.html" . }}
-{{ end }}
 
 <!-- Katex math equations -->
 {{ if or .Params.math .Site.Params.math }}

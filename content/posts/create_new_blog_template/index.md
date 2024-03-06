@@ -3,7 +3,7 @@ title: ブログのテンプレートを移行しました！
 date: 2018-05-27
 tags: [未分類]
 image: https://github.com/bvlion/blog2/assets/24517539/56f98465-b5f4-4d5c-8aa9-61b1d359b2a0
-description: これまでWordPressで運用されていたブログを自前で用意し、AMP対応まで実施しました(`･ω･´)
+description: これまで WordPress で運用されていたブログを自前で用意し、AMP 対応まで実施しました(`･ω･´)
 layout: post_with_image
 ---
 

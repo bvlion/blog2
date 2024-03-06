@@ -3,7 +3,7 @@ title: 11月から別の企業で働かせていただくことになりまし�
 date: 2019-10-11
 tags: [ポエム]
 image: https://github.com/bvlion/blog2/assets/24517539/a6429b59-e825-42cb-b38b-1b29dd7862a0
-description: 10月に退職し、11月から別の職場で働き始めることになりました。↵前職での活動や、これからについて簡単にまとめてみました。
+description: 10 月に退職し、11 月から別の職場で働き始めることになりました。前職での活動や、これからについて簡単にまとめてみました。
 layout: post_with_image
 ---
 

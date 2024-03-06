@@ -3,7 +3,7 @@ title: 8月で退職することにしました(*･ω･)ﾉ
 date: 2021-08-30
 tags: [ポエム]
 image: https://github.com/bvlion/blog2/assets/24517539/bbb96de3-1993-486b-a58a-9d14b7161d93
-description: 8月で退職するので、前職のことや面接などを振り返ります！
+description: 8 月で退職するので、前職のことや面接などを振り返ります！
 layout: post_with_image
 ---
 

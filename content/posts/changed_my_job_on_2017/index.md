@@ -3,7 +3,7 @@ title: 7月に退職して、8月から新天地になりました(･∀･)
 date: 2017-09-15
 tags: [ポエム]
 image: https://github.com/bvlion/blog2/assets/24517539/ab995231-6c35-4574-9fe3-6bd450425ff8
-description: 7月に退職し、8月から別の職場で働き始めています。↵新天地で自分はどうなっているか、簡単にまとめてみました。
+description: 7 月に退職し、8 月から別の職場で働き始めています。新天地で自分はどうなっているか、簡単にまとめてみました。
 layout: post_with_image
 ---
 

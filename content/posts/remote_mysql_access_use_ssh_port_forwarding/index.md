@@ -3,7 +3,7 @@ title: SSHポートフォワーディングを使ってリモートのMySQLに�
 date: 2017-12-07
 tags: [技術,Java]
 image: https://github.com/bvlion/blog2/assets/24517539/b46228e7-d011-4d1e-88ea-da2f51b58fd5
-description: 家の各種監視やエアコン等の制御用にラズパイ内にSpringbootで作られたAPIサーバーのDB接続を、SSHポートフォワーディングを使ってリモートのMySQLに接続するようにする手順の備忘録的なものです。
+description: 家の各種監視やエアコン等の制御用にラズパイ内に Springboot で作られた API サーバーの DB 接続を、SSH ポートフォワーディングを使ってリモートの MySQL に接続するようにする手順の備忘録的なものです。
 layout: post_with_image
 ---
 

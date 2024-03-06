@@ -3,7 +3,7 @@ title: BitbucketのPipelinesからDropboxへ成果物をアップロード
 date: 2018-06-06
 tags: [サービス,技術]
 image: https://github.com/bvlion/blog2/assets/24517539/0a6ba87f-4c27-4a24-a0f3-85a6b12e5b70
-description: AndroidのAPKをBitbucketのPipelinesで作成した後、どうやって取得しようか悩んだ結果Dropboxにアップすることにしたので、その備忘録です(･∀･)
+description: Android の APK を Bitbucket の Pipelines で作成した後、どうやって取得しようか悩んだ結果 Dropbox にアップすることにした備忘録です(･∀･)
 layout: post_with_image
 ---
 

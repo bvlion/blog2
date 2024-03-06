@@ -3,7 +3,7 @@ title: Google Home Mini購入
 date: 2017-12-26
 tags: [サービス,技術,Google]
 image: https://github.com/bvlion/blog2/assets/24517539/bda2b2d2-a44a-4131-b291-b485357f4d89
-description: Google Home Miniを衝動買いみたく購入しました。↵購入してから2週間くらい、色々と試したことと合わせて記事にしてみました。
+description: Google Home Mini を衝動買いみたく購入しました。購入してから 2 週間くらい、色々と試したことと合わせて記事にしてみました。
 layout: post_with_image
 ---
 

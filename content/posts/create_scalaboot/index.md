@@ -3,7 +3,7 @@ title: Scalaboot 作りました！
 date: 2017-05-24
 tags: [サービス,技術,Scala]
 image: https://github.com/bvlion/blog2/assets/24517539/2e3a8723-75ae-420d-a2b9-02b5e46c1c6e
-description: もう若くないオジさんエンジニアがScalaを覚えるのに挫折しそうになった時、Scalabootを作って着実に勉強して覚えていけるようになったお話です(*･ω･)ﾉ
+description: もう若くないオジさんエンジニアが Scala を覚えるのに挫折しそうになった時、Scalaboot を作って着実に勉強して覚えていけるようになったお話です(*･ω･)ﾉ
 layout: post_with_image
 ---
 
