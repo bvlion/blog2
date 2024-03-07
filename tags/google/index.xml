@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/google/</link><description>Recent content in Google on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>JBL Link Portable 購入</title><link>https://www.ambitious-i.net/posts/buy_jbl_link_portable_2020/</link><pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/buy_jbl_link_portable_2020/</guid><description>今回は JBL Link Portable を購入しましたので、そのお話です(･∀･)
+経緯… Google Home Mini 購入でも紹介させていただいている通り、2017 年のクリスマス頃から Google Home の活用自体はさせていただいております(*･ω･)ﾉ （もうそんなに長いこと使ってたんだ…）
+IFTTT 連携や google-home-notifier の活用などで生活は大変便利になり、外泊などすると「 OK Google 」をスマホに頼む必要があったり、電気を消すのにスイッチを押すのが煩わしくなるほど生活に浸透しています(^^;
+広くない家なので 1 つでも大きな問題ではなかったのですが、お風呂でも使いたい欲求が出てきました！</description></item><item><title>Google Home Mini購入</title><link>https://www.ambitious-i.net/posts/buy_google_home_mini/</link><pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/buy_google_home_mini/</guid><description>ついに我が家にも話題の家電 Google Home が到着しました！
+と言っても来たのは 2 週間前ですしミニの方なんですが、せっかくなので使用感も合わせて記事にしたいと思います(･∀･)
+購入経緯 元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)
+3,000 円なら買いなんじゃないでしょうか？
+ということで我が家にも到着です♪
+こんな感じです(^ω^;)
+まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…
+開封の儀 せっかくネット記事なので、それっぽいことをやってみますwww
+全体を覆うビニールを裏側からペリペリしてパカッ！ ほぅ…
+サイズ感チェック お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。） どうでしょう？</description></item><item><title>JavaからSlackへ画像を投稿する</title><link>https://www.ambitious-i.net/posts/send_to_slack_from_java/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/send_to_slack_from_java/</guid><description>随分と更新が空いてしまいました(´･ω･`)
+なるべく週に1つは書けるようガンバってみたいと思います(^ω^;)
+なかなか書こうと思うと、ブログ自体が久々すぎて進まない(&amp;gt;_&amp;lt;)
+コードは Gist に上がってますので、そちらを加工したりして使ってみてください(･∀･)
+フリーライセンスでございます！
+Java から Slack へ投稿する…というのは大勢の方がやってらっしゃいます。
+実際に日本語の記事もあるのですが、結構 OkHttp とか GAE で使えないのが多かったりするんですよね(&amp;gt;_&amp;lt;)
+GAE からデータを送信する場合、HttpURLConnection でガリガリ書かないといけません。
+そこで、独自に実装したコードを公開しました！というお話です。
+特別なことはしていないので、ソースを見てもらえれば大体何やってるか分かると思います。
+ちなみに GAE は Java7 なので、それに合わせたコードになっています。</description></item><item><title>G Suiteからの退会 ~~メールアドレス移行編~~</title><link>https://www.ambitious-i.net/posts/withdrawal_from_g_suite/</link><pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/withdrawal_from_g_suite/</guid><description>G Suite を 1 年使ってみました！
+使っていたのは G Suite Basic です。
+以前お世話になった会社で使ってらしたのを見て、自分も個人のドメインで使って見たいと思ったのがキッカケです(･∀･)
+我が家は現在 2 人なので、2 人分で登録。
+月 1,000 円で Google のサービスがたくさん使えたり、ドライブも容量が多く大変満足でした！
+特にメールとカレンダーなんかは2人でも大変使い勝手が良かったです♪
+でも少しずつ使わなくなり、相方も「そんなにたくさんメールアドレスいらないかな〜」と言い始めました…。
+そうなるとアクセスも減り、段々と必要性を感じなくなってきてしまいました(^ω^;)
+2017 年 2 月で使い始めて 1 年となり、更新のタイミングがやってきます。</description></item></channel></rss>

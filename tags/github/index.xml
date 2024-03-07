@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/github/</link><description>Recent content in GitHub on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/posts/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
+今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！
+https://github.com/bvlion/NonPublicIssueViewer
+まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;
+（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）
+内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。
+入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)
+(´-`) .｡oO（gif の動作がめっちゃ遅い…）
+今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ
+Go で書こうと思ったキッカケ ほとんど勉強のためです(^^;</description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/posts/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/every_day_commit_half_year/</guid><description>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)
+仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧
+そして入社半年、ここまでは毎日コミット等をしてこれました！
+トップ画像のようにキレイになると嬉しいです！
+（´-`）.｡oO（濃さがちぐはぐだけどいいか…）
+ここまでできるようになってから少し自身の行動が変わったので、それも合わせてお伝えできたらと思います。
+ルール 厳しいと絶対続かないので、かなり緩くしました。
+業務・プライベートは問わない 内容は問わない（小さい修正でもよしとする） 必ず 24時までにプッシュまでしておく ルールは大したことないんですが、意外と最初は守るのが大変でした。。。
+平日は業務もあるから余裕だろうと油断してると、夜コミットがなかったと気づくことも稀に…
+そういった時は小さい修正、それこそ README の更新だけになってしまうこともありましたが、毎日やることに意味があると思って続けてみました(&amp;gt;_&amp;lt;)
+やって変わったこと・よかったこと 自身の行動に計画性が出るようになりました(*･ω･)ﾉ
+例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)
+それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。</description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/posts/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/use_github_private_repository/</guid><description>すっかり更新が止まってしまっています。。。
+今年はなるべく書けるようにしていきたい…と思います(´･ω･`) 取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
+さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！
+ありがたいですね〜(^^)
+以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！
+Bitbucket からの移行作業 ということで、早速移行作業をしていきます！
+Import repository を使えば Bitbucket からスムーズに移行できる…という記事を見たのですが、待てど暮らせど移行されず…(T_T)
+URL でも間違ってたのでしょか？
+結局、以下の手順でリポジトリの移行を行いました。
+git clone git@bitbucket.</description></item></channel></rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サービス on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link><description>Recent content in サービス on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/posts/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/release_app_sheb/</guid><description>今年 2 回目のブログです…
+「シェブ！」というアプリをリリースしました！
+コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(^^)
+どんなアプリ？ いわゆるブックマーク管理アプリです(*･ω･)ﾉ
+推しポイントはやはり共有機能ですね！
+探した限り共有機能があるブックマークアプリはなさそうだったので作りました(๑•̀ㅂ•́)و✧
+開発の経緯 作ろうと思ったきっかけは Wunderlist の終了でした。。。
+夫婦でレシピなどの URL を Wunderlist に登録して共有していたんですが、2020 年 5 月 6 日をもってサービスが終了してしまうとのことで、もっとブックマークの共有に特化したアプリがないか探していました(^^;
+ただどうもなさそうなので、だったらいっそ作ってしまえ〜で開発を始めました！
+ソースコード プライベートリポジトリにしてしまえばキーの管理など楽だっただろうとは思いますが、個人活動のアピールにもしたかったので公開リポジトリでガンバりました(`･ω･´)</description></item><item><title>2020年振り返り</title><link>https://www.ambitious-i.net/posts/2020_year_review/</link><pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/2020_year_review/</guid><description>色々とあった 2020 年だった方も多いんだろうな〜と思ってます。
+私も別のブログ以来で久々の振り返りです。。。
+お仕事とかプログラミングとか… 世間同様、弊社も WFH に全振りしました！
+確かに最初の数ヶ月は「会社行きたいな〜」とか「ランチ寂しいな〜」とかありましたが、今となっては特段何かを思うこともなくなり、すっかりルーチンも出来上がりました(･∀･)
+結婚式を除いたら、知人や同僚といった顔見知りに会ってないです。。。
+こういった生活ができているのも、いわゆるインフラが整っているからこそ…
+そういった仕事に従事されていらっしゃる方には、あらためて敬意を表したいと思います&amp;lt;(_ _)&amp;gt;
+もう 10年以上前ですが、私も配達のお仕事だったので…
+あとトップの画像の通り無事に 1 年間全部草が生えました！
+草を生やすことが半分目的ではありましたが、まずは習慣になるまでよくやったな感ですね〜
+でもここまで終わってみて思うのは、別に草が生えてるからとかは割とどうでもよくて、月並みですが内容が大事だなと感じました。。。
+issue 立ててちょっとコード書いて終わり…なんて日は、別にコミットしなくてもよかったんじゃないかと思う時もあります(&amp;gt;_&amp;lt;)
+でもこれはこれで嬉しいです！
+あとはひたすら Android アプリ開発でした！</description></item><item><title>フレッツ接続 ZOOT NATIVE (IPv6) の契約</title><link>https://www.ambitious-i.net/posts/use_zoot_native_ipv6/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/use_zoot_native_ipv6/</guid><description>最近定期的に更新できていますね！（自分でもちょっと嬉しい）
+往復 1時間ちょっとの通勤の時間がないのは大きそう…
+先日の「書斎（スペース）ができました！」の最後でもチラッと触れましたが、今更ながら IPv6 を導入しました(･∀･)
+そもそもこういったネットワーク周りが大変弱く何のこっちゃ状態ではありましたが、無事にそこそこの速度を叩き出せてるっぽいです！
+導入前後の比較 ということで、まずは導入前後の速度比較から…
+上が導入前、下が導入後です！
+Google Usen こういう速度測定がどの程度信頼できるものか分かりませんが、我が家はフレッツ 光ネクスト マンションタイプで上下とも最大 100Mbps というのを考えると、ほぼフルパワーで通信できているんじゃなかろうかと思います(≧▽≦)
+出るものなんですねぇ…
+導入内容 今回導入したサービスは、インターリンクさんの「ZOOT NATIVE」です。
+元々 ZOOT NEXT には加入していて、加入当初は速度もよく固定 IP を便利に利用させていただいていたのですが、このタイミングで在宅の方が増えると徐々に速度の低下がっ(&amp;gt;_&amp;lt;)</description></item><item><title>JBL Link Portable 購入</title><link>https://www.ambitious-i.net/posts/buy_jbl_link_portable_2020/</link><pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/buy_jbl_link_portable_2020/</guid><description>今回は JBL Link Portable を購入しましたので、そのお話です(･∀･)
+経緯… Google Home Mini 購入でも紹介させていただいている通り、2017 年のクリスマス頃から Google Home の活用自体はさせていただいております(*･ω･)ﾉ （もうそんなに長いこと使ってたんだ…）
+IFTTT 連携や google-home-notifier の活用などで生活は大変便利になり、外泊などすると「 OK Google 」をスマホに頼む必要があったり、電気を消すのにスイッチを押すのが煩わしくなるほど生活に浸透しています(^^;
+広くない家なので 1 つでも大きな問題ではなかったのですが、お風呂でも使いたい欲求が出てきました！</description></item><item><title>オンプレから PaaS への移行</title><link>https://www.ambitious-i.net/posts/on_premises_server_to_heroku/</link><pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/on_premises_server_to_heroku/</guid><description>今まではオンプレミス（ラズパイ）で家の色んなバッチを動かしてきていました！ 一例だけでもこんな感じです…
+motion による監視カメラ 在宅通知（監視カメラを住人在宅時は動作させない） Twitter 徘徊（Jorudan とか） Google Home と連動した時間通知（平日の朝） 赤外線のタイマー（祝日判定付き） 記念日通知 個人の Slack に占い通知（Web ad Fortune 利用） 目覚まし設定通知（休みや平日の前） 曜日指定の忘れ防止通知 Google Home Notifier と連動した YouTube 上の音楽の再生 処理内容自体はそこまででもないのですが、これだけ動かしているとラズパイにも家のトラフィックにもかなり負荷があるため、何とか無料の PaaS 系に移行できないかと考えておりました。</description></item><item><title>BitbucketのPipelinesからDropboxへ成果物をアップロード</title><link>https://www.ambitious-i.net/posts/file_to_dropbox_from_bitbucket/</link><pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/file_to_dropbox_from_bitbucket/</guid><description>まんまタイトルの通りです。(^ω^;)
+Android の APK はそこまで頻繁に更新もしていなかったので、以前は手作業で作成していました。
+ただもういい加減、手作業で APK を作成するのはあまりにもダサいので、「Bitbucket の PipeLine で Android をデプロイしてみた」を参考に、Pipelines で APK を作成することにしました(･∀･)
+ここでは、pipelines で APK を作成し、Dropbox へアップロードする内容を記載します。
+なので、jks を app 直下に置いて、signingConfigs をコリコリする等、assembleRelease で署名つき APK を作成する方法は色んな記事がありますので、そちらを参考にしてください&amp;lt;(_ _)&amp;gt;</description></item><item><title>Google Home Mini購入</title><link>https://www.ambitious-i.net/posts/buy_google_home_mini/</link><pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/buy_google_home_mini/</guid><description>ついに我が家にも話題の家電 Google Home が到着しました！
+と言っても来たのは 2 週間前ですしミニの方なんですが、せっかくなので使用感も合わせて記事にしたいと思います(･∀･)
+購入経緯 元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)
+3,000 円なら買いなんじゃないでしょうか？
+ということで我が家にも到着です♪
+こんな感じです(^ω^;)
+まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…
+開封の儀 せっかくネット記事なので、それっぽいことをやってみますwww
+全体を覆うビニールを裏側からペリペリしてパカッ！ ほぅ…
+サイズ感チェック お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。） どうでしょう？</description></item><item><title>Scalaboot 作りました！</title><link>https://www.ambitious-i.net/posts/create_scalaboot/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/create_scalaboot/</guid><description>少し前の話になってしまいますが、Google I/O で Kotlin がサポートされるようになりました！
+個人的なアプリは Kotlin で作ってきましたが、正式サポートは嬉しいですね(･∀･)
+ただ、相変わらず Android アプリ自体は Java で書いた方が楽ではあるでしょうから、そのあたりの見極めも大事にしていきたいところです♪
+Kotlin の時もそうだったのですが、新しい言語とFW、同時に覚えるのは大変だと思います。
+少なくとも「Scala と Play2」とか「Scala と Skinny」みたいなのは挫折してしまいました(´･ω･`)
+そういえば「Ruby と Rails」も1度挫折しています…
+きっと「Kotlin と Android」でも挫折してしまっていただろうと思います。</description></item><item><title>GWにショボいWebを立ち上げてみる</title><link>https://www.ambitious-i.net/posts/create_minimum_site_on_gw/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/create_minimum_site_on_gw/</guid><description>しばらく Android に夢中になっていてブログの更新まで怠っていた自分ですが、GW に小さい Web サービスを立ち上げてみようと思い立ちました(･∀･) キッカケは
+Heroku が月 1,000 時間無料なので、再度試したくなった 「GWにサイト作りもくもくする」という発言を耳にした たまたま相方がお出かけでぼっちになる といったところです(^ω^;)
+ということで出来上がったのがこちら
+使い捨てマークダウン です( `･ω･´)
+（現在は閉鎖しています）
+アクセスして頂ければ大体書いてあるんですが、 画像のアップロードや検索・管理機能もなく、本当に登録と閲覧のみに機能を絞ってます。
+背景として、Qiita さんや GitHub さんも、マークダウンで書いて表示できます。</description></item><item><title>初！アプリをリリースしました！</title><link>https://www.ambitious-i.net/posts/first_app_release/</link><pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/first_app_release/</guid><description>すでに個人活動のポートフォリオには記入しましたが、初めて個人でアプリをリリースしました！
+いや〜、嬉しいですね♪
+アプリについて アプリ自体は大した内容ではありません。
+完全に説明通りで
+電源ボタンでなく、自撮りカメラ（フロントカメラ）付近の近接センサーを使い、物が離れると画面がONになり、通知エリアから画面をOFFにできるアプリです。 手帳っぽいカバーを使ってなくても、手をかざして画面をONにできたりしますので、便利に使えるかと思います。 また、暗い場所や何かがセンサーに被さってしまった等での不用意な画面OFFをなくすため、画面のOFFは通知エリアより行えるようになっています。 通知エリアからオフにするかは任意で決められます。 ※ ご注意 ・申し訳ございませんが、近接センサーが搭載されていない端末ではご使用頂けません。 ・通知エリアからオフにするために「管理アプリ」として有効にした場合、アプリのアンインストールボタン（有効にするとアプリ内に表示されます）よりアンインストールを行ってください。 管理権限を得ることにより、通常のアンインストールが不可となる場合がございます。 ・自動起動マネージャー等のタスク管理アプリをご使用の場合、正常に動作しない場合があります。 正常に動作しない場合、タスク管理外（自動起動の許可等）の設定を行っていただくことにより、動作する可能性がございます。 ・「ここをダブルタップで画面オフ」の項目はAndroid5.0（LOLIPOP）以上で表示されます。 また「ここをダブルタップで画面オフ」の項目が表示されない場合、対象の通知を少し下へスライドすると表示されます。 （これはAndroidの作りに起因するもののため、ご容赦願えればと存じます。） ・このアプリは端末の管理者権限を使用します。 これは画面のロック（OFF）のためであり、それ以外の用途には使用されません。 です(^ω^;) 正直、この手のアプリって結構あると思います。
+でもあえて作ったのは
+他のアプリだと暗い場所等での不用意な画面OFF・画面ONが発生していた 一部アプリではタスクキラー等で使用不可になることがあった といったところでしょうか？</description></item><item><title>G Suiteからの退会 ~~メールアドレス移行編~~</title><link>https://www.ambitious-i.net/posts/withdrawal_from_g_suite/</link><pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/withdrawal_from_g_suite/</guid><description>G Suite を 1 年使ってみました！
+使っていたのは G Suite Basic です。
+以前お世話になった会社で使ってらしたのを見て、自分も個人のドメインで使って見たいと思ったのがキッカケです(･∀･)
+我が家は現在 2 人なので、2 人分で登録。
+月 1,000 円で Google のサービスがたくさん使えたり、ドライブも容量が多く大変満足でした！
+特にメールとカレンダーなんかは2人でも大変使い勝手が良かったです♪
+でも少しずつ使わなくなり、相方も「そんなにたくさんメールアドレスいらないかな〜」と言い始めました…。
+そうなるとアクセスも減り、段々と必要性を感じなくなってきてしまいました(^ω^;)
+2017 年 2 月で使い始めて 1 年となり、更新のタイミングがやってきます。</description></item></channel></rss>

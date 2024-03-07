@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scala on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/scala/</link><description>Recent content in Scala on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/scala/index.xml" rel="self" type="application/rss+xml"/><item><title>Scalaboot 作りました！</title><link>https://www.ambitious-i.net/posts/create_scalaboot/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/posts/create_scalaboot/</guid><description>少し前の話になってしまいますが、Google I/O で Kotlin がサポートされるようになりました！
+個人的なアプリは Kotlin で作ってきましたが、正式サポートは嬉しいですね(･∀･)
+ただ、相変わらず Android アプリ自体は Java で書いた方が楽ではあるでしょうから、そのあたりの見極めも大事にしていきたいところです♪
+Kotlin の時もそうだったのですが、新しい言語とFW、同時に覚えるのは大変だと思います。
+少なくとも「Scala と Play2」とか「Scala と Skinny」みたいなのは挫折してしまいました(´･ω･`)
+そういえば「Ruby と Rails」も1度挫折しています…
+きっと「Kotlin と Android」でも挫折してしまっていただろうと思います。</description></item></channel></rss>
