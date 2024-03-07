@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/github/</link><description>Recent content in GitHub on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/github/</link><description>Recent content in GitHub on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>実に 2 年半振りの更新です(^^;
+Google が 2021 年 6 月に AMP 優遇を終了したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…
+（それに連動して記事を書くこと自体も止まってました）
+そう思っていたところ、Hugo で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。</description></item><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
 今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！
 https://github.com/bvlion/NonPublicIssueViewer
 まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;
@@ -20,7 +23,8 @@ Go で書こうと思ったキッカケ ほとんど勉強のためです(^^;</d
 やって変わったこと・よかったこと 自身の行動に計画性が出るようになりました(*･ω･)ﾉ
 例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)
 それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。</description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>すっかり更新が止まってしまっています。。。
-今年はなるべく書けるようにしていきたい…と思います(´･ω･`) 取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
+今年はなるべく書けるようにしていきたい…と思います(´･ω･`)
+取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
 さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！
 ありがたいですね〜(^^)
 以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！

@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on 鰯の管詰</title><link>https://www.ambitious-i.net/blog/</link><description>Recent content in Blog on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sat, 02 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>新型コロナウイルスワクチンの副反応記録</title><link>https://www.ambitious-i.net/blog/vaccinated_twice/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vaccinated_twice/</guid><description>緊急事態宣言が明け、新型コロナウイルスワクチンの接種者も増えてきました(･∀･)
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on 鰯の管詰</title><link>https://www.ambitious-i.net/blog/</link><description>Recent content in Blog on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>実に 2 年半振りの更新です(^^;
+Google が 2021 年 6 月に AMP 優遇を終了したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…
+（それに連動して記事を書くこと自体も止まってました）
+そう思っていたところ、Hugo で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。</description></item><item><title>新型コロナウイルスワクチンの副反応記録</title><link>https://www.ambitious-i.net/blog/vaccinated_twice/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vaccinated_twice/</guid><description>緊急事態宣言が明け、新型コロナウイルスワクチンの接種者も増えてきました(･∀･)
 ただ、まだの副反応などで迷われている方もいらっしゃるかもしれません…
 そこで 30代後半の男性が、ファイザー社製の新型コロナウイルスワクチンを受けたらどんな副反応が出たかの記録を起こしてみました(*･ω･)ﾉ
 1回目 9/7 16:00 接種。特に変わりなし。 9/7 19:00 何となく違和感を感じる 9/7 23:00 痛みが増し横方向に腕が上げ難い。（恐らくムリをすれば上がる） 9/8 07:30 寝る前よりやや痛みは強くなったものの生活に支障はなし。 9/8 11:00 PC の位置の問題で Mac の指紋認証が辛い… 9/8 20:00 お風呂での洗髪は特段問題なし。 9/9 08:00 まだ若干肩に違和感はあるものの痛みは無し。 2回目 9/27 20:00 噂を元にステーキとハンバーグを食べる。 9/28 11:45 接種。やや痒いものの特に変わりなし。 9/28 15:00 既に痛くなる。前回よりも少し痛くなるのが早い。 9/28 23:00 多少体温が前後するものの腕の痛み以外は特になし。 9/29 04:00 季節的なものかもしれないが寒気が襲う。 9/29 07:30 発熱、37.</description></item><item><title>退職時の誓約書にある競業避止は必須なのか？</title><link>https://www.ambitious-i.net/blog/avoiding_non_competition/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/avoiding_non_competition/</guid><description>退職して少し落ち着いたこともあり、退職に伴う NDA（誓約書）について私の体験を簡単に綴ります(*･ω･)ﾉ
@@ -173,7 +176,8 @@ Amazon での商品紹介ページ
 私の使い方としては、下段におかず、上段は山盛りのご飯におかずを埋め、お味噌汁はインスタントに少し蒸し野菜を追加します。
 そもそもみっちり入れるというのもありますが、これで成人男性（メタボ）のオッサンも満足(๑•̀ㅂ•́)و✧ とてもオススメです！！
 やはりお弁当はいいですね〜 水筒も持参して、平日はお金を使わないおじさんの簡単な商品紹介でした(*･ω･)ﾉ</description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>すっかり更新が止まってしまっています。。。
-今年はなるべく書けるようにしていきたい…と思います(´･ω･`) 取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
+今年はなるべく書けるようにしていきたい…と思います(´･ω･`)
+取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
 さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！
 ありがたいですね〜(^^)
 以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！
