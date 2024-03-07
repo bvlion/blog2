@@ -1,12 +1,23 @@
 {{ define "main" }}
 
+{{ $.Scratch.Add "filteredPosts" slice }}
+{{ range .Site.Pages.ByPublishDate.Reverse }}
+  {{ if and (eq (substr .RelPermalink 0 6) "/blog/") (ne .Title "Blog") }}
+    {{ $.Scratch.Add "filteredPosts" . }}
+  {{ end }}
+{{ end }}
+
 <div id="featured">
     <div class="container-md">
         <div class="row">
             <div class="featured-posts">
+                {{ range $i, $feat := ($.Scratch.Get "filteredPosts") }}
+                    {{ if gt 3 $i }}
+                        {{ partial "featured-post.html" (dict "context" . "index" $i) }}
+                    {{ end }}
+                {{ end }}
                 {{ $featured := first 3 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "in" (slice "posts" "sections")) }}
                 {{ range $i, $feat:=  $featured }}
-                {{ partial "featured-post.html" (dict "context" . "index" $i) }}
                 {{ end }}
             </div>
         </div>
@@ -16,18 +27,10 @@
 <div class="bg-offwhite py-5">
     <div class="container-md">
         <div class="row">
-
-            {{ partial "ads.html" "ads/horizontal-ad.js" }}
-
-            {{/* $filteredPosts := where (where .Site.Pages "Type" "blog") "UniqueID" "!= ".UniqueID }}
-            {{ $relatedPosts := shuffle $filteredPosts | first 3 */}}
-
-            {{ $latestPosts := where .Site.RegularPages ".Section" "in" (slice "posts" "sections") }}
-            {{ $latestPosts = $latestPosts | symdiff $featured}}
-            {{ $latestPosts = $latestPosts.ByDate.Reverse | first 6 }}
-
-            {{ range $latestPosts }}
-            {{ partial "suggestion.html" . }}
+            {{ range $i, $feat := ($.Scratch.Get "filteredPosts") }}
+                {{ if and (lt 2 $i) (gt 9 $i) }}
+                    {{ partial "suggestion.html" . }}
+                {{ end }}
             {{ end }}
         </div>
     </div>

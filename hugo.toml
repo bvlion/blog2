@@ -34,7 +34,7 @@ theme = "BlogRa"
             [[menu.main]]
                 parent = "blog"
                 name = "記事一覧"
-                url = "/posts/"
+                url = "/blog/"
                 weight = 1
             [[menu.main]]
                 parent = "blog"
