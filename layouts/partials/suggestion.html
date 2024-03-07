@@ -1,0 +1,46 @@
+<div class="suggestion col-sm-12 col-md-6 col-lg-4">
+    {{ if .Params.image }}
+    <a href="{{ .RelPermalink }}">
+        {{ $imageLink := "" }}
+        {{ if or (hasPrefix .Params.image "http://") (hasPrefix .Params.image "https://") }}
+            {{ $imageLink = .Params.image }}
+        {{ else }}
+            {{ $image := $.Page.Resources.Match (.Params.image) }}
+            {{ $image := index $image 0 }}
+            {{ $imageLink = $image.Permalink }}
+        {{ end }}
+        <img src={{ $imageLink }} alt="{{ .Title }}" loading="lazy">
+    </a>
+    {{ end }}
+
+    <div class="content">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+
+        <div class="date-time">
+            {{ partial "date.html" .Date }}
+            &nbsp; &centerdot; &nbsp;
+            {{ partial "time-to-read.html" .}}
+        </div>
+
+        <p class="summary">
+            <a href="{{ .RelPermalink }}">
+                {{ with .Description }}
+                    {{ . }}
+                {{ else }}
+                    {{ $s := .Summary | plainify | htmlUnescape }}
+                    {{ if not .Params.image }}
+                        {{ $s  }}
+                    {{ else }}
+                        {{ substr $s 0 120 }}...
+                    {{ end }}
+                {{ end }}
+            </a>
+        </p>
+
+        <div class="tags">
+            {{ range .Params.tags }}
+            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"><span class="tag bg-dark">{{ . }}</span></a>
+            {{ end }}
+        </div>
+    </div>
+</div>
