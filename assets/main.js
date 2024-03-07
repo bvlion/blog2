@@ -2,7 +2,7 @@ const SEARCH_URL = '/search/'
 
 function handleKeyPress(event) {
   if (event.key === "Enter") {
-      searchBlog();
+      searchBlog()
   }
 }
 
@@ -15,14 +15,14 @@ function searchBlog() {
 }
 
 function socialMediaPopUp(url, title, width, height) {
-  const left = (screen.width / 2) - (width / 2);
-  const top = (screen.height / 2) - (height / 2);
-  window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left);
+  const left = (screen.width / 2) - (width / 2)
+  const top = (screen.height / 2) - (height / 2)
+  window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left)
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])");
+  const links = document.querySelectorAll("a[href^='http']:not([href*='" + window.location.hostname + "'])")
   links.forEach(function (link) {
-      link.setAttribute('target', '_blank');
-  });
-});
+      link.setAttribute('target', '_blank')
+  })
+})
