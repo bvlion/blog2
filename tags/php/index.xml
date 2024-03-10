@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/php/</link><description>Recent content in PHP on 鰯の管詰</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>個人アプリのサーバー側を Slim4 に移行しました！
+その際 Authorization が取れず四苦八苦した記録です…
+経緯 個人で略語Generatorなるアプリを作ってリリースしています(･∀･)
+元々は Kuromoji を Kotlin から使って形態素解析ができ、いい感じにアルファベットにもできたのでアプリにしようと思ったんですが、これが辞書もあるためなかなかの大サイズ…
+APK ファイルが大きすぎるのを防ぐべく、解析はサーバー側ですべく一旦 API という形で GCP に置いてリリースまで実施しました！
+そのまままぁまぁな期間運用していたのですが、最近自社の SRE でも料金見直しを実施していて、自身のサーバー系でもコストでカットできる箇所はないかな〜と思っていたところ、この API が見つかりました(^^;
+別にこの程度のアプリは GCP である必要もないし、XServer にリリースすれば十分そうなので、PHP に書き換えて MeCab を利用することにしました！</description></item></channel></rss>
