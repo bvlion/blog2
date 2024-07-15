@@ -21,10 +21,10 @@ Gist にも時折アップロードしています。
 [Bitbucket](https://bitbucket.org/bvlion/workspace/repositories/)  
 C# など、せっかく作ったから…程度のものがほとんどです(^^;
 
-## Twitter
+## X（旧：Twitter）
 
-Twitter は毎日拝見させて頂いております(^^;  
-[ビブライオン（bvlion）](https://twitter.com/ninjinx)  
+X（旧：Twitter）は大体毎日拝見させて頂いております(^^;  
+[ビブライオン（bvlion）](https://x.com/ninjinx)  
 是非フォローしてください！
 
 ## Zenn
