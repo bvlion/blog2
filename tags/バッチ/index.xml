@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>バッチ on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E3%83%90%E3%83%83%E3%83%81/</link><description>Recent content in バッチ on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E3%83%90%E3%83%83%E3%83%81/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring BatchのMETA tableをクリアする</title><link>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</link><pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</guid><description>最近になって、やっと Spring Batch なるものを知りました(^ω^;)
-しばらく Java 系の勉強から離れていたもので… ← 言い訳(爆)
-ということで、まきさんのブログを参考にさせていただいたり、Qiita の投稿記事や英語のサイト、@Configuration の仕組みを知るためにソースをダウンロードしたりして、コツコツ勉強しました。
-いやいや、なんとも便利なものです(･∀･)
-まぁ何かを作ったら GitHub にあげようと思います&amp;lt;(_ _)&amp;gt;
-その中で @Scheduled という繰り返し機能を知ったのですが、これがまた便利で cron の機能もあったりします。
-ただ、実行される度に DB に実行結果が INSERT されるので結構肥大化してきます。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>バッチ on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E3%83%90%E3%83%83%E3%83%81/</link><description>Recent content in バッチ on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E3%83%90%E3%83%83%E3%83%81/index.xml" rel="self" type="application/rss+xml"/><item><title>Spring BatchのMETA tableをクリアする</title><link>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</link><pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</guid><description>&lt;p>最近になって、やっと Spring Batch なるものを知りました(^ω^;)&lt;br>
+しばらく Java 系の勉強から離れていたもので… ← 言い訳(爆)&lt;/p>
+&lt;p>ということで、&lt;a href="https://blog.ik.am/">まきさんのブログ&lt;/a>を参考にさせていただいたり、Qiita の投稿記事や英語のサイト、@Configuration の仕組みを知るためにソースをダウンロードしたりして、コツコツ勉強しました。&lt;br>
+いやいや、なんとも便利なものです(･∀･)&lt;br>
+まぁ何かを作ったら GitHub にあげようと思います&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;p>その中で @Scheduled という繰り返し機能を知ったのですが、これがまた便利で cron の機能もあったりします。&lt;br>
+ただ、実行される度に DB に実行結果が INSERT されるので結構肥大化してきます。&lt;br>
+大した件数ではないものの、やはり10秒毎とかになってくるとそこそこの件数です。&lt;/p></description></item></channel></rss>

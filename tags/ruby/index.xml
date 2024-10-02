@@ -1,7 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ruby on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/ruby/</link><description>Recent content in Ruby on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sat, 06 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/ruby/index.xml" rel="self" type="application/rss+xml"/><item><title>GWにショボいWebを立ち上げてみる</title><link>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</guid><description>しばらく Android に夢中になっていてブログの更新まで怠っていた自分ですが、GW に小さい Web サービスを立ち上げてみようと思い立ちました(･∀･) キッカケは
-Heroku が月 1,000 時間無料なので、再度試したくなった 「GWにサイト作りもくもくする」という発言を耳にした たまたま相方がお出かけでぼっちになる といったところです(^ω^;)
-ということで出来上がったのがこちら
-使い捨てマークダウン です( `･ω･´)
-（現在は閉鎖しています）
-アクセスして頂ければ大体書いてあるんですが、 画像のアップロードや検索・管理機能もなく、本当に登録と閲覧のみに機能を絞ってます。
-背景として、Qiita さんや GitHub さんも、マークダウンで書いて表示できます。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ruby on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/ruby/</link><description>Recent content in Ruby on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sat, 06 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/ruby/index.xml" rel="self" type="application/rss+xml"/><item><title>GWにショボいWebを立ち上げてみる</title><link>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</guid><description>&lt;p>しばらく Android に夢中になっていてブログの更新まで怠っていた自分ですが、GW に小さい Web サービスを立ち上げてみようと思い立ちました(･∀･)
+キッカケは&lt;/p>
+&lt;ul>
+&lt;li>Heroku が月 1,000 時間無料なので、再度試したくなった&lt;/li>
+&lt;li>「GWにサイト作りもくもくする」という発言を耳にした&lt;/li>
+&lt;li>たまたま相方がお出かけでぼっちになる&lt;/li>
+&lt;/ul>
+&lt;p>といったところです(^ω^;)&lt;/p>
+&lt;p>ということで出来上がったのがこちら&lt;/p>
+&lt;h1 id="使い捨てマークダウンhttpsgithubcombvliondisposable-markdown">&lt;a href="https://github.com/bvlion/disposable-markdown">使い捨てマークダウン&lt;/a>&lt;/h1>
+&lt;p>です( `･ω･´)&lt;br>
+（現在は閉鎖しています）&lt;/p>
+&lt;p>&lt;del>アクセスして頂ければ大体書いてあるんですが、&lt;/del> 画像のアップロードや検索・管理機能もなく、本当に登録と閲覧のみに機能を絞ってます。&lt;/p>
+&lt;p>背景として、Qiita さんや GitHub さんも、マークダウンで書いて表示できます。&lt;br>
+ただ、アカウントがないといけないし、単に共有するだけのために書くって何か趣旨が違う気がする…と思ってサービスを探していたんですが、日本語が使えるサイトがなかったので立ち上げてみた…という感じでもあります(*･ω･)ﾉ&lt;br>
+一応海外には似たようなサイトがあったんですが、日本語が使えませんでした(´･ω･`)&lt;/p></description></item></channel></rss>

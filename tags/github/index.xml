@@ -1,35 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/github/</link><description>Recent content in GitHub on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>実に 2 年半振りの更新です(^^;
-Google が 2021 年 6 月に AMP 優遇を終了したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…
-（それに連動して記事を書くこと自体も止まってました）
-そう思っていたところ、Hugo で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。</description></item><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
-今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！
-https://github.com/bvlion/NonPublicIssueViewer
-まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;
-（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）
-内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。
-入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)
-(´-`) .｡oO（gif の動作がめっちゃ遅い…）
-今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ
-Go で書こうと思ったキッカケ ほとんど勉強のためです(^^;</description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/blog/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/every_day_commit_half_year/</guid><description>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)
-仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧
-そして入社半年、ここまでは毎日コミット等をしてこれました！
-トップ画像のようにキレイになると嬉しいです！
-（´-`）.｡oO（濃さがちぐはぐだけどいいか…）
-ここまでできるようになってから少し自身の行動が変わったので、それも合わせてお伝えできたらと思います。
-ルール 厳しいと絶対続かないので、かなり緩くしました。
-業務・プライベートは問わない 内容は問わない（小さい修正でもよしとする） 必ず 24時までにプッシュまでしておく ルールは大したことないんですが、意外と最初は守るのが大変でした。。。
-平日は業務もあるから余裕だろうと油断してると、夜コミットがなかったと気づくことも稀に…
-そういった時は小さい修正、それこそ README の更新だけになってしまうこともありましたが、毎日やることに意味があると思って続けてみました(&amp;gt;_&amp;lt;)
-やって変わったこと・よかったこと 自身の行動に計画性が出るようになりました(*･ω･)ﾉ
-例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)
-それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。</description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>すっかり更新が止まってしまっています。。。
-今年はなるべく書けるようにしていきたい…と思います(´･ω･`)
-取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
-さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！
-ありがたいですね〜(^^)
-以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！
-Bitbucket からの移行作業 ということで、早速移行作業をしていきます！
-Import repository を使えば Bitbucket からスムーズに移行できる…という記事を見たのですが、待てど暮らせど移行されず…(T_T)
-URL でも間違ってたのでしょか？
-結局、以下の手順でリポジトリの移行を行いました。
-git clone git@bitbucket.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GitHub on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/github/</link><description>Recent content in GitHub on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>&lt;p>実に 2 年半振りの更新です(^^;&lt;br>
+Google が 2021 年 6 月に &lt;a href="https://gigazine.net/news/20210519-google-amp-no-longer-preferential-treatment/">AMP 優遇を終了&lt;/a>したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…&lt;br>
+（それに連動して記事を書くこと自体も止まってました）&lt;/p>
+&lt;p>そう思っていたところ、&lt;a href="https://gohugo.io/">Hugo&lt;/a> で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。&lt;br>
+なかなか時間はかかりましたが、一先ずリリースまで辿り着けて良かったです(･∀･)&lt;/p></description></item><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>&lt;p>とっても久々に技術的な内容です(･∀･)&lt;/p>
+&lt;p>今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！&lt;br>
+&lt;a href="https://github.com/bvlion/NonPublicIssueViewer">https://github.com/bvlion/NonPublicIssueViewer&lt;/a>&lt;br>
+まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;&lt;br>
+（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）&lt;/p>
+&lt;p>内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57" alt="issue image">&lt;/p>
+&lt;p>入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5" alt="動作イメージ">&lt;/p>
+&lt;p>(´-`) .｡oO（gif の動作がめっちゃ遅い…）&lt;/p>
+&lt;p>今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ&lt;/p></description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/blog/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/every_day_commit_half_year/</guid><description>&lt;p>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)&lt;br>
+仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧&lt;br>
+そして入社半年、ここまでは毎日コミット等をしてこれました！&lt;/p>
+&lt;p>トップ画像のようにキレイになると嬉しいです！&lt;br>
+（´-`）.｡oO（濃さがちぐはぐだけどいいか…）&lt;br>
+ここまでできるようになってから少し自身の行動が変わったので、それも合わせてお伝えできたらと思います。&lt;/p>
+&lt;h2 id="ルール">ルール&lt;/h2>
+&lt;p>厳しいと絶対続かないので、かなり緩くしました。&lt;/p>
+&lt;ul>
+&lt;li>業務・プライベートは問わない&lt;/li>
+&lt;li>内容は問わない（小さい修正でもよしとする）&lt;/li>
+&lt;li>必ず 24時までにプッシュまでしておく&lt;/li>
+&lt;/ul>
+&lt;p>ルールは大したことないんですが、意外と最初は守るのが大変でした。。。&lt;br>
+平日は業務もあるから余裕だろうと油断してると、夜コミットがなかったと気づくことも稀に…&lt;br>
+そういった時は小さい修正、それこそ README の更新だけになってしまうこともありましたが、毎日やることに意味があると思って続けてみました(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;h2 id="やって変わったことよかったこと">やって変わったこと・よかったこと&lt;/h2>
+&lt;p>自身の行動に計画性が出るようになりました(*･ω･)ﾉ&lt;br>
+例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)&lt;br>
+それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。&lt;br>
+段取り力でもあるかもしれませんが、特に長期的なことに対しては&lt;/p></description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>&lt;p>すっかり更新が止まってしまっています。。。&lt;br>
+今年はなるべく書けるようにしていきたい…と思います(´･ω･`)&lt;br>
+取り敢えず新年一発目なので、地味に&lt;a href="https://www.ambitious-i.net/person/">本人について&lt;/a>や&lt;a href="https://www.ambitious-i.net/account/">アカウント&lt;/a>、トップ画像なんかも変えましたww&lt;/p>
+&lt;p>さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！&lt;br>
+ありがたいですね〜(^^)&lt;br>
+以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！&lt;/p>
+&lt;h2 id="bitbucket-からの移行作業">Bitbucket からの移行作業&lt;/h2>
+&lt;p>ということで、早速移行作業をしていきます！&lt;br>
+Import repository を使えば Bitbucket からスムーズに移行できる…という記事を見たのですが、待てど暮らせど移行されず…(T_T)&lt;br>
+URL でも間違ってたのでしょか？&lt;br>
+結局、以下の手順でリポジトリの移行を行いました。&lt;/p>
+&lt;pre tabindex="0">&lt;code>git clone git@bitbucket.org:&amp;lt;ユーザー&amp;gt;/&amp;lt;BitbucketのURL&amp;gt;.git
+git remote set-url origin git@github.com:&amp;lt;ユーザー&amp;gt;/&amp;lt;GitHubのURL&amp;gt;.git
+git push -u origin master
+&lt;/code>&lt;/pre>&lt;p>まぁ確実ですね(^ω^;)&lt;/p></description></item></channel></rss>

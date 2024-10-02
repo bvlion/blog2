@@ -1,28 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/java/</link><description>Recent content in Java on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>SSHポートフォワーディングを使ってリモートのMySQLに接続</title><link>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</guid><description>久々の更新です(*･ω･)ﾉ
-さて、今回はタイトルの通りです(`･ω･´)
-家のラズパイは各種監視やエアコン等の制御用に Springboot で作られた API が走っています。
-なのでスマホから色々操作できるようになっています♪
-この話はまたいつか…
-で、こいつの接続先をローカル DB ではなく、別のサーバー（このブログの動いてるサーバー）の DB に接続するようにします！
-経緯としては結構前になってしまうのですが、実はラズパイの SD カードがアボ〜ンしました(T_T)
-サーバー自体の再構築は Ansible さんがいらっしゃったのでそこまで大変でもなかったのですが、DB のデータはもう帰ってこない…
-せめて DB はレン鯖にしとくべきだったと反省しております＿|￣|○
-ということでその作業の一角、Springboot の DB 接続は SSH ポートフォワーディングを使ってリモートの MySQL に接続するようにする手順の備忘録的なものです。</description></item><item><title>Seleniumを使ってモバイルサイトのテスト</title><link>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</guid><description>既出情報のまとめ的な感じですが、備忘録として…
-先日モバイルサイトの自動テストってことで、Selenium の話が出ました。
-ただ、モバイルサイトは当然(？) UA で判定しているので、通常の UA だと PC サイトにリダイレクトされてしまいます。
-また、画面のサイズもそれっぽいサイズにしないとキャプチャがおかしなことになってしまいます。
-ということで、その場合 Selenium に何を設定したらいいのか…ということで、Java の場合はこんな感じだよ！というのを載せておきます。
-実際にこうやってテストする会社とかってありますかね？
-Selenium 自体はいろんな言語で動かせるので、逆にちょっと気になります。。。
-ところで、最近はインデントを2スペースにするのが流行りつつあるようですね！
-Java 界隈ではどうなるのか…</description></item><item><title>JavaからSlackへ画像を投稿する</title><link>https://www.ambitious-i.net/blog/send_to_slack_from_java/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/send_to_slack_from_java/</guid><description>随分と更新が空いてしまいました(´･ω･`)
-なるべく週に1つは書けるようガンバってみたいと思います(^ω^;)
-なかなか書こうと思うと、ブログ自体が久々すぎて進まない(&amp;gt;_&amp;lt;)
-コードは Gist に上がってますので、そちらを加工したりして使ってみてください(･∀･)
-フリーライセンスでございます！
-Java から Slack へ投稿する…というのは大勢の方がやってらっしゃいます。
-実際に日本語の記事もあるのですが、結構 OkHttp とか GAE で使えないのが多かったりするんですよね(&amp;gt;_&amp;lt;)
-GAE からデータを送信する場合、HttpURLConnection でガリガリ書かないといけません。
-そこで、独自に実装したコードを公開しました！というお話です。
-特別なことはしていないので、ソースを見てもらえれば大体何やってるか分かると思います。
-ちなみに GAE は Java7 なので、それに合わせたコードになっています。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/java/</link><description>Recent content in Java on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 07 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>SSHポートフォワーディングを使ってリモートのMySQLに接続</title><link>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</guid><description>&lt;p>久々の更新です(*･ω･)ﾉ&lt;/p>
+&lt;p>さて、今回はタイトルの通りです(`･ω･´)&lt;br>
+家のラズパイは各種監視やエアコン等の制御用に Springboot で作られた API が走っています。&lt;br>
+なのでスマホから色々操作できるようになっています♪&lt;br>
+この話はまたいつか…&lt;/p>
+&lt;p>で、こいつの接続先をローカル DB ではなく、別のサーバー（このブログの動いてるサーバー）の DB に接続するようにします！&lt;br>
+経緯としては結構前になってしまうのですが、実はラズパイの SD カードがアボ〜ンしました(T_T)&lt;br>
+サーバー自体の再構築は Ansible さんがいらっしゃったのでそこまで大変でもなかったのですが、DB のデータはもう帰ってこない…&lt;br>
+せめて DB はレン鯖にしとくべきだったと反省しております＿|￣|○&lt;/p>
+&lt;p>ということでその作業の一角、Springboot の DB 接続は SSH ポートフォワーディングを使ってリモートの MySQL に接続するようにする手順の備忘録的なものです。&lt;br>
+作業の手順としては&lt;/p></description></item><item><title>Seleniumを使ってモバイルサイトのテスト</title><link>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</guid><description>&lt;p>既出情報のまとめ的な感じですが、備忘録として…&lt;/p>
+&lt;p>先日モバイルサイトの自動テストってことで、Selenium の話が出ました。&lt;br>
+ただ、モバイルサイトは当然(？) UA で判定しているので、通常の UA だと PC サイトにリダイレクトされてしまいます。&lt;br>
+また、画面のサイズもそれっぽいサイズにしないとキャプチャがおかしなことになってしまいます。&lt;/p>
+&lt;p>ということで、その場合 Selenium に何を設定したらいいのか…ということで、Java の場合はこんな感じだよ！というのを載せておきます。&lt;/p>
+&lt;script src="https://gist.github.com/bvlion/bebfee66cb60f272d9eb97c05597d2f1.js">&lt;/script>
+&lt;p>実際にこうやってテストする会社とかってありますかね？&lt;br>
+Selenium 自体はいろんな言語で動かせるので、逆にちょっと気になります。。。&lt;/p>
+&lt;p>ところで、最近はインデントを2スペースにするのが流行りつつあるようですね！&lt;br>
+Java 界隈ではどうなるのか…&lt;/p></description></item><item><title>JavaからSlackへ画像を投稿する</title><link>https://www.ambitious-i.net/blog/send_to_slack_from_java/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/send_to_slack_from_java/</guid><description>&lt;p>随分と更新が空いてしまいました(´･ω･`)&lt;br>
+なるべく週に1つは書けるようガンバってみたいと思います(^ω^;)&lt;br>
+なかなか書こうと思うと、ブログ自体が久々すぎて進まない(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;p>コードは &lt;a href="https://gist.github.com/bvlion/93d708317bba9846de4e29674c5fd003">Gist&lt;/a> に上がってますので、そちらを加工したりして使ってみてください(･∀･)&lt;br>
+フリーライセンスでございます！&lt;/p>
+&lt;p>Java から Slack へ投稿する…というのは大勢の方がやってらっしゃいます。&lt;br>
+実際に日本語の記事もあるのですが、結構 OkHttp とか GAE で使えないのが多かったりするんですよね(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;p>GAE からデータを送信する場合、HttpURLConnection でガリガリ書かないといけません。&lt;br>
+そこで、独自に実装したコードを公開しました！というお話です。&lt;/p>
+&lt;p>特別なことはしていないので、ソースを見てもらえれば大体何やってるか分かると思います。&lt;br>
+ちなみに &lt;strong>GAE は Java7&lt;/strong> なので、それに合わせたコードになっています。&lt;br>
+Java8 を使えればもう少し短くなるんですけどね…&lt;br>
+あと注意点としては、commons.lang 系を使ってますので、そちらだけは dependencies に入れるなりダウンロードするなりして使ってください&amp;lt;(_ _)&amp;gt;&lt;/p></description></item></channel></rss>

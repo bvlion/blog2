@@ -1,355 +1,724 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鰯の管詰</title><link>https://www.ambitious-i.net/</link><description>Recent content on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/index.xml" rel="self" type="application/rss+xml"/><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>個人アプリのサーバー側を Slim4 に移行しました！
-その際 Authorization が取れず四苦八苦した記録です…
-経緯 個人で略語Generatorなるアプリを作ってリリースしています(･∀･)
-元々は Kuromoji を Kotlin から使って形態素解析ができ、いい感じにアルファベットにもできたのでアプリにしようと思ったんですが、これが辞書もあるためなかなかの大サイズ…
-APK ファイルが大きすぎるのを防ぐべく、解析はサーバー側ですべく一旦 API という形で GCP に置いてリリースまで実施しました！
-そのまままぁまぁな期間運用していたのですが、最近自社の SRE でも料金見直しを実施していて、自身のサーバー系でもコストでカットできる箇所はないかな〜と思っていたところ、この API が見つかりました(^^;
-別にこの程度のアプリは GCP である必要もないし、XServer にリリースすれば十分そうなので、PHP に書き換えて MeCab を利用することにしました！</description></item><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>実に 2 年半振りの更新です(^^;
-Google が 2021 年 6 月に AMP 優遇を終了したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…
-（それに連動して記事を書くこと自体も止まってました）
-そう思っていたところ、Hugo で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。</description></item><item><title>新型コロナウイルスワクチンの副反応記録</title><link>https://www.ambitious-i.net/blog/vaccinated_twice/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vaccinated_twice/</guid><description>緊急事態宣言が明け、新型コロナウイルスワクチンの接種者も増えてきました(･∀･)
-ただ、まだの副反応などで迷われている方もいらっしゃるかもしれません…
-そこで 30代後半の男性が、ファイザー社製の新型コロナウイルスワクチンを受けたらどんな副反応が出たかの記録を起こしてみました(*･ω･)ﾉ
-1回目 9/7 16:00 接種。特に変わりなし。 9/7 19:00 何となく違和感を感じる 9/7 23:00 痛みが増し横方向に腕が上げ難い。（恐らくムリをすれば上がる） 9/8 07:30 寝る前よりやや痛みは強くなったものの生活に支障はなし。 9/8 11:00 PC の位置の問題で Mac の指紋認証が辛い… 9/8 20:00 お風呂での洗髪は特段問題なし。 9/9 08:00 まだ若干肩に違和感はあるものの痛みは無し。 2回目 9/27 20:00 噂を元にステーキとハンバーグを食べる。 9/28 11:45 接種。やや痒いものの特に変わりなし。 9/28 15:00 既に痛くなる。前回よりも少し痛くなるのが早い。 9/28 23:00 多少体温が前後するものの腕の痛み以外は特になし。 9/29 04:00 季節的なものかもしれないが寒気が襲う。 9/29 07:30 発熱、37.</description></item><item><title>退職時の誓約書にある競業避止は必須なのか？</title><link>https://www.ambitious-i.net/blog/avoiding_non_competition/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/avoiding_non_competition/</guid><description>退職して少し落ち着いたこともあり、退職に伴う NDA（誓約書）について私の体験を簡単に綴ります(*･ω･)ﾉ
-最初にタイトルの結論から言うと、競業避止は消していただきました！
-NDA（誓約書）の内容 詳細な内容は避けますが、「退職 誓約書 テンプレート」で検索するとでてくるのとほぼ同じ内容でした！
-利用規約などもそうですが、基本は大きく変わらないですよね(^^;
-私の場合、初回の誓約書はザックリ言うと以下の 3 点が言及されていました。
-秘密保持 インサイダー 競業避止 秘密保持 簡単に言うと会社の詳細なことを言うのは避けてね〜という内容ですね(･∀･)
-以前、業務のソースコードを GitHub に公開して損害賠償を求められた記事を見ましたが「そういうことはしちゃいかんよ、やったら損害を求めるで」ということですね！
-社会人なら当たり前だろうと思うのですが、先のソースコード公開みたいにやっちゃう人はやっちゃうようなので、必要なことなんだろうと思います(^ω^;)
-インサイダー 稀に捕まったニュースも見ますが、フツーの人はまずやらないことですねw
-ただこれもニュースで見る通りやっちゃう人はやっちゃうので、ちゃんと盛り込まれていました！
-競業避止 問題の競業避止です！</description></item><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>今年 2 回目のブログです…
-「シェブ！」というアプリをリリースしました！
-コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(^^)
-どんなアプリ？ いわゆるブックマーク管理アプリです(*･ω･)ﾉ
-推しポイントはやはり共有機能ですね！
-探した限り共有機能があるブックマークアプリはなさそうだったので作りました(๑•̀ㅂ•́)و✧
-開発の経緯 作ろうと思ったきっかけは Wunderlist の終了でした。。。
-夫婦でレシピなどの URL を Wunderlist に登録して共有していたんですが、2020 年 5 月 6 日をもってサービスが終了してしまうとのことで、もっとブックマークの共有に特化したアプリがないか探していました(^^;
-ただどうもなさそうなので、だったらいっそ作ってしまえ〜で開発を始めました！
-ソースコード プライベートリポジトリにしてしまえばキーの管理など楽だっただろうとは思いますが、個人活動のアピールにもしたかったので公開リポジトリでガンバりました(`･ω･´)</description></item><item><title>Android のダイアログで吹き出しを表現する</title><link>https://www.ambitious-i.net/blog/android_bubble_dialog/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/android_bubble_dialog/</guid><description>Android のダイアログで吹き出しを表現するという記事を zenn に書きました！
-ダイアログで吹き出しを表現したかったので書いてみました(*･ω･)ﾉhttps://t.co/pqZVrgQoOc #zenn #android
-&amp;mdash; bvlion🍣🦪 (@ninjinx) January 24, 2021 調べてみたら LINE のように TextView で吹き出しを表現する記事は割と多く、ライブラリとして提供されている方もいらっしゃったんですが、ダイアログ的にある程度自由な場所に出したい場合のサンプルが見つからなかったので書いてみました！
-ポイントも書いてますし、特に難しい内容でもないので色んな方に利用していただけると嬉しいです(･∀･)
-そう言えば私の zenn の中の記事で 1番人気があるのは Ktor で JWT の認証を行うのようです。　（と言ってもたかが知れてますが…）</description></item><item><title>Markdown から html を生成する</title><link>https://www.ambitious-i.net/blog/markdown_to_html_editor/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/markdown_to_html_editor/</guid><description>最近 CODEPEN がお気に入りです！
-以前はちょっとしたツールでも Firebase Hosting を利用していましたが、デプロイの必要がないので最近はツール系であればこちらを利用するようになってきました(๑•̀ㅂ•́)و✧
-そんな中の 1つとして Markdown をhtml に変換する簡易ツールを作ったので紹介させていただきます！
-See the Pen Markdown Preview with html by bvlion (@Bvlion) on CodePen. 管理ツールから html を登録して、そのまま表示する…というのは現職でも以前の職場でもあったので、社内ツールだとよくあるとことなのかな〜と思います。</description></item><item><title>2020年振り返り</title><link>https://www.ambitious-i.net/blog/2020_year_review/</link><pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/2020_year_review/</guid><description>色々とあった 2020 年だった方も多いんだろうな〜と思ってます。
-私も別のブログ以来で久々の振り返りです。。。
-お仕事とかプログラミングとか… 世間同様、弊社も WFH に全振りしました！
-確かに最初の数ヶ月は「会社行きたいな〜」とか「ランチ寂しいな〜」とかありましたが、今となっては特段何かを思うこともなくなり、すっかりルーチンも出来上がりました(･∀･)
-結婚式を除いたら、知人や同僚といった顔見知りに会ってないです。。。
-こういった生活ができているのも、いわゆるインフラが整っているからこそ…
-そういった仕事に従事されていらっしゃる方には、あらためて敬意を表したいと思います&amp;lt;(_ _)&amp;gt;
-もう 10年以上前ですが、私も配達のお仕事だったので…
-あとトップの画像の通り無事に 1 年間全部草が生えました！
-草を生やすことが半分目的ではありましたが、まずは習慣になるまでよくやったな感ですね〜
-でもここまで終わってみて思うのは、別に草が生えてるからとかは割とどうでもよくて、月並みですが内容が大事だなと感じました。。。
-issue 立ててちょっとコード書いて終わり…なんて日は、別にコミットしなくてもよかったんじゃないかと思う時もあります(&amp;gt;_&amp;lt;)
-でもこれはこれで嬉しいです！
-あとはひたすら Android アプリ開発でした！</description></item><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
-今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！
-https://github.com/bvlion/NonPublicIssueViewer
-まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;
-（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）
-内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。
-入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)
-(´-`) .｡oO（gif の動作がめっちゃ遅い…）
-今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ
-Go で書こうと思ったキッカケ ほとんど勉強のためです(^^;</description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/blog/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/every_day_commit_half_year/</guid><description>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)
-仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧
-そして入社半年、ここまでは毎日コミット等をしてこれました！
-トップ画像のようにキレイになると嬉しいです！
-（´-`）.｡oO（濃さがちぐはぐだけどいいか…）
-ここまでできるようになってから少し自身の行動が変わったので、それも合わせてお伝えできたらと思います。
-ルール 厳しいと絶対続かないので、かなり緩くしました。
-業務・プライベートは問わない 内容は問わない（小さい修正でもよしとする） 必ず 24時までにプッシュまでしておく ルールは大したことないんですが、意外と最初は守るのが大変でした。。。
-平日は業務もあるから余裕だろうと油断してると、夜コミットがなかったと気づくことも稀に…
-そういった時は小さい修正、それこそ README の更新だけになってしまうこともありましたが、毎日やることに意味があると思って続けてみました(&amp;gt;_&amp;lt;)
-やって変わったこと・よかったこと 自身の行動に計画性が出るようになりました(*･ω･)ﾉ
-例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)
-それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。</description></item><item><title>フレッツ接続 ZOOT NATIVE (IPv6) の契約</title><link>https://www.ambitious-i.net/blog/use_zoot_native_ipv6/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_zoot_native_ipv6/</guid><description>最近定期的に更新できていますね！（自分でもちょっと嬉しい）
-往復 1時間ちょっとの通勤の時間がないのは大きそう…
-先日の「書斎（スペース）ができました！」の最後でもチラッと触れましたが、今更ながら IPv6 を導入しました(･∀･)
-そもそもこういったネットワーク周りが大変弱く何のこっちゃ状態ではありましたが、無事にそこそこの速度を叩き出せてるっぽいです！
-導入前後の比較 ということで、まずは導入前後の速度比較から…
-上が導入前、下が導入後です！
-Google Usen こういう速度測定がどの程度信頼できるものか分かりませんが、我が家はフレッツ 光ネクスト マンションタイプで上下とも最大 100Mbps というのを考えると、ほぼフルパワーで通信できているんじゃなかろうかと思います(≧▽≦)
-出るものなんですねぇ…
-導入内容 今回導入したサービスは、インターリンクさんの「ZOOT NATIVE」です。
-元々 ZOOT NEXT には加入していて、加入当初は速度もよく固定 IP を便利に利用させていただいていたのですが、このタイミングで在宅の方が増えると徐々に速度の低下がっ(&amp;gt;_&amp;lt;)</description></item><item><title>ブラックアウトシールのすすめ</title><link>https://www.ambitious-i.net/blog/blackout_keyboard/</link><pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/blackout_keyboard/</guid><description>PC のキーボードって、人によって使いやすいタイプが違って面白いですよね(･∀･)
-私の周りは静電容量無接点方式の US 配列を使われている方が多いかと… HHKB とか確かにカッコイイな〜って思います(^皿^ )
-私の場合はちょっと特殊かもしれませんが、パンタグラフに JIS 配列が使いやすいです！
-（多分ずっと使ってからだと思います） ただ JIS のキーボードは大体こんな感じで平仮名が表記されています。。。
-（Wikipedia より拝借）
-JIS 配列使ってるので仕方ないっちゃ仕方ないんですが、この平仮名はいらないんですよね…
-それに平仮名が何となくダサい(^^;
-「ならばいっそ隠してしまおう」と思い立ち、色々と調べてみたところ「ブラックアウトシール」なるものを発見！！
-早速貼ってみました(*･ω･)ﾉ
-ブラックアウトステッカー BOS04-JIS Mac 本体に貼った場合はこんな感じです(･∀･)</description></item><item><title>書斎（スペース）ができました！</title><link>https://www.ambitious-i.net/blog/study_space/</link><pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/study_space/</guid><description>先日我が家のリモート環境ということで WFH 環境を紹介させていただきましたが、こちらがトップ画像のように完全に自宅で開発できるスタイルに少し進化しました！
-何と！！書斎（スペース）になったのです(`･ω･´)
-（´-`）.｡oO（書斎の定義とは…）
-小さいながらも、とても嬉しいです(^^)
-今回は追加購入したものも合わせて紹介させていただきます&amp;lt;(_ _)&amp;gt;
-ナカバヤシ オフィスデスク 100x60cm デスクはこちらにしました！
-今までの家での仕事をしてた感覚から、このサイズなら十分と判断(･∀･)
-高さはリビングのテーブルと同じ 70cm にしました〜
-値段の割にはかなり快適です！
-BoYata ノートパソコンスタンド 常時パソコンを置けるようになったので、モニターと同じ高さになるように購入しました(*･ω･)ﾉ
-特にこれにこだわったということもないのですが、これ系の中で 1 番評価が良かったのでこちらにしました〜
-かなり固い…
-Apple Magic Keyboard 最後にこちら、Magic Keyboard ですね(≧▽≦)</description></item><item><title>JBL Link Portable 購入</title><link>https://www.ambitious-i.net/blog/buy_jbl_link_portable_2020/</link><pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_jbl_link_portable_2020/</guid><description>今回は JBL Link Portable を購入しましたので、そのお話です(･∀･)
-経緯… Google Home Mini 購入でも紹介させていただいている通り、2017 年のクリスマス頃から Google Home の活用自体はさせていただいております(*･ω･)ﾉ （もうそんなに長いこと使ってたんだ…）
-IFTTT 連携や google-home-notifier の活用などで生活は大変便利になり、外泊などすると「 OK Google 」をスマホに頼む必要があったり、電気を消すのにスイッチを押すのが煩わしくなるほど生活に浸透しています(^^;
-広くない家なので 1 つでも大きな問題ではなかったのですが、お風呂でも使いたい欲求が出てきました！</description></item><item><title>我が家のリモート環境</title><link>https://www.ambitious-i.net/blog/my_home_remote_environment/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/my_home_remote_environment/</guid><description>転職してしばらくはバタバタしておりましたが、やっと落ち着いてきました！
-そうこうしているウチにリモート中心の生活になってましたが、私個人だけで言えば比較的早めにリモートワークの準備できていてよかったです。。。
-さて、今回はそんな私のリモート環境を参考までに紹介させていただければと思います(*･ω･)ﾉ
-全体… タイトル画像の通りです(･∀･)
-よいか悪いか、めっちゃボケてますね。。。
-自鯖でアップロードした画像を圧縮するスクリプトが動いているのですが、imagejpeg は微妙なのかな？
-サムネイルを作るのにも重宝しているのですが…
-気を取り直して、それぞれ使っているのを紹介させていただきます(๑•̀ㅂ•́)و✧
-椅子 Hbada いろんな方が、椅子はいいのを買った方がいいとおっしゃってます。
-取り敢えずだったので、安くて良さそう程度で買いました(^^;
-私はそこまで悪い商品には感じてないですね(･∀･)
-好きな角度に調整できるだけでリクライニング機能はないですが、意外とやってみるとリクライニング機能って使わないものです。。。
-モニター Acer ET241Ybmi これまで家の開発だけなら 13 インチの Macbook Pro オンリーでやってたのですが、さすがに資料を開いたり Slack を開いたりもあるので、モニターを買いました！</description></item><item><title>ローディング風の画面をCSSだけで作成する</title><link>https://www.ambitious-i.net/blog/loading_style_css/</link><pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/loading_style_css/</guid><description>11 月になりましたね(*･ω･)ﾉ
-せっかくなので、11 月 1 発目のブログはあえて大したことない内容しました(`･ω･´)
-（どういうこと？？）
-ということで、お題の結果はこんな感じです↓↓↓
-See the Pen CSSだけでローディング風 by bvlion (@Bvlion) on CodePen. 非公開ですが、ちょっとしたサイトを作成した際に「CSS3 なら画像を使わなくてもローディング風なの作れるのでは？」と思ったのがキッカケで作成してみました(*･ω･)ﾉ
-今は SPA が主流になってきたので使う機会は少ないかもしれませんが、CSS3 のアニメーションを学ぶにはいい機会だったな〜と感じています(^^)
-今回は Qiita に上げるほどのものでもないので、ブログにアップした程度です(^^;</description></item><item><title>ハミングウォーター！浄水型ウォーターサーバー「flows（フローズ）」レビュー！</title><link>https://www.ambitious-i.net/blog/contracted_water_server/</link><pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/contracted_water_server/</guid><description>聞き慣れない方も「おっ？」と思った方もいるかもしれませんが、ハミングウォーターを契約しました！
-約 2 週間使ったところで、実際のユーザーレビューをしてみたいと思います(･∀･)
-はじめに… 私個人の生活スタイルに基づいた完全主観のレビューです。
-スペックなどの詳細情報は、基本的に他の企業様レビューをご参照ください&amp;lt;(_ _)&amp;gt;
-使用感などで詳細情報が欲しい方はお問い合わせよりご連絡ください。
-到着まで… 申込から到着までは、以下の流れで2週間ほどで到着しました！
-9/21 ショッピングモールで契約 9/24 お届け希望日確認案内メール 9/25 10/5到着でWeb申込 10/5 到着 Web で配達日を申し込んだのですが、特に折り返しメールも電話もなく、若干ちゃんと申込ているのか不安でした(^^;
-あまりに不安で 10/4 に「本当に明日届くのか？」と確認の電話を入れたところ、手配は完了していると言われて少し安心しました。。。
-ただ配達時間は当日にならないと分からないので、申込日は 1 日家にいられる日を選択する必要があるかと思います。</description></item><item><title>オンプレから PaaS への移行</title><link>https://www.ambitious-i.net/blog/on_premises_server_to_heroku/</link><pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/on_premises_server_to_heroku/</guid><description>今まではオンプレミス（ラズパイ）で家の色んなバッチを動かしてきていました！ 一例だけでもこんな感じです…
-motion による監視カメラ 在宅通知（監視カメラを住人在宅時は動作させない） Twitter 徘徊（Jorudan とか） Google Home と連動した時間通知（平日の朝） 赤外線のタイマー（祝日判定付き） 記念日通知 個人の Slack に占い通知（Web ad Fortune 利用） 目覚まし設定通知（休みや平日の前） 曜日指定の忘れ防止通知 Google Home Notifier と連動した YouTube 上の音楽の再生 処理内容自体はそこまででもないのですが、これだけ動かしているとラズパイにも家のトラフィックにもかなり負荷があるため、何とか無料の PaaS 系に移行できないかと考えておりました。</description></item><item><title>水筒買ってきました(*･ω･)ﾉ</title><link>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</link><pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</guid><description>お弁当に引き続き、今回は水筒を購入してきました！
-以前はこちらの「ふた付きコンビニマグ」という商品をお気に入りで、約5年ほど使っていました。
-何かと便利で長いこと使っていたのですが、ただ流石に使い込み過ぎて今はこんな状態…
-さすがにパッキンなども含め限界を感じたので、こちらを購入してきました(≧▽≦)
-Amazon での商品紹介ページ
-こだわりポイントは以下となっております。
-細身であること 口が大きいこと 350mlくらい 食洗機対応 細身という点に関しては、こけし弁当のブログでも触れた通り愛用のバッグが AMARIO crum BB であるため、ここは譲れないポイントです(笑)
-口の大きさは、コーヒーをいつも入れていくので香りも楽しみたいなと思ったので、まだお試し段階です…
-350ml という点は、1 日で飲みきるコーヒーの量ですね(^^)
-夏場はこちらの水出しコーヒーポットで作っているのですが、妻と 2 人で「250ml + ガムシロ少々 + ミルク」とすると大体 4 回分くらい利用できるので、大き過ぎず小さ過ぎずのサイズが我が家では 350ml でした(๑•̀ㅂ•́)و✧</description></item><item><title>天ぷらのタネをクックパッドに上げてみました(*･ω･)ﾉ</title><link>https://www.ambitious-i.net/blog/tempura_of_my_home/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/tempura_of_my_home/</guid><description>時々料理をするのですが、今回は思ったより美味しくできたので、レシピを書きました(･∀･)
-ちょっと前になりますが、サクサク天ぷらの衣♪です！
-きっかけ 「レシピの生い立ち」にも書いたんですが、小麦粉と水より、ビールや炭酸水で天ぷらをするとサクサクになるというのは有名なお話かと思います。
-で、今回もしかしたら「アルコール度数が強くて炭酸も強い飲み物ならよりサックリ揚がるのではないか？」と思い試してみました！
-実際 かなりサクサクになりました(^皿^ )
-（まぁだから載せたんですけど…）
-揮発性の高さなのか、植物油でサックリ揚がるのは感動ものですね！
-他にもこんな簡単系レシピも書いてますので、よかったらお試しください(*･ω･)ﾉ
-簡単めんつゆ海苔茶漬け ブリの塩釜焼き ホットクックでミネストローネ風パスタ！ たまにはこういう記事もいいですね〜
-なるべく短い記事でも、技術的なものでなくても小まめに書いていきたいと思います。</description></item><item><title>「こけし二段弁当」というお弁当箱を買いました！</title><link>https://www.ambitious-i.net/blog/new_lunch_box_review/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/new_lunch_box_review/</guid><description>またまた久々の更新です。。。
-なかなか業務が忙しいと後回しにしがちなのと、そもそも文字不精な性格でないのがよくなさそうです(´･ω･`)
-実は結婚したりもしてるんですが、それは追々記載できたらしようと思います！
-さて、今回は可愛いお弁当箱のお話です♪
-妻にはお弁当箱マニアと言われるくらいお弁当箱には並並ならぬコダワリがあります(`･ω･´)
-愛用のバッグに入ること 食洗機対応であること 電子レンジ対応であること 食べ終わったら小さくなるなどちょっとした機能がついていること お洒落な雰囲気があること 特に愛用のバッグは AMARIO crum BB というバッグで、そこまで大きくないのでかなり限られてきます(^^;
-リュックやショルダーでもいいんですが、歩きやすいとなるとリュックタイプの体に密着するタイプで、かつ電車等で前に移動させるのにいちいち下ろしたりしなくてもいいとなると、このタイプになってきます(･∀･)
-そんな中出会ったこちら、上記の要件を満たしつつお椀もついてきます(≧▽≦)
-ちょっとお昼にお味噌汁を飲みたい願望もあったので、とても満足です！
-私の使い方としては、下段におかず、上段は山盛りのご飯におかずを埋め、お味噌汁はインスタントに少し蒸し野菜を追加します。
-そもそもみっちり入れるというのもありますが、これで成人男性（メタボ）のオッサンも満足(๑•̀ㅂ•́)و✧ とてもオススメです！！
-やはりお弁当はいいですね〜 水筒も持参して、平日はお金を使わないおじさんの簡単な商品紹介でした(*･ω･)ﾉ</description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>すっかり更新が止まってしまっています。。。
-今年はなるべく書けるようにしていきたい…と思います(´･ω･`)
-取り敢えず新年一発目なので、地味に本人についてやアカウント、トップ画像なんかも変えましたww
-さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！
-ありがたいですね〜(^^)
-以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！
-Bitbucket からの移行作業 ということで、早速移行作業をしていきます！
-Import repository を使えば Bitbucket からスムーズに移行できる…という記事を見たのですが、待てど暮らせど移行されず…(T_T)
-URL でも間違ってたのでしょか？
-結局、以下の手順でリポジトリの移行を行いました。
-git clone git@bitbucket.</description></item><item><title>BitbucketのPipelinesからDropboxへ成果物をアップロード</title><link>https://www.ambitious-i.net/blog/file_to_dropbox_from_bitbucket/</link><pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/file_to_dropbox_from_bitbucket/</guid><description>まんまタイトルの通りです。(^ω^;)
-Android の APK はそこまで頻繁に更新もしていなかったので、以前は手作業で作成していました。
-ただもういい加減、手作業で APK を作成するのはあまりにもダサいので、「Bitbucket の PipeLine で Android をデプロイしてみた」を参考に、Pipelines で APK を作成することにしました(･∀･)
-ここでは、pipelines で APK を作成し、Dropbox へアップロードする内容を記載します。
-なので、jks を app 直下に置いて、signingConfigs をコリコリする等、assembleRelease で署名つき APK を作成する方法は色んな記事がありますので、そちらを参考にしてください&amp;lt;(_ _)&amp;gt;</description></item><item><title>Iceberg を各所に導入</title><link>https://www.ambitious-i.net/blog/vim_use_iceberg/</link><pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vim_use_iceberg/</guid><description>今年の GW は 9 連休にした方も多いでしょうか？
-私も休もうと思えば休めたんですが、有給を使うほどでもないかな〜というのと、ウチのも出勤で朝は結局起きなきゃいけないので、通常通り出勤しました(^ω^;)
-まぁ当然(？)弊社も出勤してる人が少なかったんですが、スペシャリストの先輩は出勤されていて Vim の話で盛り上がっていました♪
-そこでカラースキーマの話になったのですが、Iceberg が結構いいということで、私も導入してみることにしました！
-（後で知りましたが、別の先輩も Iceberg を導入していたようです。）
-今回はその作業備忘録です。
-Vim まずは Vim ですね！
-GitHub はこちらです。
-https://github.com/cocopon/iceberg.vim
-フツーに curl で colors 以下にダウンロードして、.</description></item><item><title>ブログのテンプレートを移行しました！</title><link>https://www.ambitious-i.net/blog/create_new_blog_template/</link><pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_new_blog_template/</guid><description>実は 2018 年に入ってコツコツと作成してきたのですが、ようやく 5 月に入ってリリースすることができました！
-データの移行もそこそこ大変でしたが、やはり 1 番大変なのは AMP 対応でした(&amp;gt;_&amp;lt;)
-そもそもよく AMP が分かってなかったでしたからねwww
-でも相変わらず色々と勉強になってよかったです(･∀･)
-引き続き WordPress でもよかったのですが
-思ったより自由度が高く無い 表示が遅い 入力項目が多い というのがあり、どうしても書くのを億劫にしていました。。。
-なので
-書くのを億劫にしない 表示速度が早い 技術的に新しい ブログを作りたいと思い、AMP を利用したブログを構築しました(`･ω･´)</description></item><item><title>スマホのケースを手帳型からカバー型に変えました(･∀･)</title><link>https://www.ambitious-i.net/blog/change_sp_case/</link><pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/change_sp_case/</guid><description>今回は手帳型ケースをやめて、ただのケースにしたので記事にしようと思います(･∀･)
-経緯としては、ここ最近自撮り棒をよく使うようになり（←遅い）手帳型ケースだといちいちケースから外してセットするのが面倒になったからです(^ω^;)
-ちなみに携帯は HUAWEI P10 lite になります♪
-色は何となくカッコよかったので Sapphire Blue にしました(^w^)
-今回の変更で、こちらも若干見えるようになりました！
-購入一覧 ということで、今回は以下の商品を購入しました(*･ω･)ﾉ
-SOUL OF JAPAN 鯉と波/GD ガラスフィルム クリアケース ゴムバンド付きカードケース 作業・裏面 まず裏面をピカピカにしてから、鯉のシールを貼ります！
-ちょっとイカついですが、元々鯉釣りをしていた過去もあり、蒔絵シールはつい鯉を選んじゃうんですよね(笑)
-その上からクリアケースを装備して、カードケースをクリアケースに貼ったら完成です(`･ω･´)</description></item><item><title>親知らずの抜歯</title><link>https://www.ambitious-i.net/blog/wisdom_teeth_pulled_out/</link><pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/wisdom_teeth_pulled_out/</guid><description>こちらは抜歯した歯になりますm(_ _)m
-ついに 4 本あった（と思っていた）親知らずの 1 つが虫歯になってしまいました(´･ω･`)
-治療して残していた歯でしたが、稀にストレスがかかると痛むことがありました…
-今回もそうだと思っていたのですが、今回はしっかり虫歯だったようです(^ω^;)
-私は幼少期の生活習慣が原因で、とても虫歯になりやすい体質です。
-ただ親知らずも含め、全てちゃんと真っ直ぐ生えていたので、今回抜いた親知らずも治療して残していました。
-でも先生もおっしゃってた通り、親知らずは治療しきれないことが多いらしく、今回はかなり酷く痛んだため抜歯に踏み切りました(&amp;gt;_&amp;lt;)
-経緯 ということで、今回は痛んでから抜歯、落ち着くまでを時系列にしてみました(*･ω･)ﾉ
-3/28 痛み出す（この時はまだストレスだと勘違い） 3/29 痛みが悪化 3/30 仕事があったのでロキソニンの頓服でごまかす 3/31 まだ腫れていないと思っていた （実際は認識できないだけで腫れている） 4/1 緊急抜歯（麻酔 2 本 → 歯を貰って帰る） 血餅が汚れてる感がある 2,430 円 4/2 腫れが引かないのか、まだ痛む。 ロキソニンを頓服しても別の歯が痛い気がする。 4/3 痛みが緩和される。 が、まだ痛い。血餅が白くなる。 夜には痛みがなくなり、血餅の端に膿みらしきものが出てる。 4/4 痛みもほぼなくなる。血餅は真っ白になる。 4/5 血餅が気持ち縮んだ気がする。 4/6 特に変化なし 4/7 朝見たら血餅がかなり縮んだ感じ。 少し穴が空いてるように見える。 4/8 起きて確認すると、血餅が取れて穴になっていた。 ドライソケットに一瞬恐怖するも、ほぼ痛みなし。 歯医者でも問題ないと言われたので、以後経過観察。 親知らずは大きな歯なので、ケースのように根が分かれてるのかと思っていたのですが、意外にも集合していましたΣ(･ω･ﾉ)ﾉ</description></item><item><title>Google Home Mini購入</title><link>https://www.ambitious-i.net/blog/buy_google_home_mini/</link><pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_google_home_mini/</guid><description>ついに我が家にも話題の家電 Google Home が到着しました！
-と言っても来たのは 2 週間前ですしミニの方なんですが、せっかくなので使用感も合わせて記事にしたいと思います(･∀･)
-購入経緯 元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)
-3,000 円なら買いなんじゃないでしょうか？
-ということで我が家にも到着です♪
-こんな感じです(^ω^;)
-まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…
-開封の儀 せっかくネット記事なので、それっぽいことをやってみますwww
-全体を覆うビニールを裏側からペリペリしてパカッ！ ほぅ…
-サイズ感チェック お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。） どうでしょう？</description></item><item><title>SSHポートフォワーディングを使ってリモートのMySQLに接続</title><link>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</guid><description>久々の更新です(*･ω･)ﾉ
-さて、今回はタイトルの通りです(`･ω･´)
-家のラズパイは各種監視やエアコン等の制御用に Springboot で作られた API が走っています。
-なのでスマホから色々操作できるようになっています♪
-この話はまたいつか…
-で、こいつの接続先をローカル DB ではなく、別のサーバー（このブログの動いてるサーバー）の DB に接続するようにします！
-経緯としては結構前になってしまうのですが、実はラズパイの SD カードがアボ〜ンしました(T_T)
-サーバー自体の再構築は Ansible さんがいらっしゃったのでそこまで大変でもなかったのですが、DB のデータはもう帰ってこない…
-せめて DB はレン鯖にしとくべきだったと反省しております＿|￣|○
-ということでその作業の一角、Springboot の DB 接続は SSH ポートフォワーディングを使ってリモートの MySQL に接続するようにする手順の備忘録的なものです。</description></item><item><title>清涼スプレーを自作してみた！</title><link>https://www.ambitious-i.net/blog/create_cool_spray/</link><pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_cool_spray/</guid><description>年も暑い夏でしたね…
-まだまだ残暑が厳しいです(&amp;gt;_&amp;lt;)
-なので通勤中はシャツミスト系が大変重宝します(･∀･)
-ただ、これの販売期間が 5 月末 〜 9 月中旬という世知辛さΣ(･ω･ﾉ)ﾉ
-去年は販売終了間近に大量買いしたのですが、毎年それはちょっとしんどい…
-ということで自作できないか調べてみたところ、メンソールとアルコールがあればできるようなので試行錯誤(`･ω･´)
-上手くできたので記事にしようという感じです♪
-※ 実施は自己責任でお願いいたします&lt;(_ _)> 準備 ということで、早速以下を準備します(*･ω･)ﾉ
-【第3類医薬品】消毒用エタノールIP「ケンエー」500mL アイスノン シャツミスト エキストラミントの香り 300ml（の空容器） L-メントール（メントールクリスタル） 100g シャツミストは空容器でいいので、無い場合は300ml程度のスプレーできる容器を用意しましょう！</description></item><item><title>まさかのやらない理由3選！</title><link>https://www.ambitious-i.net/blog/three_reason_not_to_do/</link><pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/three_reason_not_to_do/</guid><description>最近更新が止まっていてすみません。。。
-（と言っても誰が見てるんだって話ですが…）
-諸々とあって忙しく、技術的なネタも収集できていなかったので、ポエム的なものを書こうと思います&amp;lt;(_ _)&amp;gt;
-※ 半分ネタ程度に読んでください。。 ごくごくフツーのエンジニアさんであれば「？」となる内容だと思います(^ω^;)
-直近のネタではありませんが、きっと私の受け取り方がおかしかったのであろう内容を 3 つ、紹介いたします！
-テストコードをテストするコードも必要？？ ずっと Unit テストも導入されていなかったプロジェクトの改修にアサインされた時の話です。
-1 度直したらしばらく直さないようなものであれば、既に動いているシステムなので、手作業でテストでもまぁいいかとも思ったのですが、頻繁に項目の変更があり、その都度デグレードテスト含めかなり網羅的に手作業でテストをし、Excel にキャプチャを貼ってエビデンスを残していました。
-テスト方法もさることながら、同じことを繰り返し手で行うのはあまり効率的な開発ではないように思えました。
-なので一部に対し Unit テストの導入を提案してみたのですが、そこで言われた導入しない理由がビックリで、反論できませんでした。。。
-テストコード書くのはいいけど、そのコードの妥当性を検証するコードも必要になるよね！ そのテストコードの妥当性を検証するテストコード、の妥当性を検証するテストコード、の妥当性を検証する…(ry
-無限ループの発生です( `･ω･´)</description></item><item><title>Scalaboot 作りました！</title><link>https://www.ambitious-i.net/blog/create_scalaboot/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_scalaboot/</guid><description>少し前の話になってしまいますが、Google I/O で Kotlin がサポートされるようになりました！
-個人的なアプリは Kotlin で作ってきましたが、正式サポートは嬉しいですね(･∀･)
-ただ、相変わらず Android アプリ自体は Java で書いた方が楽ではあるでしょうから、そのあたりの見極めも大事にしていきたいところです♪
-Kotlin の時もそうだったのですが、新しい言語とFW、同時に覚えるのは大変だと思います。
-少なくとも「Scala と Play2」とか「Scala と Skinny」みたいなのは挫折してしまいました(´･ω･`)
-そういえば「Ruby と Rails」も1度挫折しています…
-きっと「Kotlin と Android」でも挫折してしまっていただろうと思います。</description></item><item><title>GWにショボいWebを立ち上げてみる</title><link>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</guid><description>しばらく Android に夢中になっていてブログの更新まで怠っていた自分ですが、GW に小さい Web サービスを立ち上げてみようと思い立ちました(･∀･) キッカケは
-Heroku が月 1,000 時間無料なので、再度試したくなった 「GWにサイト作りもくもくする」という発言を耳にした たまたま相方がお出かけでぼっちになる といったところです(^ω^;)
-ということで出来上がったのがこちら
-使い捨てマークダウン です( `･ω･´)
-（現在は閉鎖しています）
-アクセスして頂ければ大体書いてあるんですが、 画像のアップロードや検索・管理機能もなく、本当に登録と閲覧のみに機能を絞ってます。
-背景として、Qiita さんや GitHub さんも、マークダウンで書いて表示できます。</description></item><item><title>仮想サーバーで遭遇した不思議なエラー…</title><link>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</link><pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</guid><description>借りてる仮想化サーバーで、ある時からログイン時に必ず以下のエラーが出るようになりました(&amp;gt;_&amp;lt;)
-Last login: Thu Feb ${日時} from ${IP} -bash: _have: command not found bash: _have: コマンドが見つかりません 「はて？_haveなんて定義した覚えはないぞ？」と思って
-bash --login -x で調べたところ
-+++ . /etc/bash_completion.d/lxc ++++ _have lxc-start bash: _have: コマンドが見つかりません と、出てきます(^ω^;)</description></item><item><title>技術書典２行ってきました！</title><link>https://www.ambitious-i.net/blog/techbookfest2/</link><pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/techbookfest2/</guid><description>Twitter とか眺めてると、当日に投稿されている方が結構いますね。。。
-行動力に脱帽です&amp;lt;(_ _)&amp;gt;
-2017/4/9(日)にアキバ・スクエアで行われた「技術書典２」に行ってきました(*･ω･)ﾉ
-去年もなかなかに楽しかったので、前日からワクワクしつつ目覚ましをセット！
-ところが…
-オワタ…
-寝坊した(´･ω･`)
-&amp;mdash; bvlion🍣🦪 (@ninjinx) April 9, 2017 欲しい本が買えないフラグ立ちました(´･ω･｀)
-ともあれ行かないと買えないかなんて分からないので、雨の中秋葉原に向かいます(｀･ω･´)
-行ってみるとすごい行列Σ(･ω･ﾉ)ﾉ
-この尋常じゃない並び、いつ入れるのか不安になる…
-去年くらいだと思ってた認識甘かった(´･ω･`)#技術書典
-&amp;mdash; bvlion🍣🦪 (@ninjinx) April 9, 2017 と思ってしまうほど…</description></item><item><title>Seleniumを使ってモバイルサイトのテスト</title><link>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</guid><description>既出情報のまとめ的な感じですが、備忘録として…
-先日モバイルサイトの自動テストってことで、Selenium の話が出ました。
-ただ、モバイルサイトは当然(？) UA で判定しているので、通常の UA だと PC サイトにリダイレクトされてしまいます。
-また、画面のサイズもそれっぽいサイズにしないとキャプチャがおかしなことになってしまいます。
-ということで、その場合 Selenium に何を設定したらいいのか…ということで、Java の場合はこんな感じだよ！というのを載せておきます。
-実際にこうやってテストする会社とかってありますかね？
-Selenium 自体はいろんな言語で動かせるので、逆にちょっと気になります。。。
-ところで、最近はインデントを2スペースにするのが流行りつつあるようですね！
-Java 界隈ではどうなるのか…</description></item><item><title>エンジニア系弁当男子1</title><link>https://www.ambitious-i.net/blog/engineer_style_lunchbox_boys/</link><pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/engineer_style_lunchbox_boys/</guid><description>「弁当男子」という言葉を最近耳にしなくなりましたね…
-調べてみると、2008 年頃に流行り始めた言葉なんだとか(^^;
-約 10 年になるんですね！
-その頃の自分と言えば多分、IT業界に入ったか入らなかったかって頃だと思います。
-実に懐かしい(笑)
-さて私はというと、ほぼずっとお弁当が続いてます。
-大体朝に自分で作ってるのですが、最初の頃は冷食を温めて詰めてるだけでした。。。
-でもそれだとあんま節約にはならないんですよね(&amp;gt;_&amp;lt;)
-まぁ色んな種類があって彩りとかはよくなりますが…
-でも朝から数品も自分だけのためには作れません(´･ω･`)
-ということで、最近はトップ画像のような感じで丼をよく持って行ってます！
-レシピ本まで買っちゃったりして(笑)
-今回作ったのはレシピにあった「ポークりんご丼」というものです。
-意外にりんごと豚肉が合います！
-ちなみに使っているお弁当箱はこちら。
-ランタスさんの「カフェ丼ランチ」というものです！
-なかなかに容量も保温力もあり、お気に入りです♪
-こうすることで、ざっくり計算ではありますが冷食だと 1 食 300 円弱くらいかかっていたのが、いまでは 1 食 200 円弱にまで抑えられています！</description></item><item><title>Spring BatchのMETA tableをクリアする</title><link>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</link><pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</guid><description>最近になって、やっと Spring Batch なるものを知りました(^ω^;)
-しばらく Java 系の勉強から離れていたもので… ← 言い訳(爆)
-ということで、まきさんのブログを参考にさせていただいたり、Qiita の投稿記事や英語のサイト、@Configuration の仕組みを知るためにソースをダウンロードしたりして、コツコツ勉強しました。
-いやいや、なんとも便利なものです(･∀･)
-まぁ何かを作ったら GitHub にあげようと思います&amp;lt;(_ _)&amp;gt;
-その中で @Scheduled という繰り返し機能を知ったのですが、これがまた便利で cron の機能もあったりします。
-ただ、実行される度に DB に実行結果が INSERT されるので結構肥大化してきます。</description></item><item><title>初！アプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/first_app_release/</link><pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/first_app_release/</guid><description>すでに個人活動のポートフォリオには記入しましたが、初めて個人でアプリをリリースしました！
-いや〜、嬉しいですね♪
-アプリについて アプリ自体は大した内容ではありません。
-完全に説明通りで
-電源ボタンでなく、自撮りカメラ（フロントカメラ）付近の近接センサーを使い、物が離れると画面がONになり、通知エリアから画面をOFFにできるアプリです。 手帳っぽいカバーを使ってなくても、手をかざして画面をONにできたりしますので、便利に使えるかと思います。 また、暗い場所や何かがセンサーに被さってしまった等での不用意な画面OFFをなくすため、画面のOFFは通知エリアより行えるようになっています。 通知エリアからオフにするかは任意で決められます。 ※ ご注意 ・申し訳ございませんが、近接センサーが搭載されていない端末ではご使用頂けません。 ・通知エリアからオフにするために「管理アプリ」として有効にした場合、アプリのアンインストールボタン（有効にするとアプリ内に表示されます）よりアンインストールを行ってください。 管理権限を得ることにより、通常のアンインストールが不可となる場合がございます。 ・自動起動マネージャー等のタスク管理アプリをご使用の場合、正常に動作しない場合があります。 正常に動作しない場合、タスク管理外（自動起動の許可等）の設定を行っていただくことにより、動作する可能性がございます。 ・「ここをダブルタップで画面オフ」の項目はAndroid5.0（LOLIPOP）以上で表示されます。 また「ここをダブルタップで画面オフ」の項目が表示されない場合、対象の通知を少し下へスライドすると表示されます。 （これはAndroidの作りに起因するもののため、ご容赦願えればと存じます。） ・このアプリは端末の管理者権限を使用します。 これは画面のロック（OFF）のためであり、それ以外の用途には使用されません。 です(^ω^;) 正直、この手のアプリって結構あると思います。
-でもあえて作ったのは
-他のアプリだと暗い場所等での不用意な画面OFF・画面ONが発生していた 一部アプリではタスクキラー等で使用不可になることがあった といったところでしょうか？</description></item><item><title>JavaからSlackへ画像を投稿する</title><link>https://www.ambitious-i.net/blog/send_to_slack_from_java/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/send_to_slack_from_java/</guid><description>随分と更新が空いてしまいました(´･ω･`)
-なるべく週に1つは書けるようガンバってみたいと思います(^ω^;)
-なかなか書こうと思うと、ブログ自体が久々すぎて進まない(&amp;gt;_&amp;lt;)
-コードは Gist に上がってますので、そちらを加工したりして使ってみてください(･∀･)
-フリーライセンスでございます！
-Java から Slack へ投稿する…というのは大勢の方がやってらっしゃいます。
-実際に日本語の記事もあるのですが、結構 OkHttp とか GAE で使えないのが多かったりするんですよね(&amp;gt;_&amp;lt;)
-GAE からデータを送信する場合、HttpURLConnection でガリガリ書かないといけません。
-そこで、独自に実装したコードを公開しました！というお話です。
-特別なことはしていないので、ソースを見てもらえれば大体何やってるか分かると思います。
-ちなみに GAE は Java7 なので、それに合わせたコードになっています。</description></item><item><title>G Suiteからの退会 ~~メールアドレス移行編~~</title><link>https://www.ambitious-i.net/blog/withdrawal_from_g_suite/</link><pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/withdrawal_from_g_suite/</guid><description>G Suite を 1 年使ってみました！
-使っていたのは G Suite Basic です。
-以前お世話になった会社で使ってらしたのを見て、自分も個人のドメインで使って見たいと思ったのがキッカケです(･∀･)
-我が家は現在 2 人なので、2 人分で登録。
-月 1,000 円で Google のサービスがたくさん使えたり、ドライブも容量が多く大変満足でした！
-特にメールとカレンダーなんかは2人でも大変使い勝手が良かったです♪
-でも少しずつ使わなくなり、相方も「そんなにたくさんメールアドレスいらないかな〜」と言い始めました…。
-そうなるとアクセスも減り、段々と必要性を感じなくなってきてしまいました(^ω^;)
-2017 年 2 月で使い始めて 1 年となり、更新のタイミングがやってきます。</description></item><item><title>自分のサイトはじめました♪</title><link>https://www.ambitious-i.net/blog/starting_my_blog/</link><pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/starting_my_blog/</guid><description>どうも！よく bvlion という名前でつぶやいたりしています。。。
-初めましての方もそうでない方も、たまたま来た方も皆様、お見知り置き頂ければと思います&amp;lt;(_ _)&amp;gt;
-キャッチアイ画像が目印です(笑)
-お仕事はエンジニアをしています(^^)
-かなりのヘッポコです。。。
-でも好きなんで続いています(^ω^;)
-ここでは一応、技術的なことも書けたら書きたいですし、まぁでも趣味的な部分が多数を占めるかと思います。
-色々と思ったこと、気づいたこと、自分も備忘録なんかも合わせて書いていきます。
-まずは始めてみましたよ〜ということで一つ目の記事にしたいと思います！
-よろしくお願い致します( `･ω･´)</description></item><item><title>本人について</title><link>https://www.ambitious-i.net/account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/account/</guid><description>開いて頂きありがとうございます(･∀･)
-ここでは、個人的なアカウントを公開できる範囲内で紹介させて頂きます。
-GitHub ちょこちょこと公開可能な制作物をアップしています。
-GitHub
-割と新しく作ったものをアップしています！
-Gist
-Gist にも時折アップロードしています。
-Bitbucket 以前 GitHub にアップしていた古いものはこちらに移動しています。
-Bitbucket
-C# など、せっかく作ったから…程度のものがほとんどです(^^;
-X（旧：Twitter） X（旧：Twitter）は大体毎日拝見させて頂いております(^^;
-ビブライオン（bvlion）
-是非フォローしてください！
-Zenn Qiita よりは少し真面目に書いてます！
-Zenn
-が、大した内容はないです(´･ω･`)</description></item><item><title>本人について</title><link>https://www.ambitious-i.net/person/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/person/</guid><description>1983 年生まれのおっさんエンジニアです&amp;lt;(_ _)&amp;gt;
-仕事だけでなく、趣味でも勉強やプログラミングをしています。
-趣味 という程度に好きなことです(･∀･)
-バイク カラオケ 料理 プログラミング バイク 現在は GB350 に乗っています♪
-いわゆる中免ライダーです。
-NS-1 JOGアプリオ バンディット250LTD FZ400 アドレスV100 XJR400R ジェンマ90 フュージョン MAXAM リード110 GB350 と乗り継いで来ました( `･ω･´)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鰯の管詰</title><link>https://www.ambitious-i.net/</link><description>Recent content on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/index.xml" rel="self" type="application/rss+xml"/><item><title>カンファレンスのノベルティ</title><link>https://www.ambitious-i.net/blog/conference_novelty/</link><pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/conference_novelty/</guid><description>&lt;p>先日、大変久々にオフラインのイベントに参加してきました！&lt;br>
+そもそも DroidKaigi 自体が久しぶり（というかブログの更新も久しぶり…）&lt;br>
+最近はブースやノベルティも進化してきて凄いですねΣ(･ω･ﾉ)ﾉ&lt;/p>
+&lt;h2 id="droidkaigi-2024">DroidKaigi 2024&lt;/h2>
+&lt;p>今年も多くの参加レポートがあるので詳細は割愛しますが、個人的にはやはり Jetpack Compose、特に Glance の話は業務でも触れることはないので興味深く拝聴しました(･∀･)&lt;br>
+今でも Android 固有のセッションがあるのは嬉しいですね！&lt;br>
+そしてトートバッグいっぱいにノベルティをいただいて帰ってきましたw&lt;/p>
+&lt;h2 id="ノベルティの使い方">ノベルティの使い方&lt;/h2>
+&lt;p>今回の話題です。&lt;br>
+個人的にはやはりいただいたものはしっかり使いたいなと思うので、ノベルティを選べる場合はどんなシーンで使うか結構考えます(。-`ω-ก)&lt;br>
+DroidKaigi 2024 のスタンプラリーでは、物理出社の時に使えそうなタンブラーと定期的に出番のあるエコバッグにしました！&lt;br>
+まだ出番がないので使うのが楽しみです♪&lt;/p>
+&lt;h3 id="食品系">食品系&lt;/h3>
+&lt;p>どら焼きやプリングルスがありました！&lt;br>
+最近甘いものでお酒を飲むのが好きなので、ありがたくいただきました(๑•̀ㅂ•́)و✧&lt;br>
+既製品なので当然と言えば当然ですが、美味しかったです！&lt;/p></description></item><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>&lt;p>個人アプリのサーバー側を Slim4 に移行しました！&lt;br>
+その際 Authorization が取れず四苦八苦した記録です…&lt;/p>
+&lt;h2 id="経緯">経緯&lt;/h2>
+&lt;p>個人で&lt;a href="https://play.google.com/store/apps/details?id=net.ambitious.daigoapp.android&amp;amp;pli=1">略語Generator&lt;/a>なるアプリを作ってリリースしています(･∀･)&lt;br>
+元々は Kuromoji を Kotlin から使って形態素解析ができ、いい感じにアルファベットにもできたのでアプリにしようと思ったんですが、これが辞書もあるためなかなかの大サイズ…&lt;br>
+APK ファイルが大きすぎるのを防ぐべく、解析はサーバー側ですべく一旦 &lt;a href="https://github.com/bvlion/DAIgoAPI">API という形&lt;/a>で GCP に置いてリリースまで実施しました！&lt;/p>
+&lt;p>そのまままぁまぁな期間運用していたのですが、最近自社の SRE でも料金見直しを実施していて、自身のサーバー系でもコストでカットできる箇所はないかな〜と思っていたところ、この API が見つかりました(^^;&lt;br>
+別にこの程度のアプリは GCP である必要もないし、XServer にリリースすれば十分そうなので、PHP に書き換えて MeCab を利用することにしました！&lt;/p></description></item><item><title>ブログのテンプレートを更新しました！</title><link>https://www.ambitious-i.net/blog/update_blog_template/</link><pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/update_blog_template/</guid><description>&lt;p>実に 2 年半振りの更新です(^^;&lt;br>
+Google が 2021 年 6 月に &lt;a href="https://gigazine.net/news/20210519-google-amp-no-longer-preferential-treatment/">AMP 優遇を終了&lt;/a>したのを機にずっとテンプレートの更新をしようと思っていたのですが、そもそもデザイン思いつかないしレン鯖で動かす PHP の FW は何にするか…？などと考えているだけで、ずっと手が止まっておりました…&lt;br>
+（それに連動して記事を書くこと自体も止まってました）&lt;/p>
+&lt;p>そう思っていたところ、&lt;a href="https://gohugo.io/">Hugo&lt;/a> で静的 html を吐き出すことでレンダリングが早かったり色々よさそう、しかも GitHub Pages にデプロイで十分だしカスタムドメインも使えるし草も生える！となり、2024 年に入ってから粛々と DB から移行していました。&lt;br>
+なかなか時間はかかりましたが、一先ずリリースまで辿り着けて良かったです(･∀･)&lt;/p></description></item><item><title>新型コロナウイルスワクチンの副反応記録</title><link>https://www.ambitious-i.net/blog/vaccinated_twice/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vaccinated_twice/</guid><description>&lt;p>緊急事態宣言が明け、新型コロナウイルスワクチンの接種者も増えてきました(･∀･)&lt;br>
+ただ、まだの副反応などで迷われている方もいらっしゃるかもしれません…&lt;br>
+そこで 30代後半の男性が、ファイザー社製の新型コロナウイルスワクチンを受けたらどんな副反応が出たかの記録を起こしてみました(*･ω･)ﾉ&lt;/p>
+&lt;h3 id="1回目">1回目&lt;/h3>
+&lt;ul>
+&lt;li>9/7 16:00 接種。特に変わりなし。&lt;/li>
+&lt;li>9/7 19:00 何となく違和感を感じる&lt;/li>
+&lt;li>9/7 23:00 痛みが増し横方向に腕が上げ難い。（恐らくムリをすれば上がる）&lt;/li>
+&lt;li>9/8 07:30 寝る前よりやや痛みは強くなったものの生活に支障はなし。&lt;/li>
+&lt;li>9/8 11:00 PC の位置の問題で Mac の指紋認証が辛い…&lt;/li>
+&lt;li>9/8 20:00 お風呂での洗髪は特段問題なし。&lt;/li>
+&lt;li>9/9 08:00 まだ若干肩に違和感はあるものの痛みは無し。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2回目">2回目&lt;/h3>
+&lt;ul>
+&lt;li>9/27 20:00 噂を元にステーキとハンバーグを食べる。&lt;/li>
+&lt;li>9/28 11:45 接種。やや痒いものの特に変わりなし。&lt;/li>
+&lt;li>9/28 15:00 既に痛くなる。前回よりも少し痛くなるのが早い。&lt;/li>
+&lt;li>9/28 23:00 多少体温が前後するものの腕の痛み以外は特になし。&lt;/li>
+&lt;li>9/29 04:00 季節的なものかもしれないが寒気が襲う。&lt;/li>
+&lt;li>9/29 07:30 発熱、37.7℃、鈍い頭痛。&lt;/li>
+&lt;li>9/29 10:30 仕事開始2時間、大丈夫だけどダメなので早退。&lt;/li>
+&lt;li>9/29 13:30 食事と合わせロキソニン服用、睡眠。&lt;/li>
+&lt;li>9/29 17:00 37.2℃ 少し下がり始める。&lt;/li>
+&lt;li>9/29 19:20 36.7℃ 一旦熱も引いたのでシャワーを浴びる。&lt;/li>
+&lt;li>9/30 08:10 37.1℃ 微熱ながら倦怠感は少なめ。&lt;/li>
+&lt;li>9/30 11:30 37.1℃ 微熱変わらず…&lt;/li>
+&lt;li>9/30 19:30 36.8℃ やっと熱が 37℃を下回る。&lt;/li>
+&lt;li>10/1 07:30 腕に痛みが残るものの特段問題なし。&lt;/li>
+&lt;li>10/2 08:00 完全ではないものの腕の痛みもほぼ消える。&lt;/li>
+&lt;/ul>
+&lt;p>ウワサ通り 2回目の方が副反応は大きかったです(^^;&lt;br>
+色んな症状の話を聞き、どれが正しいとも間違いとも分かりませんが、どなたかの参考になれば幸いです&amp;lt;(_ _)&amp;gt;&lt;/p></description></item><item><title>退職時の誓約書にある競業避止は必須なのか？</title><link>https://www.ambitious-i.net/blog/avoiding_non_competition/</link><pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/avoiding_non_competition/</guid><description>&lt;p>退職して少し落ち着いたこともあり、退職に伴う NDA（誓約書）について私の体験を簡単に綴ります(*･ω･)ﾉ&lt;br>
+最初にタイトルの結論から言うと、競業避止は消していただきました！&lt;/p>
+&lt;h2 id="nda誓約書の内容">NDA（誓約書）の内容&lt;/h2>
+&lt;p>詳細な内容は避けますが、「退職 誓約書 テンプレート」で検索するとでてくるのとほぼ同じ内容でした！&lt;br>
+利用規約などもそうですが、基本は大きく変わらないですよね(^^;&lt;br>
+私の場合、初回の誓約書はザックリ言うと以下の 3 点が言及されていました。&lt;/p>
+&lt;ul>
+&lt;li>秘密保持&lt;/li>
+&lt;li>インサイダー&lt;/li>
+&lt;li>競業避止&lt;/li>
+&lt;/ul>
+&lt;h3 id="秘密保持">秘密保持&lt;/h3>
+&lt;p>簡単に言うと会社の詳細なことを言うのは避けてね〜という内容ですね(･∀･)&lt;br>
+以前、業務のソースコードを GitHub に公開して損害賠償を求められた記事を見ましたが「そういうことはしちゃいかんよ、やったら損害を求めるで」ということですね！&lt;br>
+社会人なら当たり前だろうと思うのですが、先のソースコード公開みたいにやっちゃう人はやっちゃうようなので、必要なことなんだろうと思います(^ω^;)&lt;/p>
+&lt;h3 id="インサイダー">インサイダー&lt;/h3>
+&lt;p>稀に捕まったニュースも見ますが、フツーの人はまずやらないことですねw&lt;br>
+ただこれもニュースで見る通りやっちゃう人はやっちゃうので、ちゃんと盛り込まれていました！&lt;/p>
+&lt;h3 id="競業避止">競業避止&lt;/h3>
+&lt;p>問題の競業避止です！&lt;br>
+そもそも職業選択の自由によって競業の他社に行くこと自体全く問題ないのですが、別の記事等にもある通り「競合関係に立つ事業者には行かないって約束するよ」とサインしてしまうと、それを認めたことになり不利になりかねません。。。&lt;br>
+しかも最近は 1 社で複数事業をやっている会社も少なくなく「競合関係に立つ事業者」の、しかも取引先も含めるとなると、会社によってはもはや転職自体が不可になりかねなくなります。&lt;/p></description></item><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>&lt;p>今年 2 回目のブログです…&lt;/p>
+&lt;p>「シェブ！」というアプリをリリースしました！&lt;br>
+コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(&lt;em>^^&lt;/em>)&lt;/p>
+&lt;h2 id="どんなアプリ">どんなアプリ？&lt;/h2>
+&lt;p>いわゆるブックマーク管理アプリです(*･ω･)ﾉ&lt;br>
+推しポイントはやはり共有機能ですね！&lt;br>
+探した限り共有機能があるブックマークアプリはなさそうだったので作りました(๑•̀ㅂ•́)و✧&lt;/p>
+&lt;h2 id="開発の経緯">開発の経緯&lt;/h2>
+&lt;p>作ろうと思ったきっかけは Wunderlist の終了でした。。。&lt;br>
+夫婦でレシピなどの URL を Wunderlist に登録して共有していたんですが、2020 年 5 月 6 日をもってサービスが終了してしまうとのことで、もっとブックマークの共有に特化したアプリがないか探していました(^^;&lt;br>
+ただどうもなさそうなので、だったらいっそ作ってしまえ〜で開発を始めました！&lt;/p>
+&lt;h2 id="ソースコード">ソースコード&lt;/h2>
+&lt;p>プライベートリポジトリにしてしまえばキーの管理など楽だっただろうとは思いますが、個人活動のアピールにもしたかったので公開リポジトリでガンバりました(`･ω･´)&lt;br>
+（Web は急遽プライバシー・ポリシーに必要だったため作成したので、そこまで内容はありません…）&lt;/p></description></item><item><title>Android のダイアログで吹き出しを表現する</title><link>https://www.ambitious-i.net/blog/android_bubble_dialog/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/android_bubble_dialog/</guid><description>&lt;p>&lt;a href="https://zenn.dev/bvlion/articles/1d4fd56c999e8c">Android のダイアログで吹き出しを表現する&lt;/a>という記事を zenn に書きました！&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">ダイアログで吹き出しを表現したかったので書いてみました(*･ω･)ﾉ&lt;a href="https://t.co/pqZVrgQoOc">https://t.co/pqZVrgQoOc&lt;/a> &lt;a href="https://twitter.com/hashtag/zenn?src=hash&amp;amp;ref_src=twsrc%5Etfw">#zenn&lt;/a> &lt;a href="https://twitter.com/hashtag/android?src=hash&amp;amp;ref_src=twsrc%5Etfw">#android&lt;/a>&lt;/p>&amp;mdash; bvlion🍣🦪 (@ninjinx) &lt;a href="https://twitter.com/ninjinx/status/1353179126983626752?ref_src=twsrc%5Etfw">January 24, 2021&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>調べてみたら LINE のように TextView で吹き出しを表現する記事は割と多く、ライブラリとして提供されている方もいらっしゃったんですが、ダイアログ的にある程度自由な場所に出したい場合のサンプルが見つからなかったので書いてみました！&lt;br>
+ポイントも書いてますし、特に難しい内容でもないので色んな方に利用していただけると嬉しいです(･∀･)&lt;/p>
+&lt;p>そう言えば私の zenn の中の記事で 1番人気があるのは &lt;a href="https://zenn.dev/bvlion/articles/4587730f3de79330b993">Ktor で JWT の認証を行う&lt;/a>のようです。　　&lt;br>
+（と言ってもたかが知れてますが…）&lt;br>
+Ktor の人気が出てきてますね！&lt;br>
+会社の API でも使ってみたい。。。&lt;/p></description></item><item><title>Markdown から html を生成する</title><link>https://www.ambitious-i.net/blog/markdown_to_html_editor/</link><pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/markdown_to_html_editor/</guid><description>&lt;p>最近 &lt;a href="https://codepen.io/">CODEPEN&lt;/a> がお気に入りです！&lt;br>
+以前はちょっとしたツールでも Firebase Hosting を利用していましたが、デプロイの必要がないので最近はツール系であればこちらを利用するようになってきました(๑•̀ㅂ•́)و✧&lt;/p>
+&lt;p>そんな中の 1つとして Markdown をhtml に変換する簡易ツールを作ったので紹介させていただきます！&lt;/p>
+&lt;p class="codepen" data-height="550" data-default-tab="result" data-slug-hash="GRjYjzK" data-user="Bvlion" style="height: 450.4765625px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+ &lt;span>See the Pen &lt;a href="https://codepen.io/Bvlion/pen/GRjYjzK">
+ Markdown Preview with html&lt;/a> by bvlion (&lt;a href="https://codepen.io/Bvlion">@Bvlion&lt;/a>)
+ on &lt;a href="https://codepen.io">CodePen&lt;/a>.&lt;/span>
+&lt;/p></description></item><item><title>2020年振り返り</title><link>https://www.ambitious-i.net/blog/2020_year_review/</link><pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/2020_year_review/</guid><description>&lt;p>色々とあった 2020 年だった方も多いんだろうな〜と思ってます。&lt;br>
+私も別のブログ以来で久々の振り返りです。。。&lt;/p>
+&lt;h2 id="お仕事とかプログラミングとか">お仕事とかプログラミングとか…&lt;/h2>
+&lt;p>世間同様、弊社も WFH に全振りしました！&lt;br>
+確かに最初の数ヶ月は「会社行きたいな〜」とか「ランチ寂しいな〜」とかありましたが、今となっては特段何かを思うこともなくなり、すっかりルーチンも出来上がりました(･∀･)&lt;br>
+結婚式を除いたら、知人や同僚といった顔見知りに会ってないです。。。&lt;/p>
+&lt;p>こういった生活ができているのも、いわゆるインフラが整っているからこそ…&lt;br>
+そういった仕事に従事されていらっしゃる方には、あらためて敬意を表したいと思います&amp;lt;(_ _)&amp;gt;&lt;br>
+もう 10年以上前ですが、私も配達のお仕事だったので…&lt;/p>
+&lt;p>あとトップの画像の通り無事に 1 年間全部草が生えました！&lt;br>
+草を生やすことが半分目的ではありましたが、まずは習慣になるまでよくやったな感ですね〜&lt;br>
+でもここまで終わってみて思うのは、別に草が生えてるからとかは割とどうでもよくて、月並みですが内容が大事だなと感じました。。。&lt;br>
+issue 立ててちょっとコード書いて終わり…なんて日は、別にコミットしなくてもよかったんじゃないかと思う時もあります(&amp;gt;_&amp;lt;)&lt;br>
+でもこれはこれで嬉しいです！&lt;/p>
+&lt;p>あとはひたすら Android アプリ開発でした！&lt;br>
+API 系ならまだ Ktor をやってみたりとコード自体は書けてますが、そろそろ html とか動向を追えてない感も出てきて若干の焦りがあります(^^;&lt;br>
+Go にも少し手を出してみましたが、ここ最近は Kotlin と JS、気が向いたら PHP をやったくらいでしょうか？（どうしてもレン鯖なので）&lt;/p></description></item><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>&lt;p>とっても久々に技術的な内容です(･∀･)&lt;/p>
+&lt;p>今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！&lt;br>
+&lt;a href="https://github.com/bvlion/NonPublicIssueViewer">https://github.com/bvlion/NonPublicIssueViewer&lt;/a>&lt;br>
+まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;&lt;br>
+（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）&lt;/p>
+&lt;p>内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57" alt="issue image">&lt;/p>
+&lt;p>入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5" alt="動作イメージ">&lt;/p>
+&lt;p>(´-`) .｡oO（gif の動作がめっちゃ遅い…）&lt;/p>
+&lt;p>今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ&lt;/p></description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/blog/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/every_day_commit_half_year/</guid><description>&lt;p>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)&lt;br>
+仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧&lt;br>
+そして入社半年、ここまでは毎日コミット等をしてこれました！&lt;/p>
+&lt;p>トップ画像のようにキレイになると嬉しいです！&lt;br>
+（´-`）.｡oO（濃さがちぐはぐだけどいいか…）&lt;br>
+ここまでできるようになってから少し自身の行動が変わったので、それも合わせてお伝えできたらと思います。&lt;/p>
+&lt;h2 id="ルール">ルール&lt;/h2>
+&lt;p>厳しいと絶対続かないので、かなり緩くしました。&lt;/p>
+&lt;ul>
+&lt;li>業務・プライベートは問わない&lt;/li>
+&lt;li>内容は問わない（小さい修正でもよしとする）&lt;/li>
+&lt;li>必ず 24時までにプッシュまでしておく&lt;/li>
+&lt;/ul>
+&lt;p>ルールは大したことないんですが、意外と最初は守るのが大変でした。。。&lt;br>
+平日は業務もあるから余裕だろうと油断してると、夜コミットがなかったと気づくことも稀に…&lt;br>
+そういった時は小さい修正、それこそ README の更新だけになってしまうこともありましたが、毎日やることに意味があると思って続けてみました(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;h2 id="やって変わったことよかったこと">やって変わったこと・よかったこと&lt;/h2>
+&lt;p>自身の行動に計画性が出るようになりました(*･ω･)ﾉ&lt;br>
+例えば土日に出掛ける、それこそ泊まりの予定だったりするとどのタイミングでコーディングをするのか、事前準備はどうするか、などを考えるようになりました(`･ω･´)&lt;br>
+それはそのまま普段の生活にも反映されて、色んなことに大してよりしっかり事前準備をするようになったような気がします。&lt;br>
+段取り力でもあるかもしれませんが、特に長期的なことに対しては&lt;/p></description></item><item><title>フレッツ接続 ZOOT NATIVE (IPv6) の契約</title><link>https://www.ambitious-i.net/blog/use_zoot_native_ipv6/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_zoot_native_ipv6/</guid><description>&lt;p>最近定期的に更新できていますね！（自分でもちょっと嬉しい）&lt;br>
+往復 1時間ちょっとの通勤の時間がないのは大きそう…&lt;/p>
+&lt;p>先日の「&lt;a href="../study_space/">書斎（スペース）ができました！&lt;/a>」の最後でもチラッと触れましたが、今更ながら IPv6 を導入しました(･∀･)&lt;br>
+そもそもこういったネットワーク周りが大変弱く何のこっちゃ状態ではありましたが、無事にそこそこの速度を叩き出せてるっぽいです！&lt;/p>
+&lt;h2 id="導入前後の比較">導入前後の比較&lt;/h2>
+&lt;p>ということで、まずは導入前後の速度比較から…&lt;br>
+上が導入前、下が導入後です！&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Google&lt;/th>
+ &lt;th style="text-align: left">Usen&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/286490dc-92d4-4e88-8331-6aaf39e6091b" alt="google before">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8bcfcce3-a161-4605-b465-21f051f75763" alt="usen before">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/93794aba-5b4a-46c4-96e6-a65f60ecff4d" alt="google after">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8a1efa58-5e2c-4019-97e1-eeb6f0bd84d1" alt="usen after">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>こういう速度測定がどの程度信頼できるものか分かりませんが、我が家は&lt;a href="https://flets.com/next/mn/">フレッツ 光ネクスト マンションタイプ&lt;/a>で上下とも最大 100Mbps というのを考えると、ほぼフルパワーで通信できているんじゃなかろうかと思います(≧▽≦)&lt;br>
+出るものなんですねぇ…&lt;/p></description></item><item><title>ブラックアウトシールのすすめ</title><link>https://www.ambitious-i.net/blog/blackout_keyboard/</link><pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/blackout_keyboard/</guid><description>&lt;p>PC のキーボードって、人によって使いやすいタイプが違って面白いですよね(･∀･)&lt;br>
+私の周りは静電容量無接点方式の US 配列を使われている方が多いかと…
+HHKB とか確かにカッコイイな〜って思います(^皿^ )&lt;/p>
+&lt;p>私の場合はちょっと特殊かもしれませんが、パンタグラフに JIS 配列が使いやすいです！&lt;br>
+（多分ずっと使ってからだと思います）
+ただ JIS のキーボードは大体こんな感じで平仮名が表記されています。。。&lt;br>
+（&lt;a href="https://ja.wikipedia.org/wiki/JIS%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89">Wikipedia&lt;/a> より拝借）&lt;/p>
+&lt;p>&lt;img src="109keyboard.svg" alt="JIS キー配列">&lt;/p>
+&lt;p>JIS 配列使ってるので仕方ないっちゃ仕方ないんですが、この平仮名はいらないんですよね…&lt;br>
+それに平仮名が何となくダサい(^^;&lt;br>
+「ならばいっそ隠してしまおう」と思い立ち、色々と調べてみたところ「ブラックアウトシール」なるものを発見！！&lt;br>
+早速貼ってみました(*･ω･)ﾉ&lt;/p>
+&lt;h2 id="ブラックアウトステッカー-bos04-jis">ブラックアウトステッカー BOS04-JIS&lt;/h2>
+&lt;p>Mac 本体に貼った場合はこんな感じです(･∀･)&lt;/p></description></item><item><title>書斎（スペース）ができました！</title><link>https://www.ambitious-i.net/blog/study_space/</link><pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/study_space/</guid><description>&lt;p>先日&lt;a href="..//my_home_remote_environment/">我が家のリモート環境&lt;/a>ということで WFH 環境を紹介させていただきましたが、こちらがトップ画像のように完全に自宅で開発できるスタイルに少し進化しました！&lt;br>
+何と！！書斎（スペース）になったのです(`･ω･´)&lt;br>
+（´-`）.｡oO（書斎の定義とは…）&lt;br>
+小さいながらも、とても嬉しいです(&lt;em>^^&lt;/em>)&lt;br>
+今回は追加購入したものも合わせて紹介させていただきます&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;h3 id="ナカバヤシ-オフィスデスク-100x60cmhttpsamznto4a10hkr">&lt;a href="https://amzn.to/4a10hKr">ナカバヤシ オフィスデスク 100x60cm&lt;/a>&lt;/h3>
+&lt;p>デスクはこちらにしました！&lt;br>
+今までの家での仕事をしてた感覚から、このサイズなら十分と判断(･∀･)&lt;br>
+高さはリビングのテーブルと同じ 70cm にしました〜&lt;br>
+値段の割にはかなり快適です！&lt;/p>
+&lt;h3 id="boyata-ノートパソコンスタンドhttpsamznto3p9e3ck">&lt;a href="https://amzn.to/3P9e3CK">BoYata ノートパソコンスタンド&lt;/a>&lt;/h3>
+&lt;p>常時パソコンを置けるようになったので、モニターと同じ高さになるように購入しました(*･ω･)ﾉ&lt;br>
+特にこれにこだわったということもないのですが、これ系の中で 1 番評価が良かったのでこちらにしました〜&lt;br>
+かなり固い…&lt;/p>
+&lt;h3 id="apple-magic-keyboardhttpsamznto3tnifyz">&lt;a href="https://amzn.to/3TniFYz">Apple Magic Keyboard&lt;/a>&lt;/h3>
+&lt;p>最後にこちら、Magic Keyboard ですね(≧▽≦)&lt;br>
+HHKB や FILCO なども数ヶ月ずつ使ってみてはいたのですが、私にはパンタグラフのキーボードが合うようです。。。&lt;br>
+最初に買った PC がノートだったせいか、体から癖が抜けませんね(^^;&lt;br>
+Magic Keyboard のいいところは、ファンクションキーが物理キーになっていること！&lt;/p></description></item><item><title>JBL Link Portable 購入</title><link>https://www.ambitious-i.net/blog/buy_jbl_link_portable_2020/</link><pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_jbl_link_portable_2020/</guid><description>&lt;p>今回は &lt;a href="https://jp.jbl.com/LINK+PORTABLE.html?cgid=smart-speakers&amp;amp;dwvar_LINK%20PORTABLE_color=Black-Japan-Current">JBL Link Portable&lt;/a> を購入しましたので、そのお話です(･∀･)&lt;/p>
+&lt;h2 id="経緯">経緯…&lt;/h2>
+&lt;p>&lt;a href="../buy_google_home_mini/">Google Home Mini 購入&lt;/a>でも紹介させていただいている通り、2017 年のクリスマス頃から Google Home の活用自体はさせていただいております(*･ω･)ﾉ
+（もうそんなに長いこと使ってたんだ…）&lt;br>
+IFTTT 連携や google-home-notifier の活用などで生活は大変便利になり、外泊などすると「 OK Google 」をスマホに頼む必要があったり、電気を消すのにスイッチを押すのが煩わしくなるほど生活に浸透しています(^^;&lt;/p>
+&lt;p>広くない家なので 1 つでも大きな問題ではなかったのですが、お風呂でも使いたい欲求が出てきました！&lt;br>
+意外とお風呂って浸かった状態でボーッとしていると、ふとしたアイデアだったり色んなタスクが思い出せたりしませんか？&lt;br>
+お風呂を出るまで覚えていればいい話ではありますが、3 つくらい思いつくと何か忘れる…(´･ω･`)&lt;/p></description></item><item><title>我が家のリモート環境</title><link>https://www.ambitious-i.net/blog/my_home_remote_environment/</link><pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/my_home_remote_environment/</guid><description>&lt;p>転職してしばらくはバタバタしておりましたが、やっと落ち着いてきました！&lt;br>
+そうこうしているウチにリモート中心の生活になってましたが、私個人だけで言えば比較的早めにリモートワークの準備できていてよかったです。。。&lt;br>
+さて、今回はそんな私のリモート環境を参考までに紹介させていただければと思います(*･ω･)ﾉ&lt;/p>
+&lt;h3 id="全体">全体…&lt;/h3>
+&lt;p>タイトル画像の通りです(･∀･)&lt;br>
+よいか悪いか、めっちゃボケてますね。。。&lt;br>
+自鯖でアップロードした画像を圧縮するスクリプトが動いているのですが、imagejpeg は微妙なのかな？&lt;br>
+サムネイルを作るのにも重宝しているのですが…&lt;/p>
+&lt;p>気を取り直して、それぞれ使っているのを紹介させていただきます(๑•̀ㅂ•́)و✧&lt;/p>
+&lt;h3 id="椅子-hbadahttpsamznto3wecvdm">椅子 &lt;a href="https://amzn.to/3wEcvdM">Hbada&lt;/a>&lt;/h3>
+&lt;p>いろんな方が、椅子はいいのを買った方がいいとおっしゃってます。&lt;br>
+取り敢えずだったので、安くて良さそう程度で買いました(^^;&lt;br>
+私はそこまで悪い商品には感じてないですね(･∀･)&lt;br>
+好きな角度に調整できるだけでリクライニング機能はないですが、意外とやってみるとリクライニング機能って使わないものです。。。&lt;/p>
+&lt;h3 id="モニター-acer-et241ybmihttpsamznto3t2zamz">モニター &lt;a href="https://amzn.to/3T2Zamz">Acer ET241Ybmi&lt;/a>&lt;/h3>
+&lt;p>これまで家の開発だけなら 13 インチの Macbook Pro オンリーでやってたのですが、さすがに資料を開いたり Slack を開いたりもあるので、モニターを買いました！&lt;br>
+理想は 32 インチくらいですが、さすがに家のテーブルに付けるには大きすぎるため、23.8 インチにしました。。。&lt;br>
+でも結構満足しています！&lt;/p></description></item><item><title>ローディング風の画面をCSSだけで作成する</title><link>https://www.ambitious-i.net/blog/loading_style_css/</link><pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/loading_style_css/</guid><description>&lt;p>11 月になりましたね(*･ω･)ﾉ&lt;br>
+せっかくなので、11 月 1 発目のブログはあえて大したことない内容しました(`･ω･´)&lt;br>
+（どういうこと？？）&lt;/p>
+&lt;p>ということで、お題の結果はこんな感じです↓↓↓&lt;/p>
+&lt;p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="PoYLzKz" data-editable="true" data-user="Bvlion" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+ &lt;span>See the Pen &lt;a href="https://codepen.io/Bvlion/pen/PoYLzKz">
+ CSSだけでローディング風&lt;/a> by bvlion (&lt;a href="https://codepen.io/Bvlion">@Bvlion&lt;/a>)
+ on &lt;a href="https://codepen.io">CodePen&lt;/a>.&lt;/span>
+&lt;/p></description></item><item><title>ハミングウォーター！浄水型ウォーターサーバー「flows（フローズ）」レビュー！</title><link>https://www.ambitious-i.net/blog/contracted_water_server/</link><pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/contracted_water_server/</guid><description>&lt;p>聞き慣れない方も「おっ？」と思った方もいるかもしれませんが、&lt;a href="https://www.hummingwater.com/">ハミングウォーター&lt;/a>を契約しました！&lt;br>
+約 2 週間使ったところで、実際のユーザーレビューをしてみたいと思います(･∀･)&lt;/p>
+&lt;h2 id="はじめに">はじめに…&lt;/h2>
+&lt;p>私個人の生活スタイルに基づいた完全主観のレビューです。&lt;br>
+スペックなどの詳細情報は、基本的に他の企業様レビューをご参照ください&amp;lt;(_ _)&amp;gt;&lt;br>
+使用感などで詳細情報が欲しい方はお問い合わせよりご連絡ください。&lt;/p>
+&lt;h2 id="到着まで">到着まで…&lt;/h2>
+&lt;p>申込から到着までは、以下の流れで2週間ほどで到着しました！&lt;/p>
+&lt;ul>
+&lt;li>9/21 ショッピングモールで契約&lt;/li>
+&lt;li>9/24 お届け希望日確認案内メール&lt;/li>
+&lt;li>9/25 10/5到着でWeb申込&lt;/li>
+&lt;li>10/5 到着&lt;/li>
+&lt;/ul>
+&lt;p>Web で配達日を申し込んだのですが、特に折り返しメールも電話もなく、若干ちゃんと申込ているのか不安でした(^^;&lt;br>
+あまりに不安で 10/4 に「本当に明日届くのか？」と確認の電話を入れたところ、手配は完了していると言われて少し安心しました。。。&lt;br>
+ただ配達時間は当日にならないと分からないので、申込日は 1 日家にいられる日を選択する必要があるかと思います。&lt;/p></description></item><item><title>オンプレから PaaS への移行</title><link>https://www.ambitious-i.net/blog/on_premises_server_to_heroku/</link><pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/on_premises_server_to_heroku/</guid><description>&lt;p>今まではオンプレミス（ラズパイ）で家の色んなバッチを動かしてきていました！
+一例だけでもこんな感じです…&lt;/p>
+&lt;ul>
+&lt;li>motion による監視カメラ&lt;/li>
+&lt;li>在宅通知（監視カメラを住人在宅時は動作させない）&lt;/li>
+&lt;li>Twitter 徘徊（Jorudan とか）&lt;/li>
+&lt;li>Google Home と連動した時間通知（平日の朝）&lt;/li>
+&lt;li>赤外線のタイマー（祝日判定付き）&lt;/li>
+&lt;li>記念日通知&lt;/li>
+&lt;li>個人の Slack に占い通知（&lt;a href="http://jugemkey.jp/api/waf/api_free.php">Web ad Fortune&lt;/a> 利用）&lt;/li>
+&lt;li>目覚まし設定通知（休みや平日の前）&lt;/li>
+&lt;li>曜日指定の忘れ防止通知&lt;/li>
+&lt;li>Google Home Notifier と連動した YouTube 上の音楽の再生&lt;/li>
+&lt;/ul>
+&lt;p>処理内容自体はそこまででもないのですが、これだけ動かしているとラズパイにも家のトラフィックにもかなり負荷があるため、何とか無料の PaaS 系に移行できないかと考えておりました。&lt;br>
+そこで目をつけたのが以前より使い捨てマークダウン等でお世話になっている Heroku です(･∀･)&lt;br>
+GAE も考えたのですが、ちょっと負荷が高いと簡単にインスタンスが立ち上がるという記事を目にしていたため、GAE は断念しました(^^;&lt;br>
+（違うアプリでちょっとだけ導入しています）&lt;/p></description></item><item><title>水筒買ってきました(*･ω･)ﾉ</title><link>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</link><pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</guid><description>&lt;p>お弁当に引き続き、今回は水筒を購入してきました！&lt;br>
+以前はこちらの「&lt;a href="https://www.amazon.co.jp/%E3%83%89%E3%82%A6%E3%82%B7%E3%82%B7%E3%83%A3-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%83%9E%E3%82%B0-%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97-%E7%9B%B4%E6%8E%A5%E3%83%89%E3%83%AA%E3%83%83%E3%83%97-CBCT400BR/dp/B00NBM1Z3A/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=cbct400&amp;amp;qid=1569724536&amp;amp;s=gateway&amp;amp;sr=8-1&amp;amp;linkCode=sl1&amp;amp;tag=bvlion-22&amp;amp;linkId=fd4a484711bfdd89ce808103bc8fadee&amp;amp;language=ja_JP">ふた付きコンビニマグ&lt;/a>」という商品をお気に入りで、約5年ほど使っていました。&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/a5a7555e-9694-421f-8889-9b2c218e84a5" alt="Amazonでの購入情報">&lt;/p>
+&lt;p>何かと便利で長いこと使っていたのですが、ただ流石に使い込み過ぎて今はこんな状態…&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/df5764c9-b307-4671-9ad6-8d4b3e40f0b5" alt="旧水筒">&lt;/p>
+&lt;p>さすがにパッキンなども含め限界を感じたので、こちらを購入してきました(≧▽≦)&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/411a4816-a029-4a93-9c11-1c1f435a029a" alt="新水筒">&lt;/p>
+&lt;p>&lt;a href="https://www.amazon.co.jp/%E3%82%B5%E3%83%BC%E3%83%A2%E3%82%B9-%E7%9C%9F%E7%A9%BA%E6%96%AD%E7%86%B1%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%9E%E3%82%B0-%E3%80%90%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97%E3%80%91-JNO-352-DNVY/dp/B07FNTV5C9/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=jno-352&amp;amp;qid=1569767629&amp;amp;s=gateway&amp;amp;sr=8-1&amp;amp;linkCode=sl1&amp;amp;tag=bvlion-22&amp;amp;linkId=36efa7985a8cccd8c37e9cf9b99672f8&amp;amp;language=ja_JP">Amazon での商品紹介ページ&lt;/a>&lt;br>
+こだわりポイントは以下となっております。&lt;/p>
+&lt;ul>
+&lt;li>細身であること&lt;/li>
+&lt;li>口が大きいこと&lt;/li>
+&lt;li>350mlくらい&lt;/li>
+&lt;li>食洗機対応&lt;/li>
+&lt;/ul>
+&lt;p>細身という点に関しては、&lt;a href="../new_lunch_box_review/">こけし弁当のブログ&lt;/a>でも触れた通り愛用のバッグが &lt;a href="https://amzn.to/353uYOn">AMARIO crum BB&lt;/a> であるため、ここは譲れないポイントです(笑)&lt;br>
+口の大きさは、コーヒーをいつも入れていくので香りも楽しみたいなと思ったので、まだお試し段階です…&lt;br>
+350ml という点は、1 日で飲みきるコーヒーの量ですね(^^)&lt;br>
+夏場は&lt;a href="https://www.amazon.co.jp/HARIO-%E3%83%8F%E3%83%AA%E3%82%AA-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%89%E3%83%AA%E3%83%83%E3%83%97-MCPN-14CBR/dp/B00I7JKAQ0/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;crid=2M9WWBNHJDTK&amp;amp;keywords=%E6%B0%B4%E5%87%BA%E3%81%97%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E3%83%9D%E3%83%83%E3%83%88&amp;amp;qid=1569725595&amp;amp;s=gateway&amp;amp;sprefix=%E6%B0%B4%E5%87%BA%E3%81%97,aps,273&amp;amp;sr=8-2&amp;amp;linkCode=sl1&amp;amp;tag=bvlion-22&amp;amp;linkId=f38bf54c55571261e59590ff9cd5a1f2&amp;amp;language=ja_JP">こちらの水出しコーヒーポット&lt;/a>で作っているのですが、妻と 2 人で「250ml + ガムシロ少々 + ミルク」とすると大体 4 回分くらい利用できるので、大き過ぎず小さ過ぎずのサイズが我が家では 350ml でした(๑•̀ㅂ•́)و✧&lt;/p></description></item><item><title>天ぷらのタネをクックパッドに上げてみました(*･ω･)ﾉ</title><link>https://www.ambitious-i.net/blog/tempura_of_my_home/</link><pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/tempura_of_my_home/</guid><description>&lt;p>時々料理をするのですが、今回は思ったより美味しくできたので、レシピを書きました(･∀･)&lt;br>
+ちょっと前になりますが、&lt;a href="https://cookpad.com/recipe/5835988">サクサク天ぷらの衣♪&lt;/a>です！&lt;/p>
+&lt;h2 id="きっかけ">きっかけ&lt;/h2>
+&lt;p>「レシピの生い立ち」にも書いたんですが、小麦粉と水より、ビールや炭酸水で天ぷらをするとサクサクになるというのは有名なお話かと思います。&lt;br>
+で、今回もしかしたら「アルコール度数が強くて炭酸も強い飲み物ならよりサックリ揚がるのではないか？」と思い試してみました！&lt;/p>
+&lt;h2 id="実際">実際&lt;/h2>
+&lt;p>かなりサクサクになりました(^皿^ )&lt;br>
+（まぁだから載せたんですけど…）&lt;br>
+揮発性の高さなのか、植物油でサックリ揚がるのは感動ものですね！&lt;/p>
+&lt;p>他にもこんな簡単系レシピも書いてますので、よかったらお試しください(*･ω･)ﾉ&lt;/p>
+&lt;h4 id="簡単めんつゆ海苔茶漬けhttpscookpadcomrecipe5770743">&lt;a href="https://cookpad.com/recipe/5770743">簡単めんつゆ海苔茶漬け&lt;/a>&lt;/h4>
+&lt;p>&lt;img src="https://img.cpcdn.com/recipes/5770743/894x1461s/de86814d0c5f364668c4369236e1cc22?u=7832864&amp;amp;p=1564888785" alt="簡単めんつゆ海苔茶漬け">&lt;/p>
+&lt;h4 id="ブリの塩釜焼きhttpscookpadcomrecipe5404394">&lt;a href="https://cookpad.com/recipe/5404394">ブリの塩釜焼き&lt;/a>&lt;/h4>
+&lt;p>&lt;img src="https://img.cpcdn.com/recipes/5404394/894x1461s/970413026cb76aa7e658f1def7d43b5f?u=7832864&amp;amp;p=1544942627" alt="ブリの塩釜焼き">&lt;/p>
+&lt;h4 id="ホットクックでミネストローネ風パスタhttpscookpadcomrecipe5254366">&lt;a href="https://cookpad.com/recipe/5254366">ホットクックでミネストローネ風パスタ！&lt;/a>&lt;/h4>
+&lt;p>&lt;img src="https://img.cpcdn.com/recipes/5254366/894x1461s/9aa60ad9a0cd9dcea78094928c319d86?u=7832864&amp;amp;p=1537159283" alt="ホットクックでミネストローネ風パスタ！">&lt;/p>
+&lt;p>たまにはこういう記事もいいですね〜&lt;br>
+なるべく短い記事でも、技術的なものでなくても小まめに書いていきたいと思います。&lt;/p></description></item><item><title>「こけし二段弁当」というお弁当箱を買いました！</title><link>https://www.ambitious-i.net/blog/new_lunch_box_review/</link><pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/new_lunch_box_review/</guid><description>&lt;p>またまた久々の更新です。。。&lt;br>
+なかなか業務が忙しいと後回しにしがちなのと、そもそも文字不精な性格でないのがよくなさそうです(´･ω･`)&lt;br>
+実は結婚したりもしてるんですが、それは追々記載できたらしようと思います！&lt;/p>
+&lt;p>さて、今回は&lt;a href="https://amzn.to/3V6rur8">可愛いお弁当箱&lt;/a>のお話です♪&lt;br>
+妻には&lt;strong>お弁当箱マニア&lt;/strong>と言われるくらいお弁当箱には並並ならぬコダワリがあります(`･ω･´)&lt;/p>
+&lt;ul>
+&lt;li>愛用のバッグに入ること&lt;/li>
+&lt;li>食洗機対応であること&lt;/li>
+&lt;li>電子レンジ対応であること&lt;/li>
+&lt;li>食べ終わったら小さくなるなどちょっとした機能がついていること&lt;/li>
+&lt;li>お洒落な雰囲気があること&lt;/li>
+&lt;/ul>
+&lt;p>特に愛用のバッグは &lt;a href="https://amzn.to/353uYOn">AMARIO crum BB&lt;/a> というバッグで、そこまで大きくないのでかなり限られてきます(^^;&lt;br>
+リュックやショルダーでもいいんですが、歩きやすいとなるとリュックタイプの体に密着するタイプで、かつ電車等で前に移動させるのにいちいち下ろしたりしなくてもいいとなると、このタイプになってきます(･∀･)&lt;/p>
+&lt;p>そんな中出会ったこちら、上記の要件を満たしつつお椀もついてきます(≧▽≦)&lt;br>
+ちょっとお昼にお味噌汁を飲みたい願望もあったので、とても満足です！&lt;/p>
+&lt;p>私の使い方としては、下段におかず、上段は山盛りのご飯におかずを埋め、お味噌汁はインスタントに少し蒸し野菜を追加します。&lt;br>
+そもそもみっちり入れるというのもありますが、これで成人男性（メタボ）のオッサンも満足(๑•̀ㅂ•́)و✧
+とてもオススメです！！&lt;/p>
+&lt;p>やはりお弁当はいいですね〜
+水筒も持参して、平日はお金を使わないおじさんの簡単な商品紹介でした(*･ω･)ﾉ&lt;/p></description></item><item><title>GitHub の Private Repository を使ってみる</title><link>https://www.ambitious-i.net/blog/use_github_private_repository/</link><pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/use_github_private_repository/</guid><description>&lt;p>すっかり更新が止まってしまっています。。。&lt;br>
+今年はなるべく書けるようにしていきたい…と思います(´･ω･`)&lt;br>
+取り敢えず新年一発目なので、地味に&lt;a href="https://www.ambitious-i.net/person/">本人について&lt;/a>や&lt;a href="https://www.ambitious-i.net/account/">アカウント&lt;/a>、トップ画像なんかも変えましたww&lt;/p>
+&lt;p>さて、ご存知のように 2019/1/7 から GitHub の Private Repository が無料になりました！&lt;br>
+ありがたいですね〜(^^)&lt;br>
+以前、7＄払ってでも草を生やそうかな？なんて思っていた私にとっては朗報です！&lt;/p>
+&lt;h2 id="bitbucket-からの移行作業">Bitbucket からの移行作業&lt;/h2>
+&lt;p>ということで、早速移行作業をしていきます！&lt;br>
+Import repository を使えば Bitbucket からスムーズに移行できる…という記事を見たのですが、待てど暮らせど移行されず…(T_T)&lt;br>
+URL でも間違ってたのでしょか？&lt;br>
+結局、以下の手順でリポジトリの移行を行いました。&lt;/p>
+&lt;pre tabindex="0">&lt;code>git clone git@bitbucket.org:&amp;lt;ユーザー&amp;gt;/&amp;lt;BitbucketのURL&amp;gt;.git
+git remote set-url origin git@github.com:&amp;lt;ユーザー&amp;gt;/&amp;lt;GitHubのURL&amp;gt;.git
+git push -u origin master
+&lt;/code>&lt;/pre>&lt;p>まぁ確実ですね(^ω^;)&lt;/p></description></item><item><title>BitbucketのPipelinesからDropboxへ成果物をアップロード</title><link>https://www.ambitious-i.net/blog/file_to_dropbox_from_bitbucket/</link><pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/file_to_dropbox_from_bitbucket/</guid><description>&lt;p>まんまタイトルの通りです。(^ω^;)&lt;br>
+Android の APK はそこまで頻繁に更新もしていなかったので、以前は手作業で作成していました。&lt;br>
+ただもういい加減、手作業で APK を作成するのはあまりにもダサいので、「&lt;a href="https://qiita.com/kenyop/items/aae55649e6c4cfc056d4">Bitbucket の PipeLine で Android をデプロイしてみた&lt;/a>」を参考に、Pipelines で APK を作成することにしました(･∀･)&lt;/p>
+&lt;p>ここでは、pipelines で APK を作成し、Dropbox へアップロードする内容を記載します。&lt;br>
+なので、jks を app 直下に置いて、signingConfigs をコリコリする等、assembleRelease で署名つき APK を作成する方法は色んな記事がありますので、そちらを参考にしてください&amp;lt;(_ _)&amp;gt;&lt;br>
+ということで、実際のは以下です。&lt;/p></description></item><item><title>Iceberg を各所に導入</title><link>https://www.ambitious-i.net/blog/vim_use_iceberg/</link><pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/vim_use_iceberg/</guid><description>&lt;p>今年の GW は 9 連休にした方も多いでしょうか？&lt;br>
+私も休もうと思えば休めたんですが、有給を使うほどでもないかな〜というのと、ウチのも出勤で朝は結局起きなきゃいけないので、通常通り出勤しました(^ω^;)&lt;/p>
+&lt;p>まぁ当然(？)弊社も出勤してる人が少なかったんですが、スペシャリストの先輩は出勤されていて Vim の話で盛り上がっていました♪&lt;br>
+そこでカラースキーマの話になったのですが、Iceberg が結構いいということで、私も導入してみることにしました！&lt;br>
+（後で知りましたが、別の先輩も Iceberg を導入していたようです。）&lt;br>
+今回はその作業備忘録です。&lt;/p>
+&lt;h2 id="vim">Vim&lt;/h2>
+&lt;p>まずは Vim ですね！&lt;br>
+GitHub はこちらです。&lt;br>
+&lt;a href="https://github.com/cocopon/iceberg.vim">https://github.com/cocopon/iceberg.vim&lt;/a>&lt;/p>
+&lt;p>フツーに curl で colors 以下にダウンロードして、&lt;code>.vimrc&lt;/code> を変えて完了です(`･ω･´)&lt;br>
+あ、ちなみにそれまではずっと desert256 を使っていました(^ω^;)&lt;/p></description></item><item><title>ブログのテンプレートを移行しました！</title><link>https://www.ambitious-i.net/blog/create_new_blog_template/</link><pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_new_blog_template/</guid><description>&lt;p>実は 2018 年に入ってコツコツと作成してきたのですが、ようやく 5 月に入ってリリースすることができました！&lt;br>
+データの移行もそこそこ大変でしたが、やはり 1 番大変なのは AMP 対応でした(&amp;gt;_&amp;lt;)&lt;br>
+そもそもよく AMP が分かってなかったでしたからねwww&lt;br>
+でも相変わらず色々と勉強になってよかったです(･∀･)&lt;/p>
+&lt;p>引き続き WordPress でもよかったのですが&lt;/p>
+&lt;ul>
+&lt;li>思ったより自由度が高く無い&lt;/li>
+&lt;li>表示が遅い&lt;/li>
+&lt;li>入力項目が多い&lt;/li>
+&lt;/ul>
+&lt;p>というのがあり、どうしても書くのを億劫にしていました。。。&lt;/p>
+&lt;p>なので&lt;/p>
+&lt;ul>
+&lt;li>書くのを億劫にしない&lt;/li>
+&lt;li>表示速度が早い&lt;/li>
+&lt;li>技術的に新しい&lt;/li>
+&lt;/ul>
+&lt;p>ブログを作りたいと思い、AMP を利用したブログを構築しました(`･ω･´)&lt;/p></description></item><item><title>スマホのケースを手帳型からカバー型に変えました(･∀･)</title><link>https://www.ambitious-i.net/blog/change_sp_case/</link><pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/change_sp_case/</guid><description>&lt;p>今回は手帳型ケースをやめて、ただのケースにしたので記事にしようと思います(･∀･)&lt;br>
+経緯としては、ここ最近自撮り棒をよく使うようになり（←遅い）手帳型ケースだといちいちケースから外してセットするのが面倒になったからです(^ω^;)&lt;/p>
+&lt;p>ちなみに携帯は &lt;a href="https://amzn.to/2IO7IZc">HUAWEI P10 lite&lt;/a> になります♪&lt;br>
+色は何となくカッコよかったので Sapphire Blue にしました(^w^)&lt;br>
+今回の変更で、こちらも若干見えるようになりました！&lt;/p>
+&lt;h2 id="購入一覧">購入一覧&lt;/h2>
+&lt;p>ということで、今回は以下の商品を購入しました(*･ω･)ﾉ&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2IJtdhV">SOUL OF JAPAN 鯉と波/GD&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2LtwCit">ガラスフィルム&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2xddCSk">クリアケース&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2LuI25B">ゴムバンド付きカードケース&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="作業裏面">作業・裏面&lt;/h2>
+&lt;p>まず裏面をピカピカにしてから、鯉のシールを貼ります！&lt;br>
+ちょっとイカついですが、元々鯉釣りをしていた過去もあり、蒔絵シールはつい鯉を選んじゃうんですよね(笑)&lt;br>
+その上からクリアケースを装備して、カードケースをクリアケースに貼ったら完成です(`･ω･´)&lt;br>
+ちなみにカードケースは、手帳型ケースにパスモを入れてて、それが楽だったため継続しようと思ったからです♪&lt;/p></description></item><item><title>親知らずの抜歯</title><link>https://www.ambitious-i.net/blog/wisdom_teeth_pulled_out/</link><pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/wisdom_teeth_pulled_out/</guid><description>&lt;p>こちらは抜歯した歯になりますm(_ _)m&lt;/p>
+&lt;p>ついに 4 本あった（と思っていた）親知らずの 1 つが虫歯になってしまいました(´･ω･`)&lt;br>
+治療して残していた歯でしたが、稀にストレスがかかると痛むことがありました…&lt;br>
+今回もそうだと思っていたのですが、今回はしっかり虫歯だったようです(^ω^;)&lt;/p>
+&lt;p>私は幼少期の生活習慣が原因で、とても虫歯になりやすい体質です。&lt;br>
+ただ親知らずも含め、全てちゃんと真っ直ぐ生えていたので、今回抜いた親知らずも治療して残していました。&lt;br>
+でも先生もおっしゃってた通り、親知らずは治療しきれないことが多いらしく、今回はかなり酷く痛んだため抜歯に踏み切りました(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;h2 id="経緯">経緯&lt;/h2>
+&lt;p>ということで、今回は痛んでから抜歯、落ち着くまでを時系列にしてみました(*･ω･)ﾉ&lt;/p>
+&lt;ul>
+&lt;li>3/28
+&lt;ul>
+&lt;li>痛み出す（この時はまだストレスだと勘違い）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>3/29
+&lt;ul>
+&lt;li>痛みが悪化&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>3/30
+&lt;ul>
+&lt;li>仕事があったのでロキソニンの頓服でごまかす&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>3/31
+&lt;ul>
+&lt;li>まだ腫れていないと思っていた&lt;/li>
+&lt;li>（実際は認識できないだけで腫れている）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/1
+&lt;ul>
+&lt;li>緊急抜歯（麻酔 2 本 → 歯を貰って帰る）&lt;/li>
+&lt;li>血餅が汚れてる感がある&lt;/li>
+&lt;li>2,430 円&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/2
+&lt;ul>
+&lt;li>腫れが引かないのか、まだ痛む。&lt;/li>
+&lt;li>ロキソニンを頓服しても別の歯が痛い気がする。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/3
+&lt;ul>
+&lt;li>痛みが緩和される。&lt;/li>
+&lt;li>が、まだ痛い。血餅が白くなる。&lt;/li>
+&lt;li>夜には痛みがなくなり、血餅の端に膿みらしきものが出てる。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/4
+&lt;ul>
+&lt;li>痛みもほぼなくなる。血餅は真っ白になる。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/5
+&lt;ul>
+&lt;li>血餅が気持ち縮んだ気がする。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/6
+&lt;ul>
+&lt;li>特に変化なし&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/7
+&lt;ul>
+&lt;li>朝見たら血餅がかなり縮んだ感じ。&lt;/li>
+&lt;li>少し穴が空いてるように見える。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>4/8
+&lt;ul>
+&lt;li>起きて確認すると、血餅が取れて穴になっていた。&lt;/li>
+&lt;li>ドライソケットに一瞬恐怖するも、ほぼ痛みなし。&lt;/li>
+&lt;li>歯医者でも問題ないと言われたので、以後経過観察。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>親知らずは大きな歯なので、ケースのように根が分かれてるのかと思っていたのですが、意外にも集合していましたΣ(･ω･ﾉ)ﾉ&lt;br>
+ちなみに上の方が欠けてるのは、抜くときに治療して被せていたものが割れてしまったためです。&lt;/p></description></item><item><title>Google Home Mini購入</title><link>https://www.ambitious-i.net/blog/buy_google_home_mini/</link><pubDate>Tue, 26 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_google_home_mini/</guid><description>&lt;p>ついに我が家にも話題の家電 Google Home が到着しました！&lt;br>
+と言っても来たのは 2 週間前ですしミニの方なんですが、せっかくなので使用感も合わせて記事にしたいと思います(･∀･)&lt;/p>
+&lt;h2 id="購入経緯">購入経緯&lt;/h2>
+&lt;p>元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)&lt;br>
+3,000 円なら買いなんじゃないでしょうか？&lt;/p>
+&lt;p>ということで我が家にも到着です♪&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0150b7b7-c0b1-470c-b2dd-642ec97456a3" alt="Google Home 1">&lt;/p>
+&lt;p>こんな感じです(^ω^;)&lt;br>
+まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…&lt;/p>
+&lt;h2 id="開封の儀">開封の儀&lt;/h2>
+&lt;p>せっかくネット記事なので、それっぽいことをやってみますwww&lt;br>
+全体を覆うビニールを裏側からペリペリしてパカッ！
+&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0719a847-e078-48a1-bd07-2a30b76994e9" alt="Google Home 2">
+ほぅ…&lt;/p>
+&lt;h2 id="サイズ感チェック">サイズ感チェック&lt;/h2>
+&lt;p>お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。）
+&lt;img src="https://github.com/bvlion/blog2/assets/24517539/982e5317-63f7-48e4-a768-a8f113026865" alt="Google Home 3">
+どうでしょう？&lt;br>
+個人的には思ったより小さいな〜という感じです(*･ω･)ﾉ&lt;/p></description></item><item><title>SSHポートフォワーディングを使ってリモートのMySQLに接続</title><link>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</guid><description>&lt;p>久々の更新です(*･ω･)ﾉ&lt;/p>
+&lt;p>さて、今回はタイトルの通りです(`･ω･´)&lt;br>
+家のラズパイは各種監視やエアコン等の制御用に Springboot で作られた API が走っています。&lt;br>
+なのでスマホから色々操作できるようになっています♪&lt;br>
+この話はまたいつか…&lt;/p>
+&lt;p>で、こいつの接続先をローカル DB ではなく、別のサーバー（このブログの動いてるサーバー）の DB に接続するようにします！&lt;br>
+経緯としては結構前になってしまうのですが、実はラズパイの SD カードがアボ〜ンしました(T_T)&lt;br>
+サーバー自体の再構築は Ansible さんがいらっしゃったのでそこまで大変でもなかったのですが、DB のデータはもう帰ってこない…&lt;br>
+せめて DB はレン鯖にしとくべきだったと反省しております＿|￣|○&lt;/p>
+&lt;p>ということでその作業の一角、Springboot の DB 接続は SSH ポートフォワーディングを使ってリモートの MySQL に接続するようにする手順の備忘録的なものです。&lt;br>
+作業の手順としては&lt;/p></description></item><item><title>清涼スプレーを自作してみた！</title><link>https://www.ambitious-i.net/blog/create_cool_spray/</link><pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_cool_spray/</guid><description>&lt;p>年も暑い夏でしたね…&lt;br>
+まだまだ残暑が厳しいです(&amp;gt;_&amp;lt;)&lt;br>
+なので通勤中はシャツミスト系が大変重宝します(･∀･)&lt;/p>
+&lt;p>ただ、これの販売期間が 5 月末 〜 9 月中旬という世知辛さΣ(･ω･ﾉ)ﾉ&lt;br>
+去年は販売終了間近に大量買いしたのですが、毎年それはちょっとしんどい…&lt;br>
+ということで自作できないか調べてみたところ、メンソールとアルコールがあればできるようなので試行錯誤(`･ω･´)&lt;br>
+上手くできたので記事にしようという感じです♪&lt;/p>
+&lt;h4>&lt;strong class="dark-red">※ 実施は自己責任でお願いいたします&lt;(_ _)>&lt;/strong>&lt;/h4>
+&lt;h2 id="準備">準備&lt;/h2>
+&lt;p>ということで、早速以下を準備します(*･ω･)ﾉ&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://amzn.to/2KQRuiO">【第3類医薬品】消毒用エタノールIP「ケンエー」500mL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2s4NXXd">アイスノン シャツミスト エキストラミントの香り 300ml&lt;/a>（の空容器）&lt;/li>
+&lt;li>&lt;a href="https://amzn.to/2s52SAF">L-メントール（メントールクリスタル） 100g&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/fb0bc1e1-ef2e-4f9d-b69e-4d486b54d48b" alt="自作シャツクール画像2">&lt;/p></description></item><item><title>まさかのやらない理由3選！</title><link>https://www.ambitious-i.net/blog/three_reason_not_to_do/</link><pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/three_reason_not_to_do/</guid><description>&lt;p>最近更新が止まっていてすみません。。。&lt;br>
+（と言っても誰が見てるんだって話ですが…）&lt;br>
+諸々とあって忙しく、技術的なネタも収集できていなかったので、ポエム的なものを書こうと思います&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;h3 class="dark-red">※ 半分ネタ程度に読んでください。。&lt;/h3>
+&lt;p>ごくごくフツーのエンジニアさんであれば「？」となる内容だと思います(^ω^;)&lt;br>
+直近のネタではありませんが、きっと私の受け取り方がおかしかったのであろう内容を 3 つ、紹介いたします！&lt;/p>
+&lt;h2 id="テストコードをテストするコードも必要">テストコードをテストするコードも必要？？&lt;/h2>
+&lt;p>ずっと Unit テストも導入されていなかったプロジェクトの改修にアサインされた時の話です。&lt;/p>
+&lt;p>1 度直したらしばらく直さないようなものであれば、既に動いているシステムなので、手作業でテストでもまぁいいかとも思ったのですが、頻繁に項目の変更があり、その都度デグレードテスト含めかなり網羅的に手作業でテストをし、Excel にキャプチャを貼ってエビデンスを残していました。&lt;br>
+テスト方法もさることながら、&lt;strong>同じことを繰り返し手で行う&lt;/strong>のはあまり効率的な開発ではないように思えました。&lt;br>
+なので一部に対し Unit テストの導入を提案してみたのですが、そこで言われた導入しない理由がビックリで、反論できませんでした。。。&lt;/p>
+&lt;h3 id="テストコード書くのはいいけどそのコードの妥当性を検証するコードも必要になるよね">テストコード書くのはいいけど、そのコードの妥当性を検証するコードも必要になるよね！&lt;/h3>
+&lt;p>そのテストコードの妥当性を検証するテストコード、の妥当性を検証するテストコード、の妥当性を検証する…(ry&lt;br>
+&lt;strong>無限ループの発生です( `･ω･´)&lt;/strong>&lt;br>
+確かにテストコードの妥当性のチェックは必要です。&lt;br>
+なので Unit テストは細かく分け、1 つ 1 つはコードを見ればある程度妥当性があるか判断できるようにし、コードとテスト結果をレビューするのが定石だと思っていました。&lt;br>
+まさかこんな反論されるなんて、夢にも思いませんでした。&lt;/p></description></item><item><title>Scalaboot 作りました！</title><link>https://www.ambitious-i.net/blog/create_scalaboot/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_scalaboot/</guid><description>&lt;p>少し前の話になってしまいますが、&lt;a href="http://jp.techcrunch.com/2017/05/18/20170517google-makes-kotlin-a-first-class-language-for-writing-android-apps/">Google I/O で Kotlin がサポート&lt;/a>されるようになりました！&lt;br>
+個人的なアプリは Kotlin で作ってきましたが、正式サポートは嬉しいですね(･∀･)&lt;br>
+ただ、相変わらず Android アプリ自体は Java で書いた方が楽ではあるでしょうから、そのあたりの見極めも大事にしていきたいところです♪&lt;/p>
+&lt;p>Kotlin の時もそうだったのですが、新しい言語とFW、同時に覚えるのは大変だと思います。&lt;br>
+少なくとも「Scala と Play2」とか「Scala と Skinny」みたいなのは挫折してしまいました(´･ω･`)&lt;br>
+そういえば「Ruby と Rails」も1度挫折しています…&lt;br>
+きっと「Kotlin と Android」でも挫折してしまっていただろうと思います。&lt;/p></description></item><item><title>GWにショボいWebを立ち上げてみる</title><link>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</link><pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_minimum_site_on_gw/</guid><description>&lt;p>しばらく Android に夢中になっていてブログの更新まで怠っていた自分ですが、GW に小さい Web サービスを立ち上げてみようと思い立ちました(･∀･)
+キッカケは&lt;/p>
+&lt;ul>
+&lt;li>Heroku が月 1,000 時間無料なので、再度試したくなった&lt;/li>
+&lt;li>「GWにサイト作りもくもくする」という発言を耳にした&lt;/li>
+&lt;li>たまたま相方がお出かけでぼっちになる&lt;/li>
+&lt;/ul>
+&lt;p>といったところです(^ω^;)&lt;/p>
+&lt;p>ということで出来上がったのがこちら&lt;/p>
+&lt;h1 id="使い捨てマークダウンhttpsgithubcombvliondisposable-markdown">&lt;a href="https://github.com/bvlion/disposable-markdown">使い捨てマークダウン&lt;/a>&lt;/h1>
+&lt;p>です( `･ω･´)&lt;br>
+（現在は閉鎖しています）&lt;/p>
+&lt;p>&lt;del>アクセスして頂ければ大体書いてあるんですが、&lt;/del> 画像のアップロードや検索・管理機能もなく、本当に登録と閲覧のみに機能を絞ってます。&lt;/p>
+&lt;p>背景として、Qiita さんや GitHub さんも、マークダウンで書いて表示できます。&lt;br>
+ただ、アカウントがないといけないし、単に共有するだけのために書くって何か趣旨が違う気がする…と思ってサービスを探していたんですが、日本語が使えるサイトがなかったので立ち上げてみた…という感じでもあります(*･ω･)ﾉ&lt;br>
+一応海外には似たようなサイトがあったんですが、日本語が使えませんでした(´･ω･`)&lt;/p></description></item><item><title>仮想サーバーで遭遇した不思議なエラー…</title><link>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</link><pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</guid><description>&lt;p>借りてる仮想化サーバーで、ある時からログイン時に必ず以下のエラーが出るようになりました(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;pre tabindex="0">&lt;code>Last login: Thu Feb ${日時} from ${IP}
+-bash: _have: command not found
+bash: _have: コマンドが見つかりません
+&lt;/code>&lt;/pre>&lt;p>「はて？_haveなんて定義した覚えはないぞ？」と思って&lt;/p>
+&lt;pre tabindex="0">&lt;code>bash --login -x
+&lt;/code>&lt;/pre>&lt;p>で調べたところ&lt;/p>
+&lt;pre tabindex="0">&lt;code>+++ . /etc/bash_completion.d/lxc
+++++ _have lxc-start
+bash: _have: コマンドが見つかりません
+&lt;/code>&lt;/pre>&lt;p>と、出てきます(^ω^;)&lt;/p></description></item><item><title>技術書典２行ってきました！</title><link>https://www.ambitious-i.net/blog/techbookfest2/</link><pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/techbookfest2/</guid><description>&lt;p>Twitter とか眺めてると、当日に投稿されている方が結構いますね。。。&lt;br>
+行動力に脱帽です&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;p>2017/4/9(日)にアキバ・スクエアで行われた「技術書典２」に行ってきました(*･ω･)ﾉ&lt;br>
+去年もなかなかに楽しかったので、前日からワクワクしつつ目覚ましをセット！&lt;br>
+ところが…&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">オワタ…&lt;br>寝坊した(´･ω･`)&lt;/p>&amp;mdash; bvlion🍣🦪 (@ninjinx) &lt;a href="https://twitter.com/ninjinx/status/850880543457595392?ref_src=twsrc%5Etfw">April 9, 2017&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>欲しい本が買えないフラグ立ちました(´･ω･｀)&lt;br>
+ともあれ行かないと買えないかなんて分からないので、雨の中秋葉原に向かいます(｀･ω･´)&lt;/p>
+&lt;p>行ってみるとすごい行列Σ(･ω･ﾉ)ﾉ&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">この尋常じゃない並び、いつ入れるのか不安になる…&lt;br>去年くらいだと思ってた認識甘かった(´･ω･`)&lt;a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;amp;ref_src=twsrc%5Etfw">#技術書典&lt;/a>&lt;/p>&amp;mdash; bvlion🍣🦪 (@ninjinx) &lt;a href="https://twitter.com/ninjinx/status/850902477801013248?ref_src=twsrc%5Etfw">April 9, 2017&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>と思ってしまうほど…&lt;br>
+とは去年とは異なり言え並ばないと入れないようなので、傘をさしたまま列に並びます(^ω^;)&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">山手線から見たらさぞ異様な光景なんでしょうなぁ…&lt;a href="https://twitter.com/hashtag/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8?src=hash&amp;amp;ref_src=twsrc%5Etfw">#技術書典&lt;/a>&lt;/p>&amp;mdash; bvlion🍣🦪 (@ninjinx) &lt;a href="https://twitter.com/ninjinx/status/850905521292890112?ref_src=twsrc%5Etfw">April 9, 2017&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>などと思ってしまったり(笑)&lt;br>
+10 分おきくらいに列が進みます(･∀･)&lt;/p></description></item><item><title>Seleniumを使ってモバイルサイトのテスト</title><link>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</link><pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mobile_site_test_selenium/</guid><description>&lt;p>既出情報のまとめ的な感じですが、備忘録として…&lt;/p>
+&lt;p>先日モバイルサイトの自動テストってことで、Selenium の話が出ました。&lt;br>
+ただ、モバイルサイトは当然(？) UA で判定しているので、通常の UA だと PC サイトにリダイレクトされてしまいます。&lt;br>
+また、画面のサイズもそれっぽいサイズにしないとキャプチャがおかしなことになってしまいます。&lt;/p>
+&lt;p>ということで、その場合 Selenium に何を設定したらいいのか…ということで、Java の場合はこんな感じだよ！というのを載せておきます。&lt;/p>
+&lt;script src="https://gist.github.com/bvlion/bebfee66cb60f272d9eb97c05597d2f1.js">&lt;/script>
+&lt;p>実際にこうやってテストする会社とかってありますかね？&lt;br>
+Selenium 自体はいろんな言語で動かせるので、逆にちょっと気になります。。。&lt;/p>
+&lt;p>ところで、最近はインデントを2スペースにするのが流行りつつあるようですね！&lt;br>
+Java 界隈ではどうなるのか…&lt;/p></description></item><item><title>エンジニア系弁当男子1</title><link>https://www.ambitious-i.net/blog/engineer_style_lunchbox_boys/</link><pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/engineer_style_lunchbox_boys/</guid><description>&lt;p>「弁当男子」という言葉を最近耳にしなくなりましたね…&lt;br>
+調べてみると、2008 年頃に流行り始めた言葉なんだとか(^^;&lt;br>
+約 10 年になるんですね！&lt;br>
+その頃の自分と言えば多分、IT業界に入ったか入らなかったかって頃だと思います。&lt;br>
+実に懐かしい(笑)&lt;/p>
+&lt;p>さて私はというと、ほぼずっとお弁当が続いてます。&lt;br>
+大体朝に自分で作ってるのですが、最初の頃は冷食を温めて詰めてるだけでした。。。&lt;br>
+でもそれだとあんま節約にはならないんですよね(&amp;gt;_&amp;lt;)&lt;br>
+まぁ色んな種類があって彩りとかはよくなりますが…&lt;/p>
+&lt;p>でも朝から数品も自分だけのためには作れません(´･ω･`)&lt;br>
+ということで、最近はトップ画像のような感じで丼をよく持って行ってます！&lt;br>
+レシピ本まで買っちゃったりして(笑)&lt;/p>
+&lt;p>今回作ったのはレシピにあった「ポークりんご丼」というものです。&lt;br>
+意外にりんごと豚肉が合います！&lt;/p>
+&lt;p>ちなみに使っているお弁当箱はこちら。&lt;br>
+&lt;a href="https://amzn.to/2IPL5H6">ランタスさんの「カフェ丼ランチ」&lt;/a>というものです！&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/186a0cf9-0cb9-4220-a240-9b0c07761b03" alt="カフェ丼ランチ">&lt;/p>
+&lt;p>なかなかに容量も保温力もあり、お気に入りです♪&lt;/p>
+&lt;p>こうすることで、ざっくり計算ではありますが冷食だと 1 食 300 円弱くらいかかっていたのが、いまでは 1 食 200 円弱にまで抑えられています！&lt;br>
+ここまでくればお弁当で節約ともなるものです( `･ω･´)&lt;/p></description></item><item><title>Spring BatchのMETA tableをクリアする</title><link>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</link><pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</guid><description>&lt;p>最近になって、やっと Spring Batch なるものを知りました(^ω^;)&lt;br>
+しばらく Java 系の勉強から離れていたもので… ← 言い訳(爆)&lt;/p>
+&lt;p>ということで、&lt;a href="https://blog.ik.am/">まきさんのブログ&lt;/a>を参考にさせていただいたり、Qiita の投稿記事や英語のサイト、@Configuration の仕組みを知るためにソースをダウンロードしたりして、コツコツ勉強しました。&lt;br>
+いやいや、なんとも便利なものです(･∀･)&lt;br>
+まぁ何かを作ったら GitHub にあげようと思います&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;p>その中で @Scheduled という繰り返し機能を知ったのですが、これがまた便利で cron の機能もあったりします。&lt;br>
+ただ、実行される度に DB に実行結果が INSERT されるので結構肥大化してきます。&lt;br>
+大した件数ではないものの、やはり10秒毎とかになってくるとそこそこの件数です。&lt;/p></description></item><item><title>初！アプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/first_app_release/</link><pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/first_app_release/</guid><description>&lt;p>すでに&lt;a href="https://bvlion-app.web.app/">個人活動のポートフォリオ&lt;/a>には記入しましたが、初めて個人でアプリをリリースしました！&lt;br>
+いや〜、嬉しいですね♪&lt;/p>
+&lt;h2 id="アプリについて">アプリについて&lt;/h2>
+&lt;p>アプリ自体は大した内容ではありません。&lt;br>
+完全に説明通りで&lt;/p>
+&lt;hr>
+&lt;pre tabindex="0">&lt;code>電源ボタンでなく、自撮りカメラ（フロントカメラ）付近の近接センサーを使い、物が離れると画面がONになり、通知エリアから画面をOFFにできるアプリです。
+手帳っぽいカバーを使ってなくても、手をかざして画面をONにできたりしますので、便利に使えるかと思います。
+また、暗い場所や何かがセンサーに被さってしまった等での不用意な画面OFFをなくすため、画面のOFFは通知エリアより行えるようになっています。
+通知エリアからオフにするかは任意で決められます。
+
+※ ご注意
+・申し訳ございませんが、近接センサーが搭載されていない端末ではご使用頂けません。
+・通知エリアからオフにするために「管理アプリ」として有効にした場合、アプリのアンインストールボタン（有効にするとアプリ内に表示されます）よりアンインストールを行ってください。
+管理権限を得ることにより、通常のアンインストールが不可となる場合がございます。
+・自動起動マネージャー等のタスク管理アプリをご使用の場合、正常に動作しない場合があります。
+正常に動作しない場合、タスク管理外（自動起動の許可等）の設定を行っていただくことにより、動作する可能性がございます。
+・「ここをダブルタップで画面オフ」の項目はAndroid5.0（LOLIPOP）以上で表示されます。
+また「ここをダブルタップで画面オフ」の項目が表示されない場合、対象の通知を少し下へスライドすると表示されます。
+（これはAndroidの作りに起因するもののため、ご容赦願えればと存じます。）
+・このアプリは端末の管理者権限を使用します。
+これは画面のロック（OFF）のためであり、それ以外の用途には使用されません。
+です(^ω^;)
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;p>正直、この手のアプリって結構あると思います。&lt;br>
+でもあえて作ったのは&lt;/p>
+&lt;ul>
+&lt;li>他のアプリだと暗い場所等での不用意な画面OFF・画面ONが発生していた&lt;/li>
+&lt;li>一部アプリではタスクキラー等で使用不可になることがあった&lt;/li>
+&lt;/ul>
+&lt;p>といったところでしょうか？&lt;br>
+元々はそういう事象で困っていた家族のために作ったアプリでしたが、離れてしまったためいつでもインストールできるように…とアップしました(*･ω･)ﾉ&lt;/p></description></item><item><title>JavaからSlackへ画像を投稿する</title><link>https://www.ambitious-i.net/blog/send_to_slack_from_java/</link><pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/send_to_slack_from_java/</guid><description>&lt;p>随分と更新が空いてしまいました(´･ω･`)&lt;br>
+なるべく週に1つは書けるようガンバってみたいと思います(^ω^;)&lt;br>
+なかなか書こうと思うと、ブログ自体が久々すぎて進まない(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;p>コードは &lt;a href="https://gist.github.com/bvlion/93d708317bba9846de4e29674c5fd003">Gist&lt;/a> に上がってますので、そちらを加工したりして使ってみてください(･∀･)&lt;br>
+フリーライセンスでございます！&lt;/p>
+&lt;p>Java から Slack へ投稿する…というのは大勢の方がやってらっしゃいます。&lt;br>
+実際に日本語の記事もあるのですが、結構 OkHttp とか GAE で使えないのが多かったりするんですよね(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;p>GAE からデータを送信する場合、HttpURLConnection でガリガリ書かないといけません。&lt;br>
+そこで、独自に実装したコードを公開しました！というお話です。&lt;/p>
+&lt;p>特別なことはしていないので、ソースを見てもらえれば大体何やってるか分かると思います。&lt;br>
+ちなみに &lt;strong>GAE は Java7&lt;/strong> なので、それに合わせたコードになっています。&lt;br>
+Java8 を使えればもう少し短くなるんですけどね…&lt;br>
+あと注意点としては、commons.lang 系を使ってますので、そちらだけは dependencies に入れるなりダウンロードするなりして使ってください&amp;lt;(_ _)&amp;gt;&lt;/p></description></item><item><title>G Suiteからの退会 ~~メールアドレス移行編~~</title><link>https://www.ambitious-i.net/blog/withdrawal_from_g_suite/</link><pubDate>Fri, 20 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/withdrawal_from_g_suite/</guid><description>&lt;p>G Suite を 1 年使ってみました！&lt;br>
+使っていたのは &lt;strong>G Suite Basic&lt;/strong> です。&lt;br>
+以前お世話になった会社で使ってらしたのを見て、自分も個人のドメインで使って見たいと思ったのがキッカケです(･∀･)&lt;/p>
+&lt;p>我が家は現在 2 人なので、2 人分で登録。&lt;br>
+月 1,000 円で Google のサービスがたくさん使えたり、ドライブも容量が多く大変満足でした！&lt;br>
+特にメールとカレンダーなんかは2人でも大変使い勝手が良かったです♪&lt;/p>
+&lt;p>でも少しずつ使わなくなり、相方も「そんなにたくさんメールアドレスいらないかな〜」と言い始めました…。&lt;br>
+そうなるとアクセスも減り、段々と必要性を感じなくなってきてしまいました(^ω^;)&lt;/p>
+&lt;p>2017 年 2 月で使い始めて 1 年となり、更新のタイミングがやってきます。&lt;br>
+そのタイミングより少し前に、メール機能付きのサーバーをレンタルし始めました(^^)&lt;br>
+そこで、これを機に一旦 G Suite を止めてレンタルサーバーにメールを移行し、その他のサービスを Google の通常のアカウントに移行してみようと思いました。&lt;/p></description></item><item><title>自分のサイトはじめました♪</title><link>https://www.ambitious-i.net/blog/starting_my_blog/</link><pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/starting_my_blog/</guid><description>&lt;p>どうも！よく bvlion という名前でつぶやいたりしています。。。&lt;br>
+初めましての方もそうでない方も、たまたま来た方も皆様、お見知り置き頂ければと思います&amp;lt;(_ _)&amp;gt;&lt;/p>
+&lt;p>キャッチアイ画像が目印です(笑)&lt;/p>
+&lt;p>お仕事はエンジニアをしています(^^)&lt;br>
+かなりのヘッポコです。。。&lt;br>
+でも好きなんで続いています(^ω^;)&lt;/p>
+&lt;p>ここでは一応、技術的なことも書けたら書きたいですし、まぁでも趣味的な部分が多数を占めるかと思います。&lt;br>
+色々と思ったこと、気づいたこと、自分も備忘録なんかも合わせて書いていきます。&lt;/p>
+&lt;p>まずは始めてみましたよ〜ということで一つ目の記事にしたいと思います！&lt;br>
+よろしくお願い致します( `･ω･´)&lt;/p></description></item><item><title>本人について</title><link>https://www.ambitious-i.net/account/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/account/</guid><description>&lt;p>開いて頂きありがとうございます(･∀･)&lt;br>
+ここでは、個人的なアカウントを公開できる範囲内で紹介させて頂きます。&lt;/p>
+&lt;h2 id="github">GitHub&lt;/h2>
+&lt;p>ちょこちょこと公開可能な制作物をアップしています。&lt;br>
+&lt;a href="https://github.com/bvlion">GitHub&lt;/a>&lt;br>
+割と新しく作ったものをアップしています！&lt;br>
+&lt;a href="https://gist.github.com/bvlion">Gist&lt;/a>&lt;br>
+Gist にも時折アップロードしています。&lt;/p>
+&lt;h2 id="bitbucket">Bitbucket&lt;/h2>
+&lt;p>以前 GitHub にアップしていた古いものはこちらに移動しています。&lt;br>
+&lt;a href="https://bitbucket.org/bvlion/workspace/repositories/">Bitbucket&lt;/a>&lt;br>
+C# など、せっかく作ったから…程度のものがほとんどです(^^;&lt;/p>
+&lt;h2 id="x旧twitter">X（旧：Twitter）&lt;/h2>
+&lt;p>X（旧：Twitter）は大体毎日拝見させて頂いております(^^;&lt;br>
+&lt;a href="https://x.com/ninjinx">ビブライオン（bvlion）&lt;/a>&lt;br>
+是非フォローしてください！&lt;/p>
+&lt;h2 id="zenn">Zenn&lt;/h2>
+&lt;p>Qiita よりは少し真面目に書いてます！&lt;br>
+&lt;a href="https://zenn.dev/bvlion">Zenn&lt;/a>&lt;br>
+が、大した内容はないです(´･ω･`)&lt;/p>
+&lt;h2 id="qiita">Qiita&lt;/h2>
+&lt;p>ほぼネタ帳です(笑)&lt;br>
+&lt;a href="https://qiita.com/bvlion">Qiita&lt;/a>&lt;br>
+大した内容はないです(´･ω･`)&lt;/p>
+&lt;h2 id="speaker-deck">Speaker Deck&lt;/h2>
+&lt;p>わずかばかりの登壇経験です。&lt;br>
+&lt;a href="https://speakerdeck.com/iwaisatoshi">Speaker Deck&lt;/a>&lt;br>
+ちょっとした Kotlin の発表をしたことがあります♪&lt;/p></description></item><item><title>本人について</title><link>https://www.ambitious-i.net/person/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/person/</guid><description>&lt;p>1983 年生まれのおっさんエンジニアです&amp;lt;(_ _)&amp;gt;&lt;br>
+仕事だけでなく、趣味でも勉強やプログラミングをしています。&lt;/p>
+&lt;h2 id="趣味">趣味&lt;/h2>
+&lt;p>という程度に好きなことです(･∀･)&lt;/p>
+&lt;ul>
+&lt;li>バイク&lt;/li>
+&lt;li>カラオケ&lt;/li>
+&lt;li>料理&lt;/li>
+&lt;li>プログラミング&lt;/li>
+&lt;/ul>
+&lt;h2 id="バイク">バイク&lt;/h2>
+&lt;p>現在は GB350 に乗っています♪&lt;br>
+いわゆる中免リターンライダーです。&lt;br>
+最近は夫婦でタンデムしてドラクエウォークのお土産集めや城跡巡りをしています！&lt;/p>
+&lt;h2 id="カラオケ">カラオケ&lt;/h2>
+&lt;p>ビブラートがかけられるようになりました(&lt;em>^^&lt;/em>)&lt;br>
+と言っても元々が音痴なので下手です。。。&lt;br>
+どちらかと言うとストレス発散目的で楽しんでいます！&lt;/p>
+&lt;h2 id="料理">料理&lt;/h2>
+&lt;p>趣味レベルの実力しかありませんが、料理も好きなことの 1 つです(^w^)&lt;br>
+妻に好評な料理は唐揚げです。&lt;br>
+最近減っていますが時々 &lt;a href="https://cookpad.com/kitchen/7832864">cookpad&lt;/a> にも投稿しています(๑•̀ㅂ•́)و✧&lt;/p></description></item></channel></rss>

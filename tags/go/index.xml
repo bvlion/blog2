@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/go/</link><description>Recent content in Go on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>とっても久々に技術的な内容です(･∀･)
-今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！
-https://github.com/bvlion/NonPublicIssueViewer
-まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;
-（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）
-内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。
-入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)
-(´-`) .｡oO（gif の動作がめっちゃ遅い…）
-今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ
-Go で書こうと思ったキッカケ ほとんど勉強のためです(^^;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/go/</link><description>Recent content in Go on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>Go と GitHub で作る日記システム</title><link>https://www.ambitious-i.net/blog/create_issue_viewer/</link><pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_issue_viewer/</guid><description>&lt;p>とっても久々に技術的な内容です(･∀･)&lt;/p>
+&lt;p>今回は Go の勉強も兼ねて、以前より作りたいな〜と思っていた GitHub で付ける日記システムを作成しました！&lt;br>
+&lt;a href="https://github.com/bvlion/NonPublicIssueViewer">https://github.com/bvlion/NonPublicIssueViewer&lt;/a>&lt;br>
+まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;&lt;br>
+（GitHub Actions ってフォークしたらフォーク先で使えるのかな？）&lt;/p>
+&lt;p>内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57" alt="issue image">&lt;/p>
+&lt;p>入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)&lt;/p>
+&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5" alt="動作イメージ">&lt;/p>
+&lt;p>(´-`) .｡oO（gif の動作がめっちゃ遅い…）&lt;/p>
+&lt;p>今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ&lt;/p></description></item></channel></rss>

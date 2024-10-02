@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/php/</link><description>Recent content in PHP on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>個人アプリのサーバー側を Slim4 に移行しました！
-その際 Authorization が取れず四苦八苦した記録です…
-経緯 個人で略語Generatorなるアプリを作ってリリースしています(･∀･)
-元々は Kuromoji を Kotlin から使って形態素解析ができ、いい感じにアルファベットにもできたのでアプリにしようと思ったんですが、これが辞書もあるためなかなかの大サイズ…
-APK ファイルが大きすぎるのを防ぐべく、解析はサーバー側ですべく一旦 API という形で GCP に置いてリリースまで実施しました！
-そのまままぁまぁな期間運用していたのですが、最近自社の SRE でも料金見直しを実施していて、自身のサーバー系でもコストでカットできる箇所はないかな〜と思っていたところ、この API が見つかりました(^^;
-別にこの程度のアプリは GCP である必要もないし、XServer にリリースすれば十分そうなので、PHP に書き換えて MeCab を利用することにしました！</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/php/</link><description>Recent content in PHP on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>&lt;p>個人アプリのサーバー側を Slim4 に移行しました！&lt;br>
+その際 Authorization が取れず四苦八苦した記録です…&lt;/p>
+&lt;h2 id="経緯">経緯&lt;/h2>
+&lt;p>個人で&lt;a href="https://play.google.com/store/apps/details?id=net.ambitious.daigoapp.android&amp;amp;pli=1">略語Generator&lt;/a>なるアプリを作ってリリースしています(･∀･)&lt;br>
+元々は Kuromoji を Kotlin から使って形態素解析ができ、いい感じにアルファベットにもできたのでアプリにしようと思ったんですが、これが辞書もあるためなかなかの大サイズ…&lt;br>
+APK ファイルが大きすぎるのを防ぐべく、解析はサーバー側ですべく一旦 &lt;a href="https://github.com/bvlion/DAIgoAPI">API という形&lt;/a>で GCP に置いてリリースまで実施しました！&lt;/p>
+&lt;p>そのまままぁまぁな期間運用していたのですが、最近自社の SRE でも料金見直しを実施していて、自身のサーバー系でもコストでカットできる箇所はないかな〜と思っていたところ、この API が見つかりました(^^;&lt;br>
+別にこの程度のアプリは GCP である必要もないし、XServer にリリースすれば十分そうなので、PHP に書き換えて MeCab を利用することにしました！&lt;/p></description></item></channel></rss>

@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>エラー on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E3%82%A8%E3%83%A9%E3%83%BC/</link><description>Recent content in エラー on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E3%82%A8%E3%83%A9%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>仮想サーバーで遭遇した不思議なエラー…</title><link>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</link><pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</guid><description>借りてる仮想化サーバーで、ある時からログイン時に必ず以下のエラーが出るようになりました(&amp;gt;_&amp;lt;)
-Last login: Thu Feb ${日時} from ${IP} -bash: _have: command not found bash: _have: コマンドが見つかりません 「はて？_haveなんて定義した覚えはないぞ？」と思って
-bash --login -x で調べたところ
-+++ . /etc/bash_completion.d/lxc ++++ _have lxc-start bash: _have: コマンドが見つかりません と、出てきます(^ω^;)</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>エラー on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E3%82%A8%E3%83%A9%E3%83%BC/</link><description>Recent content in エラー on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E3%82%A8%E3%83%A9%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>仮想サーバーで遭遇した不思議なエラー…</title><link>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</link><pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/mysterious_error_encountered_on_virtual_server/</guid><description>&lt;p>借りてる仮想化サーバーで、ある時からログイン時に必ず以下のエラーが出るようになりました(&amp;gt;_&amp;lt;)&lt;/p>
+&lt;pre tabindex="0">&lt;code>Last login: Thu Feb ${日時} from ${IP}
+-bash: _have: command not found
+bash: _have: コマンドが見つかりません
+&lt;/code>&lt;/pre>&lt;p>「はて？_haveなんて定義した覚えはないぞ？」と思って&lt;/p>
+&lt;pre tabindex="0">&lt;code>bash --login -x
+&lt;/code>&lt;/pre>&lt;p>で調べたところ&lt;/p>
+&lt;pre tabindex="0">&lt;code>+++ . /etc/bash_completion.d/lxc
+++++ _have lxc-start
+bash: _have: コマンドが見つかりません
+&lt;/code>&lt;/pre>&lt;p>と、出てきます(^ω^;)&lt;/p></description></item></channel></rss>

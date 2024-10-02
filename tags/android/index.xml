@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/android/</link><description>Recent content in Android on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>今年 2 回目のブログです…
-「シェブ！」というアプリをリリースしました！
-コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(^^)
-どんなアプリ？ いわゆるブックマーク管理アプリです(*･ω･)ﾉ
-推しポイントはやはり共有機能ですね！
-探した限り共有機能があるブックマークアプリはなさそうだったので作りました(๑•̀ㅂ•́)و✧
-開発の経緯 作ろうと思ったきっかけは Wunderlist の終了でした。。。
-夫婦でレシピなどの URL を Wunderlist に登録して共有していたんですが、2020 年 5 月 6 日をもってサービスが終了してしまうとのことで、もっとブックマークの共有に特化したアプリがないか探していました(^^;
-ただどうもなさそうなので、だったらいっそ作ってしまえ〜で開発を始めました！
-ソースコード プライベートリポジトリにしてしまえばキーの管理など楽だっただろうとは思いますが、個人活動のアピールにもしたかったので公開リポジトリでガンバりました(`･ω･´)</description></item><item><title>Android のダイアログで吹き出しを表現する</title><link>https://www.ambitious-i.net/blog/android_bubble_dialog/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/android_bubble_dialog/</guid><description>Android のダイアログで吹き出しを表現するという記事を zenn に書きました！
-ダイアログで吹き出しを表現したかったので書いてみました(*･ω･)ﾉhttps://t.co/pqZVrgQoOc #zenn #android
-&amp;mdash; bvlion🍣🦪 (@ninjinx) January 24, 2021 調べてみたら LINE のように TextView で吹き出しを表現する記事は割と多く、ライブラリとして提供されている方もいらっしゃったんですが、ダイアログ的にある程度自由な場所に出したい場合のサンプルが見つからなかったので書いてみました！
-ポイントも書いてますし、特に難しい内容でもないので色んな方に利用していただけると嬉しいです(･∀･)
-そう言えば私の zenn の中の記事で 1番人気があるのは Ktor で JWT の認証を行うのようです。　（と言ってもたかが知れてますが…）</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/android/</link><description>Recent content in Android on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>&lt;p>今年 2 回目のブログです…&lt;/p>
+&lt;p>「シェブ！」というアプリをリリースしました！&lt;br>
+コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(&lt;em>^^&lt;/em>)&lt;/p>
+&lt;h2 id="どんなアプリ">どんなアプリ？&lt;/h2>
+&lt;p>いわゆるブックマーク管理アプリです(*･ω･)ﾉ&lt;br>
+推しポイントはやはり共有機能ですね！&lt;br>
+探した限り共有機能があるブックマークアプリはなさそうだったので作りました(๑•̀ㅂ•́)و✧&lt;/p>
+&lt;h2 id="開発の経緯">開発の経緯&lt;/h2>
+&lt;p>作ろうと思ったきっかけは Wunderlist の終了でした。。。&lt;br>
+夫婦でレシピなどの URL を Wunderlist に登録して共有していたんですが、2020 年 5 月 6 日をもってサービスが終了してしまうとのことで、もっとブックマークの共有に特化したアプリがないか探していました(^^;&lt;br>
+ただどうもなさそうなので、だったらいっそ作ってしまえ〜で開発を始めました！&lt;/p>
+&lt;h2 id="ソースコード">ソースコード&lt;/h2>
+&lt;p>プライベートリポジトリにしてしまえばキーの管理など楽だっただろうとは思いますが、個人活動のアピールにもしたかったので公開リポジトリでガンバりました(`･ω･´)&lt;br>
+（Web は急遽プライバシー・ポリシーに必要だったため作成したので、そこまで内容はありません…）&lt;/p></description></item><item><title>Android のダイアログで吹き出しを表現する</title><link>https://www.ambitious-i.net/blog/android_bubble_dialog/</link><pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/android_bubble_dialog/</guid><description>&lt;p>&lt;a href="https://zenn.dev/bvlion/articles/1d4fd56c999e8c">Android のダイアログで吹き出しを表現する&lt;/a>という記事を zenn に書きました！&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">ダイアログで吹き出しを表現したかったので書いてみました(*･ω･)ﾉ&lt;a href="https://t.co/pqZVrgQoOc">https://t.co/pqZVrgQoOc&lt;/a> &lt;a href="https://twitter.com/hashtag/zenn?src=hash&amp;amp;ref_src=twsrc%5Etfw">#zenn&lt;/a> &lt;a href="https://twitter.com/hashtag/android?src=hash&amp;amp;ref_src=twsrc%5Etfw">#android&lt;/a>&lt;/p>&amp;mdash; bvlion🍣🦪 (@ninjinx) &lt;a href="https://twitter.com/ninjinx/status/1353179126983626752?ref_src=twsrc%5Etfw">January 24, 2021&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>調べてみたら LINE のように TextView で吹き出しを表現する記事は割と多く、ライブラリとして提供されている方もいらっしゃったんですが、ダイアログ的にある程度自由な場所に出したい場合のサンプルが見つからなかったので書いてみました！&lt;br>
+ポイントも書いてますし、特に難しい内容でもないので色んな方に利用していただけると嬉しいです(･∀･)&lt;/p>
+&lt;p>そう言えば私の zenn の中の記事で 1番人気があるのは &lt;a href="https://zenn.dev/bvlion/articles/4587730f3de79330b993">Ktor で JWT の認証を行う&lt;/a>のようです。　　&lt;br>
+（と言ってもたかが知れてますが…）&lt;br>
+Ktor の人気が出てきてますね！&lt;br>
+会社の API でも使ってみたい。。。&lt;/p></description></item></channel></rss>
