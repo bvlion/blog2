@@ -2,7 +2,7 @@
 title: Android のダイアログで吹き出しを表現する
 date: 2021-01-24
 tags: [技術,Android]
-image: https://github.com/bvlion/blog2/assets/24517539/53d1e582-87ea-4e32-a41a-f35e9556c8de
+image: head.jpg
 description: というのが必要になったので記事にしてみました！
 layout: post_with_image
 ---

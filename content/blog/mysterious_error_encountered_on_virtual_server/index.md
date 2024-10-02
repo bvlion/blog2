@@ -2,7 +2,7 @@
 title: 仮想サーバーで遭遇した不思議なエラー…
 date: 2017-04-21
 tags: [サーバー,エラー]
-image: https://github.com/bvlion/blog2/assets/24517539/2ffbca5f-d424-4e25-beb6-cc49184962a0
+image: head.jpg
 description: 厚意からタダで借りてるサーバーで不思議なエラーが出ました。 対して難しいことはないですが、ググっても英語しか出てこなかったので記事にしてみます(･∀･)
 layout: post_with_image
 ---

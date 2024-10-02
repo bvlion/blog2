@@ -2,7 +2,7 @@
 title: 自分のサイトはじめました♪
 date: "2017-01-10"
 tags: [未分類]
-image: https://github.com/bvlion/blog2/assets/24517539/f64775c4-4cdf-4429-80db-7968d1d92b99
+image: head.jpg
 description: "ほぼブログなサイトを始めました♪"
 layout: post_with_image
 ---

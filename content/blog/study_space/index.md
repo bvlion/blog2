@@ -2,7 +2,7 @@
 title: 書斎（スペース）ができました！
 date: 2020-05-02
 tags: [ポエム,リモート]
-image: https://github.com/bvlion/blog2/assets/24517539/db1b4610-6013-459d-9396-ed74bd8b5856
+image: head.jpg
 description: 模様替えや妻の協力もあり、書斎（スペース）を作ることができました！
 layout: post_with_image
 ---

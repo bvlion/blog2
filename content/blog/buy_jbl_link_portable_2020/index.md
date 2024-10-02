@@ -2,7 +2,7 @@
 title: JBL Link Portable 購入
 date: 2020-04-11
 tags: [サービス,技術,Google]
-image: https://github.com/bvlion/blog2/assets/24517539/e3614980-fe52-4007-ad50-95f43a1ea0f6
+image: head.jpg
 description: 以前より気になっていた JBL のスマートスピーカーを購入しました！
 layout: post_with_image
 ---

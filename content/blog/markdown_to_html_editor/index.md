@@ -2,7 +2,7 @@
 title: Markdown から html を生成する
 date: 2021-01-18
 tags: [技術,Markdown]
-image: https://github.com/bvlion/blog2/assets/24517539/57e20d46-6496-4be5-b4cf-17d3c10779df
+image: head.jpg
 description: 仕事でちょっと必要になったツールを CODEPEN で作ってみたので紹介させていただきます(･∀･)
 layout: post_with_image
 ---

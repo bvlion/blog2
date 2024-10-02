@@ -2,7 +2,7 @@
 title: 技術書典２行ってきました！
 date: 2017-04-10
 tags: [技術,ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/6300e041-d1a2-48a2-8590-27b585b755eb
+image: head.jpg
 description: 2017/4/9(日)にアキバ・スクエアで行われた「技術書典２」に行ってきたので、その個人的レポートです(*･ω･)ﾉ
 layout: post_with_image
 ---

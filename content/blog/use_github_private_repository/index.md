@@ -2,7 +2,7 @@
 title: GitHub の Private Repository を使ってみる
 date: 2019-01-14
 tags: [技術,GitHub]
-image: https://github.com/bvlion/blog2/assets/24517539/e2ddbea7-166f-4c4c-b8a3-11544c8f05f3
+image: head.png
 description: GitHub の Private Repository が無料になったため、Bitbucket から移行してみました(･∀･)
 layout: post_with_image
 ---
@@ -52,7 +52,7 @@ Bitbucket でも使えるので、最初から使っていればよかったか�
 やっぱり草みたいにビジュアルでコミットっぷりが見れるのは楽しいですね♪  
 実際インポートしてみると、ぼちぼち個人アプリにはコミットしていたことが分かります(^皿^ )
 
-![GitHub の草イメージ](https://github.com/bvlion/blog2/assets/24517539/0aaa9806-5148-4392-9309-b83855175f34)
+![GitHub の草イメージ](GitHubImage.png)
 
 去年の8 月、9 月は何で全然コミットしてなかったんだろう…  
 一先ず必要なものは移行ができたので、これからは GitHub メインで使っていければと思います(`･ω･´)

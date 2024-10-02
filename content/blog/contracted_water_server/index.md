@@ -2,7 +2,7 @@
 title: ハミングウォーター！浄水型ウォーターサーバー「flows（フローズ）」レビュー！
 date: 2019-10-17
 tags: [ポエム,水]
-image: https://github.com/bvlion/blog2/assets/24517539/a0378642-5b08-4332-b467-1bd907cc1ddf
+image: head.jpg
 description: ハミングウォーターの浄水型ウォーターサーバー「flows（フローズ）」を契約したのでレビューをしたいと思います(`･ω･´)
 layout: post_with_image
 ---
@@ -34,12 +34,12 @@ Web で配達日を申し込んだのですが、特に折り返しメールも�
 配達はクロネコヤマトさんでした！  
 その場で梱包の段ボールを外し、玄関先に置いてくれました(･∀･)
 
-![届きました](https://github.com/bvlion/blog2/assets/24517539/5891a972-134f-45bd-97ef-5780823c249f)
+![届きました](arrived.jpg)
 
 で、我が家での配置は食卓の後ろにしました！  
 他サイトではウォーターサーバーとしては大きいというのを拝見しましたが、狭い賃貸の我が家でも今のところ特に問題なく置けています(*･ω･)ﾉ
 
-![配置図](https://github.com/bvlion/blog2/assets/24517539/b18652e8-b6eb-4cab-a092-0e854b11e679)
+![配置図](set.jpg)
 
 （他のを知らんだけという話もありますが…）  
 後ろや横にスペースが必要なため、そこだけ留意する必要があるかもしれません。
@@ -51,7 +51,7 @@ Web で配達日を申し込んだのですが、特に折り返しメールも�
 強いて言えば我が家は夫婦2人（大人だけ）なので、温水のチャイルドロック機能は自由に設定できるとありがたかったかもしれません。  
 ちなみにサイズ感は、下の土台を外すと [Soda Stream](https://amzn.to/2nREAep) の付属ボトルがギリギリ収まります。
 
-![Soda Stream bottle](https://github.com/bvlion/blog2/assets/24517539/b0cb5e65-e3ed-48a9-aebb-b74852936cda)
+![Soda Stream bottlSoda Stream bottlee](SodaStreamBottle.jpg)
 
 ## 味
 

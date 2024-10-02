@@ -2,7 +2,7 @@
 title: JavaからSlackへ画像を投稿する
 date: 2017-03-13
 tags: [技術,Java,Google]
-image: https://github.com/bvlion/blog2/assets/24517539/790e5199-10f4-4ba3-8e47-3d9dc87b1bae
+image: head.jpg
 description: GAE からでも Slack へ画像が投稿できるように作ってみました。
 layout: post_with_image
 ---

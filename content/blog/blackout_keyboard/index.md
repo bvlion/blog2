@@ -2,7 +2,7 @@
 title: ブラックアウトシールのすすめ
 date: 2020-05-17
 tags: [キーボード,Mac]
-image: https://github.com/bvlion/blog2/assets/24517539/a03eff08-6d03-4c4d-b53f-ff55135294c2
+image: keyboard.jpg
 description: キーボードにブラックアウトシールを貼ってみたところ、大変使い心地がよくなりました(･∀･)
 layout: post_with_image
 ---
@@ -27,14 +27,14 @@ JIS 配列使ってるので仕方ないっちゃ仕方ないんですが、こ�
 
 Mac 本体に貼った場合はこんな感じです(･∀･)
 
-![Mac](https://github.com/bvlion/blog2/assets/24517539/303b1347-06e6-4941-88d3-0ad0428ec9e6)
+![Mac](mac.jpg)
 
 ## ブラックアウトステッカー Pro numeric BOSP-J
 
 こちらは[先日購入したキーボード](../study_space/)に貼った感じです(*･ω･)ﾉ  
 ちなみにどちらも妻が休みの時に貼ってくれました(๑•̀ㅂ•́)و✧
 
-![keyboard](https://github.com/bvlion/blog2/assets/24517539/a03eff08-6d03-4c4d-b53f-ff55135294c2)
+![keyboard](keyboard.jpg)
 
 どちらもホームポジションと 5 と 10 の場所は分かりやすくなっています。  
 最初は少し慣れなかった…特に記号関連は慣れるまで大変だったのですが、いざ使っていくと慣れるものですね〜  

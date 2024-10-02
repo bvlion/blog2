@@ -2,7 +2,7 @@
 title: Iceberg を各所に導入
 date: 2018-05-31
 tags: [技術]
-image: https://github.com/bvlion/blog2/assets/24517539/1beaecf5-a1ff-4210-8a83-dfe97445571c
+image: head.jpg
 description: GW に先輩に聞いた Iceberg を iTerm2 と Vim に導入したので、その備忘録になります(^^)
 layout: post_with_image
 ---
@@ -55,11 +55,11 @@ curl -O https://raw.githubusercontent.com/Arc0re/Iceberg-iTerm2/master/iceberg.i
 
 まぁ GitHub に書いてある通りなんですが、まずはインポート(･∀･)
 
-![iTerm2 Iceberg import](https://github.com/bvlion/blog2/assets/24517539/5ea4bbec-930b-428c-b4ea-59d3b3d05acd)
+![iTerm2 Iceberg import](iTerm2_Iceberg_import.png)
 
 そしてチェックをつけて設定完了です！
 
-![iTerm2 Iceberg setting](https://github.com/bvlion/blog2/assets/24517539/efadbb0b-4d68-4f02-b243-07a2827852c5)
+![iTerm2 Iceberg setting](iTerm2_Iceberg_setting.png)
 
 ## 使ってみた感想など…
 

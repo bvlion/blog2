@@ -2,7 +2,7 @@
 title: まさかのやらない理由3選！
 date: 2017-07-30
 tags: [技術,ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/4f77a134-1808-40ab-ae35-2663502a3739
+image: head.jpg
 description: 自動化をやらない理由のいくつかを曲解した結果が凄かったため、私が上手く説明できなかった反省も含め紹介させて頂ければと思います。
 layout: post_with_image
 ---

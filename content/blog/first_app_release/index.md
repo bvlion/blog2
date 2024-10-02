@@ -2,7 +2,7 @@
 title: 初！アプリをリリースしました！
 date: 2017-03-15
 tags: [サービス,技術,Kotlin]
-image: https://github.com/bvlion/blog2/assets/24517539/44d86f0f-f745-4712-876d-a3afe347f97e
+image: head.jpg
 description: 個人でアプリをリリースしてみましたので、そのお知らせと簡単な説明です。
 layout: post_with_image
 ---

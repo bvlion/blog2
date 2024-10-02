@@ -2,7 +2,7 @@
 title: Spring BatchのMETA tableをクリアする
 date: 2017-03-23
 tags: [技術,バッチ]
-image: https://github.com/bvlion/blog2/assets/24517539/07bd8107-ff05-4c19-bb83-67f87439ce20
+image: head.jpg
 description: いくつかのサイトやソースを参考に、Spring Batch の META table を掃除するシェルを作ってみました(･∀･)
 layout: post_with_image
 ---

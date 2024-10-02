@@ -2,7 +2,7 @@
 title: Go と GitHub で作る日記システム
 date: 2020-07-21
 tags: [技術,GitHub,Go]
-image: https://github.com/bvlion/blog2/assets/24517539/5382c304-c763-4b9d-9433-20e4eeaa2a66
+image: head.jpg
 description: GitHub で簡単に食事とかを記録した日記をつけようと思いプロジェクトを作りました！
 layout: post_with_image
 ---
@@ -16,12 +16,12 @@ https://github.com/bvlion/NonPublicIssueViewer
 
 内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。
 
-![issue image](https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57)
+![issue image](issue_image.png)
 
 入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)
 
 
-![動作イメージ](https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5)
+![動作イメージ](move_image.gif)
 
 (´-`) .｡oO（gif の動作がめっちゃ遅い…）
 

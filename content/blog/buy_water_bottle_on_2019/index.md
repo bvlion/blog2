@@ -2,7 +2,7 @@
 title: 水筒買ってきました(*･ω･)ﾉ
 date: 2019-09-29
 tags: [ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/411a4816-a029-4a93-9c11-1c1f435a029a
+image: new.jpg
 description: お弁当箱に引き続き、水筒も新調したのでこだわりポイントをアップしたいと思います！
 layout: post_with_image
 ---
@@ -10,15 +10,15 @@ layout: post_with_image
 お弁当に引き続き、今回は水筒を購入してきました！  
 以前はこちらの「[ふた付きコンビニマグ](https://www.amazon.co.jp/%E3%83%89%E3%82%A6%E3%82%B7%E3%82%B7%E3%83%A3-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%83%9E%E3%82%B0-%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97-%E7%9B%B4%E6%8E%A5%E3%83%89%E3%83%AA%E3%83%83%E3%83%97-CBCT400BR/dp/B00NBM1Z3A/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=cbct400&qid=1569724536&s=gateway&sr=8-1&linkCode=sl1&tag=bvlion-22&linkId=fd4a484711bfdd89ce808103bc8fadee&language=ja_JP)」という商品をお気に入りで、約5年ほど使っていました。
 
-![Amazonでの購入情報](https://github.com/bvlion/blog2/assets/24517539/a5a7555e-9694-421f-8889-9b2c218e84a5)
+![Amazonでの購入情報](amazon.png)
 
 何かと便利で長いこと使っていたのですが、ただ流石に使い込み過ぎて今はこんな状態…
 
-![旧水筒](https://github.com/bvlion/blog2/assets/24517539/df5764c9-b307-4671-9ad6-8d4b3e40f0b5)
+![旧水筒](old.jpg)
 
 さすがにパッキンなども含め限界を感じたので、こちらを購入してきました(≧▽≦)
 
-![新水筒](https://github.com/bvlion/blog2/assets/24517539/411a4816-a029-4a93-9c11-1c1f435a029a)
+![新水筒](new.jpg)
 
 [Amazon での商品紹介ページ](https://www.amazon.co.jp/%E3%82%B5%E3%83%BC%E3%83%A2%E3%82%B9-%E7%9C%9F%E7%A9%BA%E6%96%AD%E7%86%B1%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%9E%E3%82%B0-%E3%80%90%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97%E3%80%91-JNO-352-DNVY/dp/B07FNTV5C9/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=jno-352&qid=1569767629&s=gateway&sr=8-1&linkCode=sl1&tag=bvlion-22&linkId=36efa7985a8cccd8c37e9cf9b99672f8&language=ja_JP)  
 こだわりポイントは以下となっております。
