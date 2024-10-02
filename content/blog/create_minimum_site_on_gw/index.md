@@ -2,7 +2,7 @@
 title: GWにショボいWebを立ち上げてみる
 date: 2017-05-06
 tags: [サービス,技術,Ruby]
-image: https://github.com/bvlion/blog2/assets/24517539/a38eb381-1af7-4a05-940e-bd8f9a891f0f
+image: head.jpg
 description: GW にちょっとした Web サービスを立ち上げたので、簡単にですが経緯や内容を紹介させていただきます♪
 layout: post_with_image
 ---

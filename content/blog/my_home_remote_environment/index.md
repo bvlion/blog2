@@ -2,7 +2,7 @@
 title: 我が家のリモート環境
 date: 2020-04-07
 tags: [技術,ポエム,リモート]
-image: https://github.com/bvlion/blog2/assets/24517539/70f6f6f9-b0b4-4719-8158-c57b22930946
+image: head.jpg
 description: リモートワーク（テレワーク）推奨になってちょっと経ってしまいましたが、少しだけ我が家の環境を紹介させていただきます。
 layout: post_with_image
 ---
@@ -41,7 +41,7 @@ layout: post_with_image
 取り付けにはやや力が必要ですが、特に問題なくしっかり支えてくれています(^^)  
 やや強引に取り付けましたが、逆にダイニングで Youtube 等を見れるようになったと妻も喜んでいるので、OK としたいと思います。
 
-![モニターアーム取り付け](https://github.com/bvlion/blog2/assets/24517539/a94e0935-62e6-4237-82e8-7773f2da8cce)
+![モニターアーム取り付け](monitor_arm.jpg)
 
 ### ヘッドセット [Bengoo ps4](https://amzn.to/49FEpEP)
 

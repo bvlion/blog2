@@ -2,7 +2,7 @@
 title: 新型コロナウイルスワクチンの副反応記録
 date: 2021-10-02
 tags: [ワクチン,副反応]
-image: https://github.com/bvlion/blog2/assets/24517539/ebecd12c-2449-4ff8-88e7-f9ad10414b6c
+image: head.jpg
 description: 遅ればせながら新型コロナウイルスのワクチンを2回接種できましたので、その際の副反応を記録しておきたいと思います！
 layout: post_with_image
 ---

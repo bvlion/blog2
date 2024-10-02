@@ -2,7 +2,7 @@
 title: エンジニア系弁当男子1
 date: 2017-03-28
 tags: [料理,お弁当]
-image: https://github.com/bvlion/blog2/assets/24517539/c65776b7-ad2a-4354-bbaf-985d8356a913
+image: head.jpg
 description: 「弁当男子」という言葉をあまり耳にしなくなって久しいですが、こちらは相変わらずお弁当作りを頑張っています(･∀･)
 layout: post_with_image
 ---
@@ -28,7 +28,7 @@ layout: post_with_image
 ちなみに使っているお弁当箱はこちら。  
 [ランタスさんの「カフェ丼ランチ」](https://amzn.to/2IPL5H6)というものです！
 
-![カフェ丼ランチ](https://github.com/bvlion/blog2/assets/24517539/186a0cf9-0cb9-4220-a240-9b0c07761b03)
+![カフェ丼ランチ](luntus.jpg)
 
 なかなかに容量も保温力もあり、お気に入りです♪
 

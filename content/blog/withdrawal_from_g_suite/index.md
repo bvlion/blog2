@@ -2,7 +2,7 @@
 title: G Suiteからの退会 ~~メールアドレス移行編~~
 date: 2017-01-20
 tags: [サービス,Google]
-image: https://github.com/bvlion/blog2/assets/24517539/a692b14e-9ff2-40f4-824a-69be077e6249
+image: head.jpg
 description: G Suite をやめることにしました。その時に私がやったことを軽く記録がてら書いておきます。まずはメールアドレスの移行です。
 layout: post_with_image
 ---
@@ -50,7 +50,7 @@ MX レコードのアドレスがキャッシュされてるのかな〜とか�
 
 そしたらしばらくして、G Suite ではない方の Gmail からこんなメールが…
 
-![G suite delivery error](https://github.com/bvlion/blog2/assets/24517539/b0ede9aa-1b33-4279-9ecb-8dc78d6e0177)
+![G suite delivery error](G_suite_delivery_error.png)
 
 こんなにモザイクかけたら分からんよって話だとは思うんですが…(^ω^;)  
 黒のモザイク部分には送信先のメールアドレスが、下の青のところはドメインと、そのドメインのIPが入ってました。

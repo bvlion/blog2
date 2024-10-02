@@ -2,7 +2,7 @@
 title: 清涼スプレーを自作してみた！
 date: 2017-10-24
 tags: [ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/3cb8c605-ff29-4013-9c71-e19fed2bd070
+image: head.jpg
 description: 厳しい残暑、通勤に使いたい清涼スプレーがなくなってしまったので自作してみました。
 layout: post_with_image
 ---
@@ -26,7 +26,7 @@ layout: post_with_image
 - [アイスノン シャツミスト エキストラミントの香り 300ml](https://amzn.to/2s4NXXd)（の空容器）
 - [L-メントール（メントールクリスタル） 100g](https://amzn.to/2s52SAF)
 
-![自作シャツクール画像2](https://github.com/bvlion/blog2/assets/24517539/fb0bc1e1-ef2e-4f9d-b69e-4d486b54d48b)
+![自作シャツクール画像2](image2.jpg)
 
 シャツミストは空容器でいいので、無い場合は300ml程度のスプレーできる容器を用意しましょう！  
 リンクにもある通り、全てAmazonで揃えられます♪
@@ -35,24 +35,24 @@ layout: post_with_image
 
 まず、大さじ 2 杯のメンソールを…
 
-![自作シャツクール画像3](https://github.com/bvlion/blog2/assets/24517539/84edb322-814c-49ec-9f32-a106d93813e8)
+![自作シャツクール画像3](image3.jpg)
 
 こんな感じでじょうごにセット(*･ω･)ﾉ
 
-![自作シャツクール画像4](https://github.com/bvlion/blog2/assets/24517539/c068feb6-7f2f-450e-9fd9-a792e962b5c4)
+![自作シャツクール画像4](image4.jpg)
 
 ここにエタノールを 150ml 程度、メンソールが全て入るように少しずつ注ぎます(^^)  
 なお、これは正確に 150ml でなくてよいです。  
 500ml で 3 回できると思ってください。
 
-![自作シャツクール画像5](https://github.com/bvlion/blog2/assets/24517539/7b51c3ab-cb22-4ac0-ab0a-5d7a69956760)
+![自作シャツクール画像5](image5.jpg)
 
 注ぎ切れたら軽く振り、一晩放置します(･∀･)  
 大体 2 時間もすれば全て溶けきると思いますが、念のため一晩おくとよいと思います。
 
 最後に水道水で満たし、軽く降って混ざれば出来上がりです(≧▽≦)
 
-![自作シャツクール画像6](https://github.com/bvlion/blog2/assets/24517539/615b22d2-96a4-4bc1-a027-ffbea93f17b1)
+![自作シャツクール画像6](image6.jpg)
 
 使用感としては、冷たさはおおよそ同じくらいかと思います♪  
 でも欠点もあって

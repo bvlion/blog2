@@ -2,7 +2,7 @@
 title: 毎日コミットし続けて半年
 date: 2020-06-09
 tags: [技術,GitHub]
-image: https://github.com/bvlion/blog2/assets/24517539/3d915308-684a-492d-91a0-d16640ee2914
+image: head.jpg
 description: 「なるべく毎日コミットする」と心がけていたのが半年続いたので、振り返りをしてみました！
 layout: post_with_image
 ---

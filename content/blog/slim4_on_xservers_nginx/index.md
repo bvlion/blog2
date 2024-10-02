@@ -2,7 +2,7 @@
 title: XServer にデプロイした Slim のアプリで Authorization を取得する
 date: 2024-03-10
 tags: [技術,PHP]
-image: https://github.com/bvlion/blog2/assets/24517539/dcb05741-c42d-43e4-a1a8-7be747b05f26
+image: head.jpg
 description: XServer にデプロイした Slim FW で作ったアプリで Authorization が取得できなかった時の解決策を記事にしました！
 layout: post_with_image
 ---

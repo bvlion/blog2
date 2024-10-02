@@ -2,7 +2,7 @@
 title: Google Home Mini購入
 date: 2017-12-26
 tags: [サービス,技術,Google]
-image: https://github.com/bvlion/blog2/assets/24517539/bda2b2d2-a44a-4131-b291-b485357f4d89
+image: GoogleHome4.jpg
 description: Google Home Mini を衝動買いみたく購入しました。購入してから 2 週間くらい、色々と試したことと合わせて記事にしてみました。
 layout: post_with_image
 ---
@@ -17,7 +17,7 @@ layout: post_with_image
 
 ということで我が家にも到着です♪
 
-![Google Home 1](https://github.com/bvlion/blog2/assets/24517539/0150b7b7-c0b1-470c-b2dd-642ec97456a3)
+![Google HomGoogle Homee 1](GoogleHome1.jpg)
 
 こんな感じです(^ω^;)  
 まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…
@@ -26,20 +26,20 @@ layout: post_with_image
 
 せっかくネット記事なので、それっぽいことをやってみますwww  
 全体を覆うビニールを裏側からペリペリしてパカッ！
-![Google Home 2](https://github.com/bvlion/blog2/assets/24517539/0719a847-e078-48a1-bd07-2a30b76994e9)
+![Google Home 2](GoogleHome2.jpg)
 ほぅ…
 
 ## サイズ感チェック
 
 お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。）
-![Google Home 3](https://github.com/bvlion/blog2/assets/24517539/982e5317-63f7-48e4-a768-a8f113026865)
+![Google Home 3](GoogleHome3.jpg)
 どうでしょう？  
 個人的には思ったより小さいな〜という感じです(*･ω･)ﾉ
 
 ## 全部出してみる
 
 内容はこんなもんです。。。
-![Google Home 4](https://github.com/bvlion/blog2/assets/24517539/810a2bbf-ac68-418d-a56f-a282c9ea0a49)
+![Google Home 4](GoogleHome4.jpg)
 電源と簡単な説明書が入ってるのみΣ(･ω･ﾉ)ﾉ  
 ここは Google らしいと言うか、海外製品らしいと言ったところでしょうか？
 
@@ -103,7 +103,7 @@ layout: post_with_image
 そうです、Youtube の音楽を自身で再生させるようにするのです(`･ω･´)  
 家の特定のチャンネルにタイトルと URL を流すと保存してくれます(^皿^ )
 
-![exec youtube-dl](https://github.com/bvlion/blog2/assets/24517539/fd9d5057-d189-4986-a96e-c31890ff74e2)
+![exec youtube-dl](exec-youtube-dl.png)
 
 仮面ライダー好きは放っておいてください…。。  
 これで「ねぇ、Google。登録したディケイド流して。」と言えば、音声を元に DB から MP3 の URL を引っ張ってきて google-home-notifier に食わせて音楽を流してくれるようになります(≧▽≦)  

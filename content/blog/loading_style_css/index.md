@@ -2,7 +2,7 @@
 title: ローディング風の画面をCSSだけで作成する
 date: 2019-11-03
 tags: [技術,CSS]
-image: https://github.com/bvlion/blog2/assets/24517539/4434f539-23b6-409b-937c-a0de9bbb68e1
+image: head.jpg
 description: CSS3 の要素を回転させるアニメーションを使って画像なしでローディング風の画面を作成してみました(･∀･)
 layout: post_with_image
 ---

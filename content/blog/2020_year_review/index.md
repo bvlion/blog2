@@ -2,7 +2,7 @@
 title: 2020年振り返り
 date: 2020-12-31
 tags: [サービス,技術,ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/99893980-54f1-4828-9fcd-f5ca541bdfcb
+image: head.jpg
 description: 2020 年を少し振り返ってみたいと思います！
 layout: post_with_image
 ---

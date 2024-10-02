@@ -2,7 +2,7 @@
 title: フレッツ接続 ZOOT NATIVE (IPv6) の契約
 date: 2020-06-01
 tags: [サービス,技術,ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/8a1efa58-5e2c-4019-97e1-eeb6f0bd84d1
+image: usen_after.png
 description: インターリンクさんの「フレッツ接続 ZOOT NATIVE」を契約したところ、回線速度が爆速になりました！！
 layout: post_with_image
 ---
@@ -20,8 +20,8 @@ layout: post_with_image
 
 Google | Usen
 --- | ---
-![google before](https://github.com/bvlion/blog2/assets/24517539/286490dc-92d4-4e88-8331-6aaf39e6091b) | ![usen before](https://github.com/bvlion/blog2/assets/24517539/8bcfcce3-a161-4605-b465-21f051f75763)
-![google after](https://github.com/bvlion/blog2/assets/24517539/93794aba-5b4a-46c4-96e6-a65f60ecff4d) | ![usen after](https://github.com/bvlion/blog2/assets/24517539/8a1efa58-5e2c-4019-97e1-eeb6f0bd84d1)
+![google before](google_before.png) | ![usen before](usen_before.png)
+![google after](google_after.png) | ![usen after](usen_after.png)
 
 こういう速度測定がどの程度信頼できるものか分かりませんが、我が家は[フレッツ 光ネクスト マンションタイプ](https://flets.com/next/mn/)で上下とも最大 100Mbps というのを考えると、ほぼフルパワーで通信できているんじゃなかろうかと思います(≧▽≦)  
 出るものなんですねぇ…

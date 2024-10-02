@@ -2,7 +2,7 @@
 title: 「こけし二段弁当」というお弁当箱を買いました！
 date: 2019-09-19
 tags: [料理,お弁当]
-image: https://github.com/bvlion/blog2/assets/24517539/4f6e6b83-c388-4157-9ea8-94cdfd8982fd
+image: head.jpg
 description: 「こけし二段弁当」というお弁当箱を購入したので、使用感など感想を書きたいと思います(*･ω･)ﾉ
 layout: post_with_image
 ---

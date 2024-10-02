@@ -2,7 +2,7 @@
 title: 親知らずの抜歯
 date: 2018-04-10
 tags: [ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/85c0ebf1-e172-4e8b-a341-3687cc1cdbb1
+image: head.jpg
 description: 親知らずが虫歯になってしまいました(\´･ω･`)抜歯までの経緯を纏めたので記入しようと思います。
 layout: post_with_image
 ---

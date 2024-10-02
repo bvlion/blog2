@@ -2,7 +2,7 @@
 title: 「シェブ！」というアプリをリリースしました！
 date: 2021-06-07
 tags: [サービス,Android,Kotlin]
-image: https://github.com/bvlion/blog2/assets/24517539/3cecb0dc-7df9-4834-928f-63252515b55b
+image: head.jpg
 description: 個人でアプリを開発、リリースまでできたので記事にしました！
 layout: post_with_image
 ---

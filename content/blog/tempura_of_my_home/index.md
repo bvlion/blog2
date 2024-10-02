@@ -2,7 +2,7 @@
 title: 天ぷらのタネをクックパッドに上げてみました(*･ω･)ﾉ
 date: 2019-09-27
 tags: [料理,ポエム]
-image: https://github.com/bvlion/blog2/assets/24517539/b91a2b7b-40f6-4d3c-b70a-fef14f666e3c
+image: head.jpg
 description: 天ぷらがサクサクに揚がった感動をブログにしたためました(笑)
 layout: post_with_image
 ---
