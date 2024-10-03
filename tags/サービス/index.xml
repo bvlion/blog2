@@ -43,12 +43,12 @@ Go にも少し手を出してみましたが、ここ最近は Kotlin と JS、
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/286490dc-92d4-4e88-8331-6aaf39e6091b" alt="google before">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8bcfcce3-a161-4605-b465-21f051f75763" alt="usen before">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="google_before.png" alt="google before">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="usen_before.png" alt="usen before">&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/93794aba-5b4a-46c4-96e6-a65f60ecff4d" alt="google after">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8a1efa58-5e2c-4019-97e1-eeb6f0bd84d1" alt="usen after">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="google_after.png" alt="google after">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="usen_after.png" alt="usen after">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -88,17 +88,17 @@ Android の APK はそこまで頻繁に更新もしていなかったので、�
 &lt;p>元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)&lt;br>
 3,000 円なら買いなんじゃないでしょうか？&lt;/p>
 &lt;p>ということで我が家にも到着です♪&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0150b7b7-c0b1-470c-b2dd-642ec97456a3" alt="Google Home 1">&lt;/p>
+&lt;p>&lt;img src="GoogleHome1.jpg" alt="Google HomGoogle Homee 1">&lt;/p>
 &lt;p>こんな感じです(^ω^;)&lt;br>
 まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…&lt;/p>
 &lt;h2 id="開封の儀">開封の儀&lt;/h2>
 &lt;p>せっかくネット記事なので、それっぽいことをやってみますwww&lt;br>
 全体を覆うビニールを裏側からペリペリしてパカッ！
-&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0719a847-e078-48a1-bd07-2a30b76994e9" alt="Google Home 2">
+&lt;img src="GoogleHome2.jpg" alt="Google Home 2">
 ほぅ…&lt;/p>
 &lt;h2 id="サイズ感チェック">サイズ感チェック&lt;/h2>
 &lt;p>お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。）
-&lt;img src="https://github.com/bvlion/blog2/assets/24517539/982e5317-63f7-48e4-a768-a8f113026865" alt="Google Home 3">
+&lt;img src="GoogleHome3.jpg" alt="Google Home 3">
 どうでしょう？&lt;br>
 個人的には思ったより小さいな〜という感じです(*･ω･)ﾉ&lt;/p></description></item><item><title>Scalaboot 作りました！</title><link>https://www.ambitious-i.net/blog/create_scalaboot/</link><pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_scalaboot/</guid><description>&lt;p>少し前の話になってしまいますが、&lt;a href="http://jp.techcrunch.com/2017/05/18/20170517google-makes-kotlin-a-first-class-language-for-writing-android-apps/">Google I/O で Kotlin がサポート&lt;/a>されるようになりました！&lt;br>
 個人的なアプリは Kotlin で作ってきましたが、正式サポートは嬉しいですね(･∀･)&lt;br>

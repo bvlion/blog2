@@ -4,8 +4,8 @@
 まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;&lt;br>
 （GitHub Actions ってフォークしたらフォーク先で使えるのかな？）&lt;/p>
 &lt;p>内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57" alt="issue image">&lt;/p>
+&lt;p>&lt;img src="issue_image.png" alt="issue image">&lt;/p>
 &lt;p>入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5" alt="動作イメージ">&lt;/p>
+&lt;p>&lt;img src="move_image.gif" alt="動作イメージ">&lt;/p>
 &lt;p>(´-`) .｡oO（gif の動作がめっちゃ遅い…）&lt;/p>
 &lt;p>今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ&lt;/p></description></item></channel></rss>

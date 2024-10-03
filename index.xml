@@ -126,9 +126,9 @@ Go にも少し手を出してみましたが、ここ最近は Kotlin と JS、
 まだテストが未作成だったりしますが、目下整理中なので使えそうでしたら是非ご利用ください&amp;lt;(_ _)&amp;gt;&lt;br>
 （GitHub Actions ってフォークしたらフォーク先で使えるのかな？）&lt;/p>
 &lt;p>内容はとてもシンプルで、自動生成された Issue のフォーマットに沿って GitHub にその日に主にやったことや食事・感想を記入します。&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/9d625c8d-553f-4b5d-a770-0c8fd45f0e57" alt="issue image">&lt;/p>
+&lt;p>&lt;img src="issue_image.png" alt="issue image">&lt;/p>
 &lt;p>入力した結果をタグごとに愚直に分割と整形を行い表示します(`･ω･´)&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/3ee6342f-61fc-4495-a45a-a94c10ac95c5" alt="動作イメージ">&lt;/p>
+&lt;p>&lt;img src="move_image.gif" alt="動作イメージ">&lt;/p>
 &lt;p>(´-`) .｡oO（gif の動作がめっちゃ遅い…）&lt;/p>
 &lt;p>今回は Go を使ってみた経緯や作ってみた感想など書いてみようかと思います(*･ω･)ﾉ&lt;/p></description></item><item><title>毎日コミットし続けて半年</title><link>https://www.ambitious-i.net/blog/every_day_commit_half_year/</link><pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/every_day_commit_half_year/</guid><description>&lt;p>前職ではコード管理に Bitbucket を利用していたのですが、現職から GitHub になり活動履歴がとても可視化されるようになりました(･∀･)&lt;br>
 仕事でも草が生える環境になったので「なるべく毎日コミットする」を目標に日々過ごすようにしてみました(๑•̀ㅂ•́)و✧&lt;br>
@@ -166,12 +166,12 @@ Go にも少し手を出してみましたが、ここ最近は Kotlin と JS、
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/286490dc-92d4-4e88-8331-6aaf39e6091b" alt="google before">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8bcfcce3-a161-4605-b465-21f051f75763" alt="usen before">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="google_before.png" alt="google before">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="usen_before.png" alt="usen before">&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/93794aba-5b4a-46c4-96e6-a65f60ecff4d" alt="google after">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="https://github.com/bvlion/blog2/assets/24517539/8a1efa58-5e2c-4019-97e1-eeb6f0bd84d1" alt="usen after">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="google_after.png" alt="google after">&lt;/td>
+ &lt;td style="text-align: left">&lt;img src="usen_after.png" alt="usen after">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -274,11 +274,11 @@ IFTTT 連携や google-home-notifier の活用などで生活は大変便利に�
 GAE も考えたのですが、ちょっと負荷が高いと簡単にインスタンスが立ち上がるという記事を目にしていたため、GAE は断念しました(^^;&lt;br>
 （違うアプリでちょっとだけ導入しています）&lt;/p></description></item><item><title>水筒買ってきました(*･ω･)ﾉ</title><link>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</link><pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/buy_water_bottle_on_2019/</guid><description>&lt;p>お弁当に引き続き、今回は水筒を購入してきました！&lt;br>
 以前はこちらの「&lt;a href="https://www.amazon.co.jp/%E3%83%89%E3%82%A6%E3%82%B7%E3%82%B7%E3%83%A3-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B%E3%83%9E%E3%82%B0-%E3%83%80%E3%82%A4%E3%83%AC%E3%82%AF%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97-%E7%9B%B4%E6%8E%A5%E3%83%89%E3%83%AA%E3%83%83%E3%83%97-CBCT400BR/dp/B00NBM1Z3A/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=cbct400&amp;amp;qid=1569724536&amp;amp;s=gateway&amp;amp;sr=8-1&amp;amp;linkCode=sl1&amp;amp;tag=bvlion-22&amp;amp;linkId=fd4a484711bfdd89ce808103bc8fadee&amp;amp;language=ja_JP">ふた付きコンビニマグ&lt;/a>」という商品をお気に入りで、約5年ほど使っていました。&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/a5a7555e-9694-421f-8889-9b2c218e84a5" alt="Amazonでの購入情報">&lt;/p>
+&lt;p>&lt;img src="amazon.png" alt="Amazonでの購入情報">&lt;/p>
 &lt;p>何かと便利で長いこと使っていたのですが、ただ流石に使い込み過ぎて今はこんな状態…&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/df5764c9-b307-4671-9ad6-8d4b3e40f0b5" alt="旧水筒">&lt;/p>
+&lt;p>&lt;img src="old.jpg" alt="旧水筒">&lt;/p>
 &lt;p>さすがにパッキンなども含め限界を感じたので、こちらを購入してきました(≧▽≦)&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/411a4816-a029-4a93-9c11-1c1f435a029a" alt="新水筒">&lt;/p>
+&lt;p>&lt;img src="new.jpg" alt="新水筒">&lt;/p>
 &lt;p>&lt;a href="https://www.amazon.co.jp/%E3%82%B5%E3%83%BC%E3%83%A2%E3%82%B9-%E7%9C%9F%E7%A9%BA%E6%96%AD%E7%86%B1%E3%82%B1%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%9E%E3%82%B0-%E3%80%90%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%97%E3%80%91-JNO-352-DNVY/dp/B07FNTV5C9/ref=as_li_ss_tl?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;keywords=jno-352&amp;amp;qid=1569767629&amp;amp;s=gateway&amp;amp;sr=8-1&amp;amp;linkCode=sl1&amp;amp;tag=bvlion-22&amp;amp;linkId=36efa7985a8cccd8c37e9cf9b99672f8&amp;amp;language=ja_JP">Amazon での商品紹介ページ&lt;/a>&lt;br>
 こだわりポイントは以下となっております。&lt;/p>
 &lt;ul>
@@ -478,17 +478,17 @@ GitHub はこちらです。&lt;br>
 &lt;p>元々特に購入予定もなかったのですが、たまたま入った家電量販店で半額セールをやっていたため、購入に踏み切りました(`･ω･´)&lt;br>
 3,000 円なら買いなんじゃないでしょうか？&lt;/p>
 &lt;p>ということで我が家にも到着です♪&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0150b7b7-c0b1-470c-b2dd-642ec97456a3" alt="Google Home 1">&lt;/p>
+&lt;p>&lt;img src="GoogleHome1.jpg" alt="Google HomGoogle Homee 1">&lt;/p>
 &lt;p>こんな感じです(^ω^;)&lt;br>
 まぁ皆さん家電量販店やネットでも散々見てるとは思いますが…&lt;/p>
 &lt;h2 id="開封の儀">開封の儀&lt;/h2>
 &lt;p>せっかくネット記事なので、それっぽいことをやってみますwww&lt;br>
 全体を覆うビニールを裏側からペリペリしてパカッ！
-&lt;img src="https://github.com/bvlion/blog2/assets/24517539/0719a847-e078-48a1-bd07-2a30b76994e9" alt="Google Home 2">
+&lt;img src="GoogleHome2.jpg" alt="Google Home 2">
 ほぅ…&lt;/p>
 &lt;h2 id="サイズ感チェック">サイズ感チェック&lt;/h2>
 &lt;p>お隣のキリンさんのビールは 350ml 缶です。（空いてるのは気にしなくて OK です。。）
-&lt;img src="https://github.com/bvlion/blog2/assets/24517539/982e5317-63f7-48e4-a768-a8f113026865" alt="Google Home 3">
+&lt;img src="GoogleHome3.jpg" alt="Google Home 3">
 どうでしょう？&lt;br>
 個人的には思ったより小さいな〜という感じです(*･ω･)ﾉ&lt;/p></description></item><item><title>SSHポートフォワーディングを使ってリモートのMySQLに接続</title><link>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</link><pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/remote_mysql_access_use_ssh_port_forwarding/</guid><description>&lt;p>久々の更新です(*･ω･)ﾉ&lt;/p>
 &lt;p>さて、今回はタイトルの通りです(`･ω･´)&lt;br>
@@ -515,7 +515,7 @@ GitHub はこちらです。&lt;br>
 &lt;li>&lt;a href="https://amzn.to/2s4NXXd">アイスノン シャツミスト エキストラミントの香り 300ml&lt;/a>（の空容器）&lt;/li>
 &lt;li>&lt;a href="https://amzn.to/2s52SAF">L-メントール（メントールクリスタル） 100g&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/fb0bc1e1-ef2e-4f9d-b69e-4d486b54d48b" alt="自作シャツクール画像2">&lt;/p></description></item><item><title>まさかのやらない理由3選！</title><link>https://www.ambitious-i.net/blog/three_reason_not_to_do/</link><pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/three_reason_not_to_do/</guid><description>&lt;p>最近更新が止まっていてすみません。。。&lt;br>
+&lt;p>&lt;img src="image2.jpg" alt="自作シャツクール画像2">&lt;/p></description></item><item><title>まさかのやらない理由3選！</title><link>https://www.ambitious-i.net/blog/three_reason_not_to_do/</link><pubDate>Sun, 30 Jul 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/three_reason_not_to_do/</guid><description>&lt;p>最近更新が止まっていてすみません。。。&lt;br>
 （と言っても誰が見てるんだって話ですが…）&lt;br>
 諸々とあって忙しく、技術的なネタも収集できていなかったので、ポエム的なものを書こうと思います&amp;lt;(_ _)&amp;gt;&lt;/p>
 &lt;h3 class="dark-red">※ 半分ネタ程度に読んでください。。&lt;/h3>
@@ -601,7 +601,7 @@ Java 界隈ではどうなるのか…&lt;/p></description></item><item><title>�
 意外にりんごと豚肉が合います！&lt;/p>
 &lt;p>ちなみに使っているお弁当箱はこちら。&lt;br>
 &lt;a href="https://amzn.to/2IPL5H6">ランタスさんの「カフェ丼ランチ」&lt;/a>というものです！&lt;/p>
-&lt;p>&lt;img src="https://github.com/bvlion/blog2/assets/24517539/186a0cf9-0cb9-4220-a240-9b0c07761b03" alt="カフェ丼ランチ">&lt;/p>
+&lt;p>&lt;img src="luntus.jpg" alt="カフェ丼ランチ">&lt;/p>
 &lt;p>なかなかに容量も保温力もあり、お気に入りです♪&lt;/p>
 &lt;p>こうすることで、ざっくり計算ではありますが冷食だと 1 食 300 円弱くらいかかっていたのが、いまでは 1 食 200 円弱にまで抑えられています！&lt;br>
 ここまでくればお弁当で節約ともなるものです( `･ω･´)&lt;/p></description></item><item><title>Spring BatchのMETA tableをクリアする</title><link>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</link><pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/spring_batch_meta_table_clear/</guid><description>&lt;p>最近になって、やっと Spring Batch なるものを知りました(^ω^;)&lt;br>
