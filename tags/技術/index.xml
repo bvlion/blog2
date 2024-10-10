@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技術 on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E6%8A%80%E8%A1%93/</link><description>Recent content in 技術 on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml"/><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>&lt;p>個人アプリのサーバー側を Slim4 に移行しました！&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技術 on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/%E6%8A%80%E8%A1%93/</link><description>Recent content in 技術 on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml"/><item><title>Alfred の workflow を自作したお話</title><link>https://www.ambitious-i.net/blog/create_alfred_workflow/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/create_alfred_workflow/</guid><description>&lt;p>私的に色々とありすぎる 2024 年ですが、少し落ち着いてきたのでブログも趣味の話なども交えて多めに更新していきたいと思います！&lt;/p>
+&lt;h2 id="今回作ったもの">今回作ったもの&lt;/h2>
+&lt;p>「全角半角変換」という Alfred の workflow です(*･ω･)ﾉ&lt;br>
+&lt;a href="https://github.com/bvlion/zen-han-alfred-workflow">https://github.com/bvlion/zen-han-alfred-workflow&lt;/a>&lt;br>
+詳細は README をご覧いただきたいですが、全角と半角を相互に変換してクリップボードに入れてくれるツールです！&lt;/p>
+&lt;h2 id="経緯">経緯&lt;/h2>
+&lt;p>久々に住所登録で全角・半角問題に当たり、火がついた勢いで作りました(^^;&lt;br>
+頻度が少ないこともありサイトを利用して変換していたのですが、頻度が少ないからこそブックマークもしておらず、都度検索してコピペして閉じるの繰り返し…&lt;br>
+基本 Mac しか使わず、しかも住所登録系はスマホではやらない方針なので、稀に使うこんなツールがあってもいいかな？と思って作り始めました(๑•̀ㅂ•́)و✧&lt;/p>
+&lt;h2 id="なぜ-zsh-から-ruby-を呼び出しているのか">なぜ zsh から ruby を呼び出しているのか&lt;/h2>
+&lt;p>当初は Run Script で直接 ruby を実行する予定でした！&lt;br>
+ただ Alfred の仕様を深く追っていませんが、Run Script で直接 ruby を実行すると &lt;code>~/Library/Caches/com.runningwithcrayons.Alfred/Workflow Scripts&lt;/code> に対象の rb ファイルがコピーされ実行されるようです。&lt;br>
+そうすると require で読み込みたいファイルが見当たらず動作しません(´･ω･`)&lt;br>
+zsh はインストール展開されたディレクトリで直接実行してくれるようだったので、こちらの方法を採用しました(*･ω･)ﾉ&lt;/p></description></item><item><title>XServer にデプロイした Slim のアプリで Authorization を取得する</title><link>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/slim4_on_xservers_nginx/</guid><description>&lt;p>個人アプリのサーバー側を Slim4 に移行しました！&lt;br>
 その際 Authorization が取れず四苦八苦した記録です…&lt;/p>
 &lt;h2 id="経緯">経緯&lt;/h2>
 &lt;p>個人で&lt;a href="https://play.google.com/store/apps/details?id=net.ambitious.daigoapp.android&amp;amp;pli=1">略語Generator&lt;/a>なるアプリを作ってリリースしています(･∀･)&lt;br>
