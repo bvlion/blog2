@@ -1,6 +1,6 @@
 ---
 title: Alfred の workflow を自作したお話
-date: 2024-10-11
+date: 2024-10-10
 tags: [技術,Alfred]
 image: head.png
 description: Alfred の workflow を作った時の裏話的なポエムです
