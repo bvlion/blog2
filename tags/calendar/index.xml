@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Calendar on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/calendar/</link><description>Recent content in Calendar on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 13 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/calendar/index.xml" rel="self" type="application/rss+xml"/><item><title>Google カレンダーの祝日仕様変更と公式カレンダー設定</title><link>https://www.ambitious-i.net/blog/google_calendar_holidays_specification_changes/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/google_calendar_holidays_specification_changes/</guid><description>&lt;p>1ヶ月ほど前から Google カレンダーの日本の祝日カレンダーに含まれる祝日が変わったことに気が付きました。&lt;br>
+例えば七五三や節分といった、法律上の祝日ではない日までカレンダーに表示されるようになったようです(^^;&lt;br>
+今回はこれまで通り日本の公式の祝日のみ表示する方法をご紹介します！&lt;/p>
+&lt;h2 id="web-の-google-カレンダー">Web の Google カレンダー&lt;/h2>
+&lt;p>インポートしている祝日カレンダーの三点リーダー「⋯」から設定に遷移します→&lt;/p>
+&lt;p>&lt;img src="1.png" alt="設定画面への遷移">&lt;/p>
+&lt;p>遷移先の「【地域限定の祝日】で選択」を選択して、対象の祝日を選択する画面に遷移します→&lt;/p>
+&lt;p>&lt;img src="2.png" alt="対象の祝日を選択する画面への遷移">&lt;/p>
+&lt;p>「その他行事」というのにチェックが入っているので、こちらのチェックを外せば表示されなくなります(*･ω･)ﾉ&lt;/p>
+&lt;p>&lt;img src="3.png" alt="対象の祝日を選択する画面への遷移">&lt;/p>
+&lt;h2 id="google-calendar-api-で取得するカレンダー">Google Calendar API で取得するカレンダー&lt;/h2>
+&lt;p>Google Calendar API の場合、URL が少し変わります！&lt;/p>
+&lt;ul>
+&lt;li>祝日およびその他行事
+&lt;ul>
+&lt;li>&lt;code>ja.japanese#holiday@group.v.calendar.google.com&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>祝日のみ
+&lt;ul>
+&lt;li>&lt;code>ja.japanese.official#holiday@group.v.calendar.google.com&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>official&lt;/code> を付ければ良いようです(^^)&lt;br>
+先人たちに助けられました&amp;lt;(_ _)&amp;gt;&lt;/p></description></item></channel></rss>
