@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/android/</link><description>Recent content in Android on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>&lt;p>今年 2 回目のブログです…&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on 鰯の管詰</title><link>https://www.ambitious-i.net/tags/android/</link><description>Recent content in Android on 鰯の管詰</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ambitious-i.net/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Play Store をクローズした</title><link>https://www.ambitious-i.net/blog/play_store_closed/</link><pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/play_store_closed/</guid><description>&lt;p>2ヶ月ほど前になりますが、私の個人アプリが Play Console から削除されました(T_T)&lt;br>
+今回はその背景や思いなんかを残しておこうと思います(*･ω･)ﾉ&lt;/p>
+&lt;h2 id="クローズする背景">クローズする背景&lt;/h2>
+&lt;p>個人では &lt;a href="https://support.google.com/googleplay/android-developer/answer/10788890">Play Console 要件&lt;/a>に準拠しがたいというのが大きな理由でした…&lt;br>
+電話番号やメールアドレスであれば何とでもできたと思うのですが、住所の公開は個人開発者の私にとってはハードルが高過ぎました(^^;&lt;br>
+ここで同様に削除されたアプリも比較的多いのでは？と思っています…&lt;br>
+事業所用住所を借りるという選択もありますが、そこまでして公開したいというモチベーションにはならず、放置からの削除に至りました。&lt;/p>
+&lt;h2 id="アプリ開発の思い出">アプリ開発の思い出&lt;/h2>
+&lt;p>&lt;a href="../first_app_release">初アプリをリリース&lt;/a>したのが 2017 年、エンジニアっぽい話をすると Kotlin 1.1 が出た頃で、まだ世間では多くのアプリが AndroidJava で書かれている時代に全部 Kotlin で書き、リリースまでできたのが大きな自信に繋がりました！&lt;br>
+また、当時は Figma のようなデザインツールもなく、ペイントツールでアイコンやスクリーンショットを作っていたのはいい思い出です(^w^)&lt;br>
+Chat 系の AI もなかったので、description などは知人などにレビューしてもらっていました。&lt;/p></description></item><item><title>「シェブ！」というアプリをリリースしました！</title><link>https://www.ambitious-i.net/blog/release_app_sheb/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>https://www.ambitious-i.net/blog/release_app_sheb/</guid><description>&lt;p>今年 2 回目のブログです…&lt;/p>
 &lt;p>「シェブ！」というアプリをリリースしました！&lt;br>
 コードは公開しているので、ちょっとエモな部分を描いてみたいと思います(&lt;em>^^&lt;/em>)&lt;/p>
 &lt;h2 id="どんなアプリ">どんなアプリ？&lt;/h2>

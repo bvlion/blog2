@@ -37,18 +37,18 @@ Go にも少し手を出してみましたが、ここ最近は Kotlin と JS、
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Google&lt;/th>
- &lt;th style="text-align: left">Usen&lt;/th>
+ &lt;th>Google&lt;/th>
+ &lt;th>Usen&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="google_before.png" alt="google before">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="usen_before.png" alt="usen before">&lt;/td>
+ &lt;td>&lt;img src="google_before.png" alt="google before">&lt;/td>
+ &lt;td>&lt;img src="usen_before.png" alt="usen before">&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">&lt;img src="google_after.png" alt="google after">&lt;/td>
- &lt;td style="text-align: left">&lt;img src="usen_after.png" alt="usen after">&lt;/td>
+ &lt;td>&lt;img src="google_after.png" alt="google after">&lt;/td>
+ &lt;td>&lt;img src="usen_after.png" alt="usen after">&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
