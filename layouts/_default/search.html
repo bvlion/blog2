@@ -76,9 +76,9 @@ window.addEventListener('hashchange', searchWithHash)
                         {{ if or (hasPrefix .Params.image "http://") (hasPrefix .Params.image "https://") }}
                             {{ $imageLink = .Params.image }}
                         {{ else }}
-                            {{ $image := $.Page.Resources.Match (.Params.image) }}
-                            {{ $image := index $image 0 }}
-                            {{ $imageLink = $image.Permalink }}
+                            {{ with .Resources.GetMatch .Params.image }}
+                                {{ $imageLink = .Permalink }}
+                            {{ end }}
                         {{ end }}
                         <img src={{ $imageLink }} alt="{{ .Title }}" loading="lazy">
                     </a>

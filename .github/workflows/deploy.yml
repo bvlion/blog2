@@ -19,9 +19,6 @@ jobs:
       - name: Initialize submodules
         run: git submodule update --init --recursive
 
-      - name: Update files
-        run: bash update_html.sh
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:

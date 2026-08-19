@@ -1,5 +1,5 @@
 baseURL = 'https://www.ambitious-i.net/'
-languageCode = 'ja-jp'
+locale = 'ja-jp'
 title = '鰯の管詰'
 
 canonifyURLs=true
