@@ -81,6 +81,78 @@
     }
 }
 
+.activity-section {
+    margin-top: 2.5rem;
+
+    &:first-of-type {
+        margin-top: 2rem;
+    }
+}
+
+.activity-section-title {
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $dark;
+}
+
+.activity-app-card {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.activity-app-icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    background-color: #f5f5f5;
+
+    .activity-app-icon {
+        max-height: 96px;
+        max-width: 96px;
+        width: auto;
+        margin: 0;
+    }
+}
+
+.activity-app-status {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.activity-tool-list {
+    padding-left: 0;
+}
+
+.activity-tool-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.activity-tool-link {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.activity-tool-desc {
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.activity-contact {
+    margin-top: 3rem;
+    text-align: center;
+}
+
 .error-border {
     border: 1px solid #bd0202;
     border-radius: 1em;

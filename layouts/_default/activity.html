@@ -1,0 +1,117 @@
+{{ define "main" }}
+
+<main class="blog-content activity-content">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 px-lg-4">
+
+                <h1 class="title">{{ .Title }}</h1>
+
+                {{ .Content }}
+
+                <section class="activity-section">
+                    <h2 class="activity-section-title">Android アプリ</h2>
+                    <div class="row">
+
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <div class="card activity-app-card h-100">
+                                <div class="activity-app-icon-wrap">
+                                    {{ with .Resources.GetMatch "share-bookmarks.png" }}
+                                    <img src="{{ .RelPermalink }}" class="activity-app-icon" alt="シェブ！ のアイコン">
+                                    {{ end }}
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="card-title h5">シェブ！</h3>
+                                    <p class="card-text flex-grow-1">
+                                        お気に入りのサイトやアプリを、Google アカウントを使って画像付きでシェア（共有）できるブックマークアプリです。
+                                    </p>
+                                    <a class="btn btn-outline-dark btn-sm mt-auto activity-app-link" href="https://github.com/bvlion/ShareBookmarks" target="_blank" rel="noopener">
+                                        GitHub で見る
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <div class="card activity-app-card h-100">
+                                <div class="activity-app-icon-wrap">
+                                    {{ with .Resources.GetMatch "wearlink.png" }}
+                                    <img src="{{ .RelPermalink }}" class="activity-app-icon" alt="WearLink のアイコン">
+                                    {{ end }}
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="card-title h5">WearLink</h3>
+                                    <p class="card-text flex-grow-1">
+                                        スマートフォンからも Wear OS ウォッチからも HTTP リクエストを送信できるアプリです。
+                                    </p>
+                                    <p class="activity-app-status">
+                                        現在も開発中で、新しい Google Play アプリとして内部テスト配信中です。ソースコードは GitHub で公開しています。
+                                    </p>
+                                    <a class="btn btn-outline-dark btn-sm mt-auto activity-app-link" href="https://github.com/bvlion/WearLink" target="_blank" rel="noopener">
+                                        GitHub で見る
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4 mb-4">
+                            <div class="card activity-app-card h-100">
+                                <div class="activity-app-icon-wrap">
+                                    {{ with .Resources.GetMatch "r-generator.png" }}
+                                    <img src="{{ .RelPermalink }}" class="activity-app-icon" alt="略語Generator のアイコン">
+                                    {{ end }}
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h3 class="card-title h5">略語Generator</h3>
+                                    <p class="card-text flex-grow-1">
+                                        ちょっとしたメッセージをアルファベットだけの略語に変換して、共有などして楽しむアプリです。
+                                    </p>
+                                    <a class="btn btn-outline-dark btn-sm mt-auto activity-app-link" href="https://play.google.com/store/apps/details?id=net.ambitious.daigoapp.android" target="_blank" rel="noopener">
+                                        Play Store で見る
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="activity-section">
+                    <h2 class="activity-section-title">Web アプリ・ツール</h2>
+                    <ul class="activity-tool-list list-unstyled">
+                        <li class="activity-tool-item">
+                            <a class="activity-tool-link" href="https://github.com/bvlion/disposable-markdown" target="_blank" rel="noopener">使い捨てマークダウン</a>
+                            <p class="activity-tool-desc">
+                                2017 年の GW に 2 日間で作った、Heroku 上で動かしていた使い捨てでマークダウンを投稿できる Web アプリです。現在は閉鎖しています。
+                            </p>
+                        </li>
+                        <li class="activity-tool-item">
+                            <a class="activity-tool-link" href="https://github.com/bvlion/google-home-notifier-2" target="_blank" rel="noopener">google-home-notifier-2</a>
+                            <p class="activity-tool-desc">
+                                <a href="https://github.com/noelportugal/google-home-notifier" target="_blank" rel="noopener">google-home-notifier</a>
+                                が定期的に動作しなくなる原因である音声合成部分を Text-to-Speech に差し替えたものです。
+                            </p>
+                        </li>
+                        <li class="activity-tool-item">
+                            <a class="activity-tool-link" href="https://codepen.io/Bvlion/full/GRjYjzK" target="_blank" rel="noopener">Markdown から html を生成する</a>
+                            <p class="activity-tool-desc">
+                                CodePen でサッと Markdown を html に変換できないかと思い作りました。
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="activity-section activity-contact">
+                    <p>
+                        上記のアプリやツールについてのお問い合わせは
+                        <a href="https://forms.gle/dUkf1dNdkgN2ZxJ66" target="_blank" rel="noopener">こちら</a>
+                        からお願いします。
+                    </p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ end }}
