@@ -58,7 +58,7 @@ theme = "BlogRa"
             [[menu.main]]
                 parent = "about"
                 name = "個人活動"
-                url = "https://bvlion-app.web.app"
+                url = "/activity/"
                 weight = 3
     [[menu.main]]
         name = "ご意見・ご感想"
