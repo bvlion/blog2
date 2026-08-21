@@ -62,7 +62,7 @@ theme = "BlogRa"
                 weight = 3
     [[menu.main]]
         name = "ご意見・ご感想"
-        url = "https://forms.gle/dUkf1dNdkgN2ZxJ66"
+        url = "https://contact.ambitious-i.net/blog"
         weight = 4
 
 # Don't touch this
