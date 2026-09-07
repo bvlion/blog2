@@ -29,8 +29,7 @@ layout: post_with_image
 
 ## 元々 WearLink というアプリを作っていました
 
-私は以前から WearLink という、登録した HTTP リクエストをスマホや Wear OS から実行するアプリを作っています。  
-※ 執筆時点では Google Play へ申請中です。
+私は以前から [WearLink](https://play.google.com/store/apps/details?id=net.ambitious.android.wearlink) という、登録した HTTP リクエストをスマホや Wear OS から実行するアプリを作っています。  
 
 元々このアプリでやりたかったのは、**Wear OS のタイルから登録した HTTP リクエストをワンタップで実行すること**でした。  
 例えば時計から自宅の何かを操作したり、Webhook を叩いたり。  
